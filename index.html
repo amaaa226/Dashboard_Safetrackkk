@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Hanzard Report</title>
+
+    <link rel="icon" type="image/png" href="dashboarddd.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="title-box">
+            <h1>SAFETRACK</h1>
+            <p>DASHBOARD UTPE HAZARD REPORT TRACKER</p>
+        </div>
+        <div class="dropdown-box">
+            <select id="monthSelect">
+                <option value="april">APRIL 2026</option>
+                <option value="mei">MEI 2026</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- HAZARD PREVIEW -->
+    <section class="hazard-preview">
+
+        <div class="hazard-banner">
+
+            <!-- LEFT CONTENT -->
+
+            <div class="hazard-text">
+
+                <span class="badge">
+                    SAFETY MONITORING
+                </span>
+
+                <h1>
+                    HAZARD REPORT DASHBOARD
+                </h1>
+
+                <p>
+                    Monitor seluruh aktivitas hazard report,
+                    submit pekerja,
+                    ranking department,
+                    serta trend laporan keselamatan kerja
+                    dalam satu dashboard modern dan interaktif.
+                </p>
+
+                <!-- BUTTON -->
+
+                <div class="button-group">
+
+                    <button id="viewHazardBtn">
+                        PENCAPAIAN
+                    </button>
+
+                    <button id="viewSearchBtn">
+                        TEMUAN
+                    </button>
+
+                </div>
+
+                <!-- GUIDE BOX -->
+
+                <div class="dashboard-guide">
+
+                    <h3>
+                        INFORMASI DASHBOARD
+                    </h3>
+
+                    <p>
+                        Untuk melihat detail data temuan,
+                        statistik unsafe action,
+                        unsafe condition,
+                        serta monitoring hazard report lainnya,
+                        silahkan akses dashboard melalui link berikut.
+                    </p>
+
+                    <a href="https://drive.google.com/drive/folders/1bT3gPq3V0u36lSW-_DnLXj7NJ083du-Q" target="_blank"
+                        class="dashboard-link">
+                        OPEN SAFETY DASHBOARD
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT CONTENT -->
+
+            <div class="hazard-image">
+
+                <div class="glass-card">
+
+                    <h3>2026 REPORT</h3>
+
+                    <div class="line"></div>
+
+                    <div class="line short"></div>
+
+                    <div class="fake-chart">
+
+                        <div class="bar one"></div>
+                        <div class="bar two"></div>
+                        <div class="bar three"></div>
+                        <div class="bar four"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- HAZARD DASHBOARD -->
+    <section class="hazard-dashboard" id="hazardSection" style="display:none;">
+        <div class="hazard-wrapper">
+
+            <div class="header">
+                <button id="backBtn">← BACK TO SAFETRACK</button>
+                <h1>SECTION DEPARTEMENT: DASHBOARD UTPE HAZARD REPORT</h1>
+                <h2>TAHUN 2026</h2>
+            </div>
+
+            <div class="dashboard-top">
+                <div class="card">
+                    <div class="division-filter">
+                        <div class="filter-label">
+                            <span>🏢</span>
+                            <p>SELECT DIVISION</p>
+                        </div>
+                        <div class="custom-select">
+                            <select id="divisionSelect">
+                                <option value="">Choose Division</option>
+                                <option value="strategicPlanningLegal">Corporate Strategic Planning & Legal Function
+                                </option>
+                                <option value="businessDevelopment">Corporate Business Development Function</option>
+                                <option value="productionPlant1">Production Plant 1 Division</option>
+                                <option value="productionPlant2">Production Plant 2 Division</option>
+                                <option value="engineering">Corporate Engineering Division</option>
+                                <option value="researchDevelopment">Corporate Research & Development Division</option>
+                                <option value="quality">Corporate Quality Division</option>
+                                <option value="supplyChain">Corporate Supply Chain Management Division</option>
+                                <option value="digitalization">Corporate Digitalization & Information System Division
+                                </option>
+                                <option value="financeAccounting">Corporate Finance, Accounting & Procurement Division
+                                </option>
+                                <option value="humanCapital">Corporate Human Capital, Safety & Sustainability Division
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="box">
+                            <p>JUMLAH PEKERJA</p>
+                            <h1 id="jumlahPekerja">—</h1>
+                        </div>
+                        <div class="box">
+                            <p>SUDAH MENGISI</p>
+                            <h1 id="sudahMengisi">—</h1>
+                        </div>
+                        <div class="box">
+                            <p>BELUM MENGISI</p>
+                            <h1 id="belumMengisi">—</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="division-title">STATUS SUBMIT DIVISI</div>
+                    <div class="chart-container">
+                        <canvas id="pieChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-top" id="departmentSection" style="display:none;">
+                <div class="card">
+                    <div class="division-filter">
+                        <div class="filter-label">
+                            <span>📂</span>
+                            <p>SELECT DEPARTEMENT</p>
+                        </div>
+                        <div class="custom-select">
+                            <select id="departmentSelect">
+                                <option value="">Choose Department</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="box">
+                            <p>JUMLAH PEKERJA</p>
+                            <h1 id="jumlahPekerjaDept">—</h1>
+                        </div>
+                        <div class="box">
+                            <p>SUDAH MENGISI</p>
+                            <h1 id="sudahMengisiDept">—</h1>
+                        </div>
+                        <div class="box">
+                            <p>BELUM MENGISI</p>
+                            <h1 id="belumMengisiDept">—</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="division-title">STATUS SUBMIT SE DEPARTMENT</div>
+                    <div class="chart-container">
+                        <canvas id="departmentPie"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-bottom" id="topTierSection" style="display:none;">
+                <div class="table-card">
+                    <div class="table-title">TOP TIER DEPARTEMENT</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Department</th>
+                                <th>Jumlah Orang</th>
+                                <th>Sudah Mengisi</th>
+                                <th>Persentase</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                </div>
+
+                <div class="chart-card">
+                    <h2>STATUS SUBMIT</h2>
+                    <canvas id="barChart"></canvas>
+                </div>
+            </div>
+
+            <div class="table-card worker-card" id="workerSection" style="display:none;">
+                <div class="worker-header">
+                    <div class="table-title">DATA PEKERJA & JUMLAH SUBMIT</div>
+                    <input type="text" id="searchWorker" placeholder="Cari nama pekerja...">
+                </div>
+                <div class="table-scroll">
+                    <table class="worker-table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama Pekerja</th>
+                                <th>Jumlah Submit</th>
+                                <th>Target</th>
+                                <th>Achievement</th>
+                                <th>Persentase</th>
+                            </tr>
+                        </thead>
+                        <tbody id="workerTable"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="dashboard-bottom" id="topSubmitSection" style="display:none;">
+                <div class="table-card">
+                    <div class="table-title">TOP SUBMIT PEKERJA</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Nama Pekerja</th>
+                                <th>Total Submit</th>
+                                <th>Status</th>
+                                <th>Tanggal Submit</th>
+                            </tr>
+                        </thead>
+                        <tbody id="submitTable"></tbody>
+                    </table>
+                </div>
+
+                <div class="chart-card">
+                    <h2>TREND SUBMIT PEKERJA</h2>
+                    <canvas id="submitChart" style="min-height:200px;"></canvas>
+                </div>
+            </div>
+
+            <div class="dashboard-bottom" id="trendSection" style="display:none;">
+                <div class="chart-card">
+                    <h2>TREN SUBMIT HAZARD REPORT SEDEPARTEMEN DALAM 1 TAHUN</h2>
+                    <canvas id="yearTrendChart"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SEARCH DASHBOARD -->
+    <section class="search-dashboard" id="searchSection" style="display:none;">
+        <div class="search-wrapper">
+
+            <div class="header">
+                <button id="backSearchBtn">← BACK TO SAFETRACK</button>
+                <h1>SECTION CASE: DASHBOARD UTPE HAZARD REPORT</h1>
+                <h2>TAHUN 2026</h2>
+            </div>
+
+            <!-- Jumlah temuan + unsafe hanya tabel & info, tanpa kartu yg dipindah -->
+            <div class="search-table-wrapper">
+                <div class="search-table-card blue">
+                    <h2>UNSAFE ACTION : BY 10 KATEGORI</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>KATEGORI</th>
+                                <th>JUMLAH</th>
+                                <th>Persentase</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>TIDAK MENAATIN PROSEDUR</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>TIDAK MENGGUNAKAN APD</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>MENGOPRASIKAN ALAT TANPA IZIN</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>MENONAKTIFKAN PERANGKAT SEFTY</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>TIDAK MELAKUKAN PRE USE CHEK</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="search-table-card white">
+                    <h2>UNSAFE CONDITION : BY 10 KATEGORI</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>KATEGORI</th>
+                                <th>JUMLAH</th>
+                                <th>Persentase</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>BANGUNAN TIDAK AMAN</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>PERALATAN TIDAK LAYAK</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>HOUSEKEEPING BURUK</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>INSTALASI LISTRIK TIDAK AMAN</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>PENYIMPANAN MATERIAL TIDAK AMAN</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="search-table-wrapper">
+                <div class="search-table-card blue">
+                    <h2>KATEGORI</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>KATEGORI</th>
+                                <th>JUMLAH</th>
+                                <th>Persentase</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Workshop</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Warehouse</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Office Area</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Yard & Area Pendukung</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="search-table-card white">
+                    <h2>SUB KATEGORI</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>KATEGORI</th>
+                                <th>JUMLAH</th>
+                                <th>Persentase</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>HEAD OFFICE (Office Area)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>ENGINEER (Office Area)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>PLANT A (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>PLANT B (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>PLANT C (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>BLASTING & PAINTING (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>JIG (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>RND (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>PDC (Workshop)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>INCOMING (Warehouse)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>OUTGOING (Warehouse)</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Lain-lain</td>
+                                <td>0</td>
+                                <td>0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TOTAL -->
+    <div class="bar-card total-card">
+        <h3>PRODUCTION & NONPRODUCTION</h3>
+        <div class="chart-container">
+            <canvas id="totalChart"></canvas>
+        </div>
+    </div>
+
+    <!-- MAIN DASHBOARD -->
+    <main class="dashboard-container">
+        <section>
+            <div class="card-grid">
+                <div class="info-card">
+                    <h4>JUMLAH KESELURUHAN PRODUCTION</h4>
+                    <h1 id="plantTotal">—</h1>
+                </div>
+                <div class="info-card">
+                    <h4>JUMLAH TOTAL SUBMIT PRODUCTION</h4>
+                    <h1 id="plantSubmit">—</h1>
+                </div>
+                <div class="info-card">
+                    <h4>JUMLAH BELUM SUBMIT PRODUCTION</h4>
+                    <h1 id="plantBelum">—</h1>
+                </div>
+                <div class="info-card">
+                    <h4>JUMLAH KESELURUHAN NONPRODUCTION</h4>
+                    <h1 id="officeTotal">—</h1>
+                </div>
+                <div class="info-card">
+                    <h4>JUMLAH TOTAL SUBMIT NONPRODUCTION</h4>
+                    <h1 id="officeSubmit">—</h1>
+                </div>
+                <div class="info-card">
+                    <h4>JUMLAH BELUM SUBMIT NONPRODUCTION</h4>
+                    <h1 id="officeBelum">—</h1>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="safe-chart">
+                <h3>PRODUCTION</h3>
+                <canvas id="plantChart"></canvas>
+                <h2>WAJIB MENGISI 4X / 1 BULAN</h2>
+            </div>
+            <div class="safe-chart">
+                <h3>NONPRODUCTION</h3>
+                <canvas id="officeChart"></canvas>
+                <h2>WAJIB MENGISI 1X / 1 BULAN</h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- BLOK 1: PENCAPAIAN PROGRAM + Bar chart -->
+    <section class="bottom-chart">
+        <h2>PENCAPAIAN PROGRAM TAHUN 2026 <span id="pencapaian2026"></span></h2>
+        <div class="bar-wrapper">
+            <div class="bar-card">
+                <h3>PRODUCTION</h3>
+                <canvas id="plantBar"></canvas>
+            </div>
+            <div class="bar-card">
+                <h3>NONPRODUCTION</h3>
+                <canvas id="officeBar"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOK 2: JUMLAH TEMUAN + UNSAFE ACTION & CONDITION -->
+    <section class="temuan-section">
+        <div class="temuan-row">
+            <div class="temuan-total">
+                <p>JUMLAH TEMUAN YANG DILAPORKAN</p>
+                <h1 id="jumlahTemuan">444</h1>
+            </div>
+            <div class="temuan-bulan">
+                <div class="bulan-title" id="bulanTemuan">BULAN MEI 2026</div>
+                <div class="unsafe-wrapper">
+                    <div class="unsafe-item">
+                        <p>UNSAFE ACTION</p>
+                        <h1 id="unsafeAction">430</h1>
+                    </div>
+                    <div class="unsafe-item">
+                        <p>UNSAFE CONDITION</p>
+                        <h1 id="unsafeCondition">10</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
