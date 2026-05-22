@@ -20,8 +20,8 @@
         </div>
         <div class="dropdown-box">
             <select id="monthSelect">
-                <option value="april">APRIL 2026</option>
-                <option value="mei">MEI 2026</option>
+                <option value="april">AS OF APRIL 2026</option>
+                <option value="mei">AS OF MEI 2026</option>
             </select>
         </div>
     </header>
@@ -70,20 +70,20 @@
                 <div class="dashboard-guide">
 
                     <h3>
-                        INFORMASI DASHBOARD
+                        INFORMASI LINK TEMUAN
                     </h3>
 
                     <p>
                         Untuk melihat detail data temuan,
-                        statistik unsafe action,
+                        unsafe action,
                         unsafe condition,
-                        serta monitoring hazard report lainnya,
-                        silahkan akses dashboard melalui link berikut.
+                        serta monitoring pencapaian hazard report perdepartement,
+                        silahkan akses melalui link berikut.
                     </p>
 
                     <a href="https://drive.google.com/drive/folders/1bT3gPq3V0u36lSW-_DnLXj7NJ083du-Q" target="_blank"
                         class="dashboard-link">
-                        OPEN SAFETY DASHBOARD
+                        OPEN LINK TEMUAN
                     </a>
 
                 </div>
@@ -308,98 +308,52 @@
 
             <!-- Jumlah temuan + unsafe hanya tabel & info, tanpa kartu yg dipindah -->
             <div class="search-table-wrapper">
-                <div class="search-table-card blue">
-                    <h2>UNSAFE ACTION : BY 10 KATEGORI</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>NO</th>
-                                <th>KATEGORI</th>
-                                <th>JUMLAH</th>
-                                <th>Persentase</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>TIDAK MENAATIN PROSEDUR</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>TIDAK MENGGUNAKAN APD</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>MENGOPRASIKAN ALAT TANPA IZIN</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>MENONAKTIFKAN PERANGKAT SEFTY</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>TIDAK MELAKUKAN PRE USE CHEK</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="search-table-card white">
-                    <h2>UNSAFE CONDITION : BY 10 KATEGORI</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>NO</th>
-                                <th>KATEGORI</th>
-                                <th>JUMLAH</th>
-                                <th>Persentase</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>BANGUNAN TIDAK AMAN</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>PERALATAN TIDAK LAYAK</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>HOUSEKEEPING BURUK</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>INSTALASI LISTRIK TIDAK AMAN</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>PENYIMPANAN MATERIAL TIDAK AMAN</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
 
+                <!-- TINDAKAN TIDAK AMAN -->
+                <div class="search-table-card blue">
+
+                    <h2>TINDAKAN TIDAK AMAN</h2>
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>KATEGORI</th>
+                                <th>JUMLAH</th>
+                                <th>PERSENTASE</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="tindakanTableBody"></tbody>
+
+                    </table>
+
+                </div>
+
+                <!-- KONDISI TIDAK AMAN -->
+                <div class="search-table-card white">
+
+                    <h2>KONDISI TIDAK AMAN</h2>
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>KATEGORI</th>
+                                <th>JUMLAH</th>
+                                <th>PERSENTASE</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="kondisiTableBody"></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
             <div class="search-table-wrapper">
                 <div class="search-table-card blue">
                     <h2>KATEGORI</h2>
@@ -534,7 +488,7 @@
 
     <!-- TOTAL -->
     <div class="bar-card total-card">
-        <h3>PRODUCTION & NONPRODUCTION</h3>
+        <h3>PRODUCTION & NON PRODUCTION</h3>
         <div class="chart-container">
             <canvas id="totalChart"></canvas>
         </div>
@@ -545,27 +499,27 @@
         <section>
             <div class="card-grid">
                 <div class="info-card">
-                    <h4>JUMLAH KESELURUHAN PRODUCTION</h4>
+                    <h4>JUMLAH KESELURUHAN PEKERJA PRODUCTION</h4>
                     <h1 id="plantTotal">—</h1>
                 </div>
                 <div class="info-card">
-                    <h4>JUMLAH TOTAL SUBMIT PRODUCTION</h4>
+                    <h4>JUMLAH TARGET-PRODUCTION</h4>
                     <h1 id="plantSubmit">—</h1>
                 </div>
                 <div class="info-card">
-                    <h4>JUMLAH BELUM SUBMIT PRODUCTION</h4>
+                    <h4>JUMLAH TEMUAN-PRODUCTION</h4>
                     <h1 id="plantBelum">—</h1>
                 </div>
                 <div class="info-card">
-                    <h4>JUMLAH KESELURUHAN NONPRODUCTION</h4>
+                    <h4>JUMLAH KESELURUHAN PEKERJA NON PRODUCTION</h4>
                     <h1 id="officeTotal">—</h1>
                 </div>
                 <div class="info-card">
-                    <h4>JUMLAH TOTAL SUBMIT NONPRODUCTION</h4>
+                    <h4>JUMLAH TARGET-NON PRODUCTION</h4>
                     <h1 id="officeSubmit">—</h1>
                 </div>
                 <div class="info-card">
-                    <h4>JUMLAH BELUM SUBMIT NONPRODUCTION</h4>
+                    <h4>JUMLAH TEMUAN-NON PRODUCTION</h4>
                     <h1 id="officeBelum">—</h1>
                 </div>
             </div>
@@ -577,7 +531,7 @@
                 <h2>WAJIB MENGISI 4X / 1 BULAN</h2>
             </div>
             <div class="safe-chart">
-                <h3>NONPRODUCTION</h3>
+                <h3>NON PRODUCTION</h3>
                 <canvas id="officeChart"></canvas>
                 <h2>WAJIB MENGISI 1X / 1 BULAN</h2>
             </div>
@@ -610,11 +564,11 @@
                 <div class="bulan-title" id="bulanTemuan">BULAN MEI 2026</div>
                 <div class="unsafe-wrapper">
                     <div class="unsafe-item">
-                        <p>UNSAFE ACTION</p>
+                        <p>TINDAKAN TIDAK AMAN</p>
                         <h1 id="unsafeAction">430</h1>
                     </div>
                     <div class="unsafe-item">
-                        <p>UNSAFE CONDITION</p>
+                        <p>KONDISI TIDAK AMAN</p>
                         <h1 id="unsafeCondition">10</h1>
                     </div>
                 </div>
