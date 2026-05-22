@@ -634,7 +634,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pieChartInstance = new Chart(document.getElementById("pieChart"), {
             type: "doughnut",
             data: {
-                labels: ["Sudah Mengisi", "Belum Mengisi"],
+                labels: ["Achieve", "Not Achieve"],
                 datasets: [{
                     data: [submit, belum],
                     backgroundColor: ["#24557a", "#b9dfff"],
@@ -662,7 +662,7 @@ document.addEventListener("DOMContentLoaded", function () {
         departmentPieInstance = new Chart(document.getElementById("departmentPie"), {
             type: "doughnut",
             data: {
-                labels: ["Sudah Submit", "Belum Submit"],
+                labels: ["Achieve", "Not Achieve"],
                 datasets: [{
                     data: [submit, belum],
                     backgroundColor: ["#24557a", "#b9dfff"],
@@ -1108,7 +1108,7 @@ document.addEventListener("DOMContentLoaded", function () {
     new Chart(document.getElementById("totalChart"), {
         type: "pie",
         data: {
-            labels: ["Production", "NonProduction"],
+            labels: ["Production", "Non Production"],
             datasets: [{
                 data: totalPieData,
                 backgroundColor: ["#24557a", "#b9dfff"],
@@ -1214,8 +1214,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (pencapaianEl) pencapaianEl.innerText = ` ${persenPencapaian}%`;
 
     // ============================================================
-    // ✅ AUTO-HITUNG TOTAL TEMUAN DARI DATA NYATA
-    // Angka di homepage otomatis ikut data tindakanData & kondisiData
+    // AUTO-HITUNG TOTAL TEMUAN DARI DATA NYATA
     // ============================================================
 
     const totalTindakanAuto = tindakanData.reduce((sum, item) => sum + item.jumlah, 0);
@@ -1269,3 +1268,4 @@ kondisiData.forEach((item, index) => {
         </tr>
     `;
 });
+
