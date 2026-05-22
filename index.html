@@ -20,8 +20,18 @@
         </div>
         <div class="dropdown-box">
             <select id="monthSelect">
+                <option value="januari">AS OF JANUARI 2026</option>
+                <option value="februari">AS OF FEBRUARI 2026</option>
+                <option value="maret">AS OF MARET 2026</option>
                 <option value="april">AS OF APRIL 2026</option>
                 <option value="mei">AS OF MEI 2026</option>
+                <option value="juni">AS OF JUNI 2026</option>
+                <option value="juli">AS OF JULI 2026</option>
+                <option value="agustus">AS OF AGUSTUS 2026</option>
+                <option value="september">AS OF SEPTEMBER 2026</option>
+                <option value="oktober">AS OF OKTOBER 2026</option>
+                <option value="november">AS OF NOVEMBER 2026</option>
+                <option value="desember">AS OF DESEMBER 2026</option>
             </select>
         </div>
     </header>
@@ -163,11 +173,11 @@
                             <h1 id="jumlahPekerja">—</h1>
                         </div>
                         <div class="box">
-                            <p>SUDAH MENGISI</p>
+                            <p>JUMLAH TEMUAN</p>
                             <h1 id="sudahMengisi">—</h1>
                         </div>
                         <div class="box">
-                            <p>BELUM MENGISI</p>
+                            <p>TARGET TEMUAN</p>
                             <h1 id="belumMengisi">—</h1>
                         </div>
                     </div>
@@ -200,18 +210,18 @@
                             <h1 id="jumlahPekerjaDept">—</h1>
                         </div>
                         <div class="box">
-                            <p>SUDAH MENGISI</p>
+                            <p>JUMLAH TEMUAN</p>
                             <h1 id="sudahMengisiDept">—</h1>
                         </div>
                         <div class="box">
-                            <p>BELUM MENGISI</p>
+                            <p>TARGET TEMUAN</p>
                             <h1 id="belumMengisiDept">—</h1>
                         </div>
                     </div>
                 </div>
 
                 <div class="chart-card">
-                    <div class="division-title">STATUS SUBMIT SE DEPARTMENT</div>
+                    <div class="division-title">STATUS SUBMIT DEPARTMENT</div>
                     <div class="chart-container">
                         <canvas id="departmentPie"></canvas>
                     </div>
@@ -236,7 +246,7 @@
                 </div>
 
                 <div class="chart-card">
-                    <h2>STATUS SUBMIT</h2>
+                    <h2>TOP TIER DEPARTMENT ( YTD )</h2>
                     <canvas id="barChart"></canvas>
                 </div>
             </div>
@@ -488,10 +498,95 @@
 
     <!-- TOTAL -->
     <div class="bar-card total-card">
-        <h3>PRODUCTION & NON PRODUCTION</h3>
-        <div class="chart-container">
-            <canvas id="totalChart"></canvas>
+
+        <div class="production-header">
+            <h3>PRODUCTION & NON PRODUCTION</h3>
         </div>
+
+        <div class="classification-wrapper">
+
+            <!-- PRODUCTION -->
+            <div class="classification-card production-card">
+
+                <div class="classification-top">
+                    <div class="classification-icon">🏭</div>
+
+                    <div>
+                        <h4>PRODUCTION</h4>
+                        <span>Department Production Area</span>
+                    </div>
+                </div>
+
+                <div class="department-tags">
+
+                    <span>Manufacturing</span>
+                    <span>RBPS</span>
+                    <span>RBPM</span>
+                    <span>RJKT</span>
+                    <span>RTMK</span>
+                    <span>RSGT</span>
+                    <span>RBJN</span>
+                    <span>RADO</span>
+                    <span>UBPK</span>
+                    <span>RTJE</span>
+
+                </div>
+
+            </div>
+
+            <!-- NON PRODUCTION -->
+            <div class="classification-card office-card">
+
+                <div class="classification-top">
+                    <div class="classification-icon">🏢</div>
+
+                    <div>
+                        <h4>NON PRODUCTION</h4>
+                        <span>Corporate & Supporting Department</span>
+                    </div>
+                </div>
+
+                <div class="office-list">
+
+                    <div>Corporate Management Development & Risk Management</div>
+                    <div>Corporate Legal</div>
+                    <div>Corporate Communication</div>
+                    <div>Corporate Business Development</div>
+                    <div>Production Planning & Control</div>
+                    <div>Remanufacturing</div>
+                    <div>Plant Operation</div>
+                    <div>Corporate Design Engineering</div>
+                    <div>Corporate Production Engineering</div>
+                    <div>Corporate Product Research & Development</div>
+                    <div>Corporate Prototype & Testing</div>
+                    <div>Corporate Quality Assurance</div>
+                    <div>Quality Control 1</div>
+                    <div>Quality Control 2</div>
+                    <div>Corporate Marketing & Cost Estimator</div>
+                    <div>Corporate Inventory & Warehouse Management</div>
+                    <div>Corporate Vendor Management</div>
+                    <div>Corporate Subcont Development</div>
+                    <div>Corporate Information System</div>
+                    <div>Corporate Digitalization</div>
+                    <div>Corporate Command Center</div>
+                    <div>Corporate Finance</div>
+                    <div>Corporate Accounting</div>
+                    <div>Corporate Tax</div>
+                    <div>Corporate Procurement</div>
+                    <div>Corporate Internal Control</div>
+                    <div>Corporate Human Capital Strategic</div>
+                    <div>Corporate HC Administration & Services</div>
+                    <div>Corporate Safety, Health & Security</div>
+                    <div>Corporate Sustainability & General Services</div>
+                    <div>Patria Development Center</div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     </div>
 
     <!-- MAIN DASHBOARD -->
@@ -547,7 +642,7 @@
                 <canvas id="plantBar"></canvas>
             </div>
             <div class="bar-card">
-                <h3>NONPRODUCTION</h3>
+                <h3>NON PRODUCTION</h3>
                 <canvas id="officeBar"></canvas>
             </div>
         </div>
