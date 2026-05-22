@@ -1,3 +1,120 @@
+// ============================================================
+// DATA TINDAKAN TIDAK AMAN — DIPINDAH KE ATAS (GLOBAL)
+// ============================================================
+
+const tindakanData = [
+    { kategori: "TIDAK MENAATI PROSEDUR", jumlah: 371 },
+    { kategori: "TIDAK MENGGUNAKAN APD", jumlah: 287 },
+    { kategori: "MENGOPERASIKAN ALAT TANPA IZIN", jumlah: 224 },
+    { kategori: "MENONAKTIFKAN PERANGKAT SAFETY", jumlah: 170 },
+    { kategori: "TIDAK MELAKUKAN PRE USE CHECK", jumlah: 156 },
+    { kategori: "HOUSEKEEPING BURUK", jumlah: 145 },
+    { kategori: "PENEMPATAN MATERIAL TIDAK SESUAI", jumlah: 52 },
+    { kategori: "BEKERJA TANPA IZIN KERJA", jumlah: 47 },
+    { kategori: "PENGGUNAAN TOOLS TIDAK SESUAI", jumlah: 43 },
+    { kategori: "TIDAK MEMASANG LOCKOUT TAGOUT", jumlah: 32 },
+    { kategori: "POSTUR KERJA TIDAK ERGONOMIS", jumlah: 28 },
+    { kategori: "PENYIMPANAN B3 TIDAK SESUAI", jumlah: 14 },
+    { kategori: "AKSES JALAN TERHALANG", jumlah: 6 },
+    { kategori: "MEROKOK DI AREA TERLARANG", jumlah: 2 },
+    { kategori: "PENGANGKATAN MANUAL TIDAK AMAN", jumlah: 2 },
+    { kategori: "SQ BOARD BASIC", jumlah: 1 },
+    { kategori: "SELANG AIR", jumlah: 1 },
+    { kategori: "STAND FRONT AXLE HD", jumlah: 1 },
+    { kategori: "KOTAK P3K", jumlah: 1 },
+    { kategori: "MEJA KERJA", jumlah: 1 },
+    { kategori: "PENUTUP PARIT", jumlah: 1 },
+    { kategori: "PAPAN DM/DASHBOARD DM", jumlah: 1 },
+    { kategori: "KOMPONEN ENGINE", jumlah: 1 },
+    { kategori: "PERALATAN FASILITAS PERUSAHAAN", jumlah: 1 },
+    { kategori: "FD 100", jumlah: 1 },
+    { kategori: "CONSUMEBEL", jumlah: 1 },
+    { kategori: "PALET KAYU", jumlah: 1 },
+    { kategori: "PAPAN DM", jumlah: 1 },
+    { kategori: "CYLINDER", jumlah: 1 },
+    { kategori: "CONSUMABLE", jumlah: 1 },
+    { kategori: "PERALATAN POMPA OLI", jumlah: 1 },
+    { kategori: "COMPONEN", jumlah: 1 },
+    { kategori: "AREA KERJA", jumlah: 1 },
+    { kategori: "PENYANGGA DAN PENGANGKATAN", jumlah: 1 },
+    { kategori: "RAK SUB COMPONENT", jumlah: 1 },
+    { kategori: "JALAN COR-CORAN", jumlah: 1 },
+    { kategori: "P3K", jumlah: 1 },
+    { kategori: "CATERING", jumlah: 1 },
+    { kategori: "SQ DASHBOARD", jumlah: 1 },
+    { kategori: "PERANGKAT JARINGAN", jumlah: 1 },
+    { kategori: "RAK SEPATU", jumlah: 1 },
+    { kategori: "KOMPONEN PRODUK", jumlah: 1 },
+    { kategori: "MESIN LAS", jumlah: 1 },
+    { kategori: "KURSI", jumlah: 1 },
+    { kategori: "PELETAKAN KOMPONEN", jumlah: 1 },
+    { kategori: "PENDING STAND", jumlah: 1 },
+    { kategori: "WADAH LIMBAH", jumlah: 1 },
+    { kategori: "ALAT BANTU ANGKAT DAN ANGKUT FORKLIFT UT37", jumlah: 1 },
+    { kategori: "MATERIAL", jumlah: 1 }
+];
+
+// ============================================================
+// DATA KONDISI TIDAK AMAN — DIPINDAH KE ATAS (GLOBAL)
+// ============================================================
+
+const kondisiData = [
+    { kategori: "5K", jumlah: 371 },
+    { kategori: "LINGKUNGAN", jumlah: 287 },
+    { kategori: "PERALATAN LISTRIK", jumlah: 224 },
+    { kategori: "PERILAKU KERJA", jumlah: 170 },
+    { kategori: "BANGUNAN", jumlah: 156 },
+    { kategori: "TOOLS", jumlah: 145 },
+    { kategori: "PERALATAN TANGGAP DARURAT (APAR, HYDRANT, ALARM, EYEWASH)", jumlah: 52 },
+    { kategori: "B3", jumlah: 47 },
+    { kategori: "RAMBU", jumlah: 43 },
+    { kategori: "MEKANIKAL", jumlah: 32 },
+    { kategori: "APD", jumlah: 28 },
+    { kategori: "ADMINISTRATIF", jumlah: 14 },
+    { kategori: "ERGONOMI", jumlah: 6 },
+    { kategori: "alat angkat dan angkut", jumlah: 2 },
+    { kategori: "Forklift", jumlah: 2 },
+    { kategori: "SQ board basic", jumlah: 1 },
+    { kategori: "selang air", jumlah: 1 },
+    { kategori: "Stand front axle hd", jumlah: 1 },
+    { kategori: "Kotak P3K", jumlah: 1 },
+    { kategori: "Meja kerja", jumlah: 1 },
+    { kategori: "Penutup parit", jumlah: 1 },
+    { kategori: "Papan dm/dashboard dm", jumlah: 1 },
+    { kategori: "Komponen engine", jumlah: 1 },
+    { kategori: "Peralatan fasilitas perusahaan", jumlah: 1 },
+    { kategori: "FD 100", jumlah: 1 },
+    { kategori: "Consumebel", jumlah: 1 },
+    { kategori: "Palet kayu", jumlah: 1 },
+    { kategori: "Papan dm", jumlah: 1 },
+    { kategori: "Cylinder", jumlah: 1 },
+    { kategori: "Consumable", jumlah: 1 },
+    { kategori: "peralatan pompa oli", jumlah: 1 },
+    { kategori: "Componen", jumlah: 1 },
+    { kategori: "Area kerja", jumlah: 1 },
+    { kategori: "Penyangga dannpengangkatan", jumlah: 1 },
+    { kategori: "rak sub Component", jumlah: 1 },
+    { kategori: "Jalan cor2an", jumlah: 1 },
+    { kategori: "P3K", jumlah: 1 },
+    { kategori: "Catering", jumlah: 1 },
+    { kategori: "SQ dashboard", jumlah: 1 },
+    { kategori: "Perangkat jaringan", jumlah: 1 },
+    { kategori: "Rak sepatu", jumlah: 1 },
+    { kategori: "Komponen produk", jumlah: 1 },
+    { kategori: "mesin las", jumlah: 1 },
+    { kategori: "Kursi", jumlah: 1 },
+    { kategori: "Peletakan komponen", jumlah: 1 },
+    { kategori: "pending stand", jumlah: 1 },
+    { kategori: "wadah limbah", jumlah: 1 },
+    { kategori: "alat bantu angkat dan angkut forklift ut37", jumlah: 1 },
+    { kategori: "Alat kebersihan", jumlah: 2 },
+    { kategori: "Material", jumlah: 1 }
+];
+
+// ============================================================
+// DOM CONTENT LOADED
+// ============================================================
+
 document.addEventListener("DOMContentLoaded", function () {
 
     // ============================================================
@@ -343,7 +460,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // ============================================================
     // KLASIFIKASI PRODUCTION vs NONPRODUCTION
-    // Plant keywords = Production, sisanya = NonProduction
     // ============================================================
 
     const plantKeywords = [
@@ -357,7 +473,6 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 
-    // Hitung otomatis Production & NonProduction dari workerData
     function getProductionStats() {
         let plantTotal = 0, plantSubmit = 0;
         let officeTotal = 0, officeSubmit = 0;
@@ -972,7 +1087,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const officeSubmit = prodStats.office.submit;
     const officeBelum = prodStats.office.belum;
 
-    // Update info cards
     const elPlantTotal = document.getElementById("plantTotal");
     const elPlantSubmit = document.getElementById("plantSubmit");
     const elPlantBelum = document.getElementById("plantBelum");
@@ -987,7 +1101,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (elOfficeSubmit) elOfficeSubmit.innerText = officeSubmit;
     if (elOfficeBelum) elOfficeBelum.innerText = officeBelum;
 
-    // Total Pie Chart (Production vs NonProduction)
+    // Total Pie Chart
     const totalPieData = [plantTotal, officeTotal];
     const totalPie = plantTotal + officeTotal;
 
@@ -1052,7 +1166,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Bar chart Production per bulan (tetap manual karena data historis)
+    // Bar chart Production per bulan
     new Chart(document.getElementById("plantBar"), {
         type: "bar",
         data: {
@@ -1070,7 +1184,7 @@ document.addEventListener("DOMContentLoaded", function () {
         plugins: [ChartDataLabels]
     });
 
-    // Bar chart NonProduction per bulan (tetap manual karena data historis)
+    // Bar chart NonProduction per bulan
     new Chart(document.getElementById("officeBar"), {
         type: "bar",
         data: {
@@ -1089,7 +1203,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // ============================================================
-    // PENCAPAIAN 2026 — dihitung dari data real
+    // PENCAPAIAN 2026
     // ============================================================
 
     const totalSubmitVal = plantSubmit + officeSubmit;
@@ -1099,156 +1213,34 @@ document.addEventListener("DOMContentLoaded", function () {
     const pencapaianEl = document.getElementById("pencapaian2026");
     if (pencapaianEl) pencapaianEl.innerText = ` ${persenPencapaian}%`;
 
-});
+    // ============================================================
+    // ✅ AUTO-HITUNG TOTAL TEMUAN DARI DATA NYATA
+    // Angka di homepage otomatis ikut data tindakanData & kondisiData
+    // ============================================================
 
-// =========================
-// KONDISI TIDAK AMAN
-// =========================
+    const totalTindakanAuto = tindakanData.reduce((sum, item) => sum + item.jumlah, 0);
+    const totalKondisiAuto  = kondisiData.reduce((sum, item) => sum + item.jumlah, 0);
+    const totalTemuanAuto   = totalTindakanAuto + totalKondisiAuto;
 
-const kondisiData = [
-    { kategori: "5K", jumlah: 371 },
-    { kategori: "LINGKUNGAN", jumlah: 287 },
-    { kategori: "PERALATAN LISTRIK", jumlah: 224 },
-    { kategori: "PERILAKU KERJA", jumlah: 170 },
-    { kategori: "BANGUNAN", jumlah: 156 },
-    { kategori: "TOOLS", jumlah: 145 },
-    { kategori: "PERALATAN TANGGAP DARURAT (APAR, HYDRANT, ALARM, EYEWASH)", jumlah: 52 },
-    { kategori: "B3", jumlah: 47 },
-    { kategori: "RAMBU", jumlah: 43 },
-    { kategori: "MEKANIKAL", jumlah: 32 },
-    { kategori: "APD", jumlah: 28 },
-    { kategori: "ADMINISTRATIF", jumlah: 14 },
-    { kategori: "ERGONOMI", jumlah: 6 },
-    { kategori: "alat angkat dan angkut", jumlah: 2 },
-    { kategori: "Forklift", jumlah: 2 },
-    { kategori: "SQ board basic", jumlah: 1 },
-    { kategori: "selang air", jumlah: 1 },
-    { kategori: "Stand front axle hd", jumlah: 1 },
-    { kategori: "Kotak P3K", jumlah: 1 },
-    { kategori: "Meja kerja", jumlah: 1 },
-    { kategori: "Penutup parit", jumlah: 1 },
-    { kategori: "Papan dm/dashboard dm", jumlah: 1 },
-    { kategori: "Komponen engine", jumlah: 1 },
-    { kategori: "Peralatan fasilitas perusahaan", jumlah: 1 },
-    { kategori: "FD 100", jumlah: 1 },
-    { kategori: "Consumebel", jumlah: 1 },
-    { kategori: "Palet kayu", jumlah: 1 },
-    { kategori: "Papan dm", jumlah: 1 },
-    { kategori: "Cylinder", jumlah: 1 },
-    { kategori: "Consumable", jumlah: 1 },
-    { kategori: "peralatan pompa oli", jumlah: 1 },
-    { kategori: "Componen", jumlah: 1 },
-    { kategori: "Area kerja", jumlah: 1 },
-    { kategori: "Penyangga dannpengangkatan", jumlah: 1 },
-    { kategori: "rak sub Component", jumlah: 1 },
-    { kategori: "Jalan cor2an", jumlah: 1 },
-    { kategori: "P3K", jumlah: 1 },
-    { kategori: "Catering", jumlah: 1 },
-    { kategori: "SQ dashboard", jumlah: 1 },
-    { kategori: "Perangkat jaringan", jumlah: 1 },
-    { kategori: "Rak sepatu", jumlah: 1 },
-    { kategori: "Komponen produk", jumlah: 1 },
-    { kategori: "mesin las", jumlah: 1 },
-    { kategori: "Kursi", jumlah: 1 },
-    { kategori: "Peletakan komponen", jumlah: 1 },
-    { kategori: "pending stand", jumlah: 1 },
-    { kategori: "wadah limbah", jumlah: 1 },
-    { kategori: "alat bantu angkat dan angkut forklift ut37", jumlah: 1 },
-    { kategori: "Alat kebersihan", jumlah: 2 },
-    { kategori: "Material", jumlah: 1 }
-];
+    const elJumlahTemuan    = document.getElementById("jumlahTemuan");
+    const elUnsafeAction    = document.getElementById("unsafeAction");
+    const elUnsafeCondition = document.getElementById("unsafeCondition");
 
-const totalKondisi =
-    kondisiData.reduce((sum, item) =>
-        sum + item.jumlah, 0);
-
-const kondisiTableBody =
-    document.getElementById("kondisiTableBody");
-
-kondisiData.forEach((item, index) => {
-
-    const persen =
-        ((item.jumlah / totalKondisi) * 100).toFixed(1);
-
-    kondisiTableBody.innerHTML += `
-        <tr>
-            <td>${index + 1}</td>
-            <td>${item.kategori}</td>
-            <td>${item.jumlah}</td>
-            <td>${persen}%</td>
-        </tr>
-    `;
+    if (elJumlahTemuan)    elJumlahTemuan.innerText    = totalTemuanAuto;
+    if (elUnsafeAction)    elUnsafeAction.innerText    = totalTindakanAuto;
+    if (elUnsafeCondition) elUnsafeCondition.innerText = totalKondisiAuto;
 
 });
 
-// =========================
-// TINDAKAN TIDAK AMAN
-// =========================
+// ============================================================
+// RENDER TABEL TINDAKAN TIDAK AMAN
+// ============================================================
 
-const tindakanData = [
-    { kategori: "TIDAK MENAATI PROSEDUR", jumlah: 371 },
-    { kategori: "TIDAK MENGGUNAKAN APD", jumlah: 287 },
-    { kategori: "MENGOPERASIKAN ALAT TANPA IZIN", jumlah: 224 },
-    { kategori: "MENONAKTIFKAN PERANGKAT SAFETY", jumlah: 170 },
-    { kategori: "TIDAK MELAKUKAN PRE USE CHECK", jumlah: 156 },
-    { kategori: "HOUSEKEEPING BURUK", jumlah: 145 },
-    { kategori: "PENEMPATAN MATERIAL TIDAK SESUAI", jumlah: 52 },
-    { kategori: "BEKERJA TANPA IZIN KERJA", jumlah: 47 },
-    { kategori: "PENGGUNAAN TOOLS TIDAK SESUAI", jumlah: 43 },
-    { kategori: "TIDAK MEMASANG LOCKOUT TAGOUT", jumlah: 32 },
-    { kategori: "POSTUR KERJA TIDAK ERGONOMIS", jumlah: 28 },
-    { kategori: "PENYIMPANAN B3 TIDAK SESUAI", jumlah: 14 },
-    { kategori: "AKSES JALAN TERHALANG", jumlah: 6 },
-    { kategori: "MEROKOK DI AREA TERLARANG", jumlah: 2 },
-    { kategori: "PENGANGKATAN MANUAL TIDAK AMAN", jumlah: 2 },
-    { kategori: "SQ BOARD BASIC", jumlah: 1 },
-    { kategori: "SELANG AIR", jumlah: 1 },
-    { kategori: "STAND FRONT AXLE HD", jumlah: 1 },
-    { kategori: "KOTAK P3K", jumlah: 1 },
-    { kategori: "MEJA KERJA", jumlah: 1 },
-    { kategori: "PENUTUP PARIT", jumlah: 1 },
-    { kategori: "PAPAN DM/DASHBOARD DM", jumlah: 1 },
-    { kategori: "KOMPONEN ENGINE", jumlah: 1 },
-    { kategori: "PERALATAN FASILITAS PERUSAHAAN", jumlah: 1 },
-    { kategori: "FD 100", jumlah: 1 },
-    { kategori: "CONSUMEBEL", jumlah: 1 },
-    { kategori: "PALET KAYU", jumlah: 1 },
-    { kategori: "PAPAN DM", jumlah: 1 },
-    { kategori: "CYLINDER", jumlah: 1 },
-    { kategori: "CONSUMABLE", jumlah: 1 },
-    { kategori: "PERALATAN POMPA OLI", jumlah: 1 },
-    { kategori: "COMPONEN", jumlah: 1 },
-    { kategori: "AREA KERJA", jumlah: 1 },
-    { kategori: "PENYANGGA DAN PENGANGKATAN", jumlah: 1 },
-    { kategori: "RAK SUB COMPONENT", jumlah: 1 },
-    { kategori: "JALAN COR-CORAN", jumlah: 1 },
-    { kategori: "P3K", jumlah: 1 },
-    { kategori: "CATERING", jumlah: 1 },
-    { kategori: "SQ DASHBOARD", jumlah: 1 },
-    { kategori: "PERANGKAT JARINGAN", jumlah: 1 },
-    { kategori: "RAK SEPATU", jumlah: 1 },
-    { kategori: "KOMPONEN PRODUK", jumlah: 1 },
-    { kategori: "MESIN LAS", jumlah: 1 },
-    { kategori: "KURSI", jumlah: 1 },
-    { kategori: "PELETAKAN KOMPONEN", jumlah: 1 },
-    { kategori: "PENDING STAND", jumlah: 1 },
-    { kategori: "WADAH LIMBAH", jumlah: 1 },
-    { kategori: "ALAT BANTU ANGKAT DAN ANGKUT FORKLIFT UT37", jumlah: 1 },
-    { kategori: "MATERIAL", jumlah: 1 }
-];
-
-const totalTindakan =
-    tindakanData.reduce((sum, item) =>
-        sum + item.jumlah, 0);
-
-const tindakanTableBody =
-    document.getElementById("tindakanTableBody");
+const totalTindakan = tindakanData.reduce((sum, item) => sum + item.jumlah, 0);
+const tindakanTableBody = document.getElementById("tindakanTableBody");
 
 tindakanData.forEach((item, index) => {
-
-    const persen =
-        ((item.jumlah / totalTindakan) * 100).toFixed(1);
-
+    const persen = ((item.jumlah / totalTindakan) * 100).toFixed(1);
     tindakanTableBody.innerHTML += `
         <tr>
             <td>${index + 1}</td>
@@ -1257,5 +1249,23 @@ tindakanData.forEach((item, index) => {
             <td>${persen}%</td>
         </tr>
     `;
+});
 
+// ============================================================
+// RENDER TABEL KONDISI TIDAK AMAN
+// ============================================================
+
+const totalKondisi = kondisiData.reduce((sum, item) => sum + item.jumlah, 0);
+const kondisiTableBody = document.getElementById("kondisiTableBody");
+
+kondisiData.forEach((item, index) => {
+    const persen = ((item.jumlah / totalKondisi) * 100).toFixed(1);
+    kondisiTableBody.innerHTML += `
+        <tr>
+            <td>${index + 1}</td>
+            <td>${item.kategori}</td>
+            <td>${item.jumlah}</td>
+            <td>${persen}%</td>
+        </tr>
+    `;
 });
