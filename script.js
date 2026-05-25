@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // CHART.JS PLUGIN REGISTER
     // ============================================================
 
-    if (typeof ChartDataLabels !== "undefined") {
+    if (typeof ChartDataLabels !== "achieve") {
         Chart.register(ChartDataLabels);
     }
 
@@ -198,14 +198,14 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "ABDUL IMAM LATIF", submit: 0 },
             { nama: "ABDUL MAHMUD", submit: 0 },
             { nama: "ACHMAD KAMAL FIKRI", submit: 0 },
-            { nama: "ADE DERMAWAN", submit: 0 },
+            { nama: "ADE DERMAWAN", submit: 1 },
             { nama: "ADITYA LESMANA", submit: 0 },
             { nama: "ADITYA PRATAMA", submit: 0 },
             { nama: "AFIT WAHYUDI", submit: 0 },
             { nama: "AGUNG DHESCA PERMANA PUTRA", submit: 0 },
             { nama: "AGUNG KRISTIAWAN RIYO PAMBUDI", submit: 0 },
             { nama: "AGUNG WIERATNO", submit: 0 },
-            { nama: "AGUS ADI SUBARUDIN", submit: 0 },
+            { nama: "AGUS ADI SUBARUDIN", submit: 9 },
             { nama: "AGUS PEBRIANTO", submit: 0 },
             { nama: "AGUS SETYO", submit: 0 },
             { nama: "AGUS WIDODO", submit: 0 },
@@ -218,29 +218,29 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "ANDRIAN KURNIAWAN", submit: 0 },
             { nama: "ANDRIAN TRI ANGGORO", submit: 0 },
             { nama: "ANGGA BIMA SAPUTRA", submit: 0 },
-            { nama: "ARIF MAULANA", submit: 0 },
+            { nama: "ARIF MAULANA", submit: 16 },
             { nama: "ARIF MIFTAKHUL HUDA", submit: 6 },
             { nama: "ARIF PURNOMO", submit: 0 },
-            { nama: "ARIF RAHMAN", submit: 2 },
-            { nama: "ARIFIN YULIANTO", submit: 1 },
-            { nama: "ARIS SETIAWAN", submit: 1 },
-            { nama: "ASEP PURWANTO", submit: 8 },
-            { nama: "ASNAWI", submit: 8 },
+            { nama: "ARIF RAHMAN", submit: 0 },
+            { nama: "ARIFIN YULIANTO", submit: 0 },
+            { nama: "ARIS SETIAWAN", submit: 0 },
+            { nama: "ASEP PURWANTO", submit: 0 },
+            { nama: "ASNAWI", submit: 0 },
             { nama: "ATANG WILDAN", submit: 0 },
             { nama: "BAHTIAR ANWAR", submit: 0 },
             { nama: "BANGKIT SAPUTRA", submit: 0 },
-            { nama: "BANGUN SOLEH SAPUTRA", submit: 10 },
+            { nama: "BANGUN SOLEH SAPUTRA", submit: 0 },
             { nama: "BELI APRI YANTO", submit: 0 },
-            { nama: "BERLIAN SYAH PUTRA", submit: 0 },
+            { nama: "BERLIAN SYAH PUTRA", submit: 7 },
             { nama: "BUDIMAN", submit: 0 },
             { nama: "DARMAWAN", submit: 0 },
             { nama: "DARU PURNOMO", submit: 0 },
             { nama: "DARYONO", submit: 0 },
-            { nama: "DEDI ANTONI", submit: 0 },
+            { nama: "DEDI ANTONI", submit: 1 },
             { nama: "DEDI GUNAWAN", submit: 0 },
             { nama: "DEDIK IRAWAN", submit: 0 },
             { nama: "DEFRI SATRIA", submit: 0 },
-            { nama: "DENDI RUSMIADI", submit: 0 },
+            { nama: "DENDI RUSMIADI", submit: 5 },
             { nama: "DENI PRASETYO", submit: 0 },
             { nama: "DIDI SUWARDI", submit: 0 },
             { nama: "DIDIH MUNAEJI", submit: 0 },
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "DIKA JULI ANDRI", submit: 0 },
             { nama: "DJUNARDI", submit: 0 },
             { nama: "DWI AFIANTO", submit: 0 },
-            { nama: "DWI PURWANTO", submit: 0 },
+            { nama: "DWI PURWANTO", submit: 1 },
             { nama: "DWI SUPRIYADI", submit: 0 },
             { nama: "EDY WINARTO", submit: 0 },
             { nama: "FAHRUDIN", submit: 0 },
@@ -267,9 +267,9 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "HODI IRWAN HANDIKI", submit: 0 },
             { nama: "IDRIS PRATAMA", submit: 0 },
             { nama: "IMAM SETYONO", submit: 0 },
-            { nama: "INDRA SURYA FATAH", submit: 0 },
-            { nama: "IQBAL IKHFANI AZIS", submit: 10 },
-            { nama: "IRFANUDIN", submit: 0 },
+            { nama: "INDRA SURYA FATAH", submit: 1 },
+            { nama: "IQBAL IKHFANI AZIS", submit: 0 },
+            { nama: "IRFANUDIN", submit: 2 },
             { nama: "IRVAN SEPTIN LEGISTA", submit: 0 },
             { nama: "IRWAN FERIYANTO", submit: 0 },
             { nama: "ISTANTO", submit: 0 },
@@ -278,23 +278,23 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "JOKO MARDIONO", submit: 0 },
             { nama: "JUWARSO", submit: 0 },
             { nama: "KARNO TRI WIDODO", submit: 0 },
-            { nama: "KASMANTO", submit: 0 },
+            { nama: "KASMANTO", submit: 7 },
             { nama: "KEMAN", submit: 0 },
-            { nama: "KHUMAEDI", submit: 0 },
+            { nama: "KHUMAEDI", submit: 16 },
             { nama: "KRISNATIANTO TANJUNG", submit: 0 },
             { nama: "LEO SUGIARTO", submit: 0 },
             { nama: "M CANDRA ZULIYANTO", submit: 0 },
             { nama: "M SHOLIHQIN", submit: 0 },
             { nama: "MAHFUDH QOSIM", submit: 0 },
             { nama: "MAMAN SUPRIYATNA", submit: 0 },
-            { nama: "MARDIAN HENDRAWAN", submit: 0 },
+            { nama: "MARDIAN HENDRAWAN", submit: 2 },
             { nama: "MARIYOTO", submit: 0 },
             { nama: "MOCH. KHARIS", submit: 0 },
             { nama: "MOCHAMMAD ANDRIANTO", submit: 0 },
             { nama: "MOCHAMMAD MUHFIDIN", submit: 0 },
             { nama: "MOHAMAD RIZAL SETIA BANGUN", submit: 0 },
             { nama: "MUDZAKIR", submit: 0 },
-            { nama: "MUFID SYAFII", submit: 0 },
+            { nama: "MUFID SYAFII", submit: 1 },
             { nama: "MUHAMMAD RIFQI SHODIQIN", submit: 0 },
             { nama: "MUHAMMAD SARIFUDIN", submit: 0 },
             { nama: "MUKHLISIN", submit: 0 },
@@ -303,11 +303,11 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "MUSTANGIN", submit: 0 },
             { nama: "NAJIH IMTIHANI", submit: 0 },
             { nama: "NANANG SUKANA", submit: 0 },
-            { nama: "NANANG SUNARYO", submit: 10 },
-            { nama: "NANDA MEIDONA", submit: 0 },
+            { nama: "NANANG SUNARYO", submit: 0 },
+            { nama: "NANDA MEIDONA", submit: 1 },
             { nama: "NGADINO", submit: 0 },
             { nama: "NOVAL ANDIKA BAYO", submit: 0 },
-            { nama: "NOVI YUNAEDI", submit: 0 },
+            { nama: "NOVI YUNAEDI", submit: 2 },
             { nama: "NUGROHO DWI CAHYO", submit: 0 },
             { nama: "NUR HIDAYAT", submit: 0 },
             { nama: "NUR HOLIK", submit: 0 },
@@ -315,20 +315,20 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "NURWAKHIDIN", submit: 0 },
             { nama: "OKI SUTIAWAN", submit: 0 },
             { nama: "OKY MEGAKUSUMA", submit: 0 },
-            { nama: "PANGGIH RIBOWO", submit: 0 },
+            { nama: "PANGGIH RIBOWO", submit: 4 },
             { nama: "PRASETIYO", submit: 0 },
             { nama: "PRATONO", submit: 0 },
             { nama: "PRITA AULIA", submit: 0 },
             { nama: "PRIYO SUSANTO", submit: 0 },
-            { nama: "PUDIANTORO", submit: 0 },
+            { nama: "PUDIANTORO", submit: 1 },
             { nama: "PURWANTO", submit: 0 },
             { nama: "RAMADHANI LUTHFI MUKTAFI", submit: 0 },
             { nama: "RAMDHAN EKO PRASETYO", submit: 0 },
             { nama: "RASITO", submit: 0 },
             { nama: "RIZKI PRATAMA", submit: 0 },
             { nama: "ROBY NORMAN", submit: 0 },
-            { nama: "ROCHMADI", submit: 0 },
-            { nama: "ROHMAD TULLOH ISA", submit: 0 },
+            { nama: "ROCHMADI", submit: 5 },
+            { nama: "ROHMAD TULLOH ISA", submit: 2 },
             { nama: "ROKI PERMANA", submit: 0 },
             { nama: "RUDI HARTONO", submit: 0 },
             { nama: "SANTO", submit: 0 },
@@ -341,7 +341,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "SIGIT WIHARSO", submit: 0 },
             { nama: "SIROJUL KHOZANI", submit: 0 },
             { nama: "SLAMET HARYONO", submit: 0 },
-            { nama: "SRIYANTO", submit: 0 },
+            { nama: "SRIYANTO", submit: 3 },
             { nama: "SUGIYANTO", submit: 0 },
             { nama: "SUKARNA", submit: 0 },
             { nama: "SUKMA GUGUN GUNAWAN", submit: 0 },
@@ -352,20 +352,20 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "SURATMO", submit: 0 },
             { nama: "TATO NITI ERLIANTO", submit: 0 },
             { nama: "TOBI'IN", submit: 0 },
-            { nama: "TOBRONI", submit: 0 },
+            { nama: "TOBRONI", submit: 1 },
             { nama: "TRI SUTRISNA", submit: 0 },
             { nama: "TRIMO", submit: 0 },
-            { nama: "TRISWIYATNO", submit: 9 },
+            { nama: "TRISWIYATNO", submit: 0 },
             { nama: "TRIYONO", submit: 0 },
-            { nama: "TURSINAH", submit: 0 },
+            { nama: "TURSINAH", submit: 5 },
             { nama: "UMAR WIDODO", submit: 0 },
-            { nama: "URIP SETIAJI", submit: 0 },
+            { nama: "URIP SETIAJI", submit: 1 },
             { nama: "WAHYONO", submit: 0 },
             { nama: "WAHYUDI", submit: 0 },
             { nama: "WAROKHIM", submit: 0 },
             { nama: "WARTOYO", submit: 0 },
             { nama: "WIDIANTORO", submit: 0 },
-            { nama: "WINA KARTIKA", submit: 0 },
+            { nama: "WINA KARTIKA", submit: 1 },
             { nama: "YANUAR RENDY FIRDAUS", submit: 0 },
             { nama: "YASODIK", submit: 0 },
             { nama: "YOGA FAJAR ASIDIQ", submit: 0 },
@@ -373,7 +373,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { nama: "YUNIAR DWI UTOMO", submit: 0 },
             { nama: "YUSLIMU KHOIRI", submit: 0 },
             { nama: "YUSUF ISMAIL", submit: 0 },
-            { nama: "ZAENAL ARIFIN", submit: 0 }
+            { nama: "ZAENAL ARIFIN", submit: 1 },
         ],
         "Production Planning & Control Department": [
             { nama: "Nama Karyawan 1", submit: 0 }
@@ -704,22 +704,6 @@ document.addEventListener("DOMContentLoaded", function () {
             .replace(" Dept", "");
     }
 
-    function renderTopTierTable() {
-        const tableBody = document.getElementById("tableBody");
-        tableBody.innerHTML = "";
-        dataDepartment.forEach((dept, index) => {
-            const persen = dept.percentage.toFixed(0);
-            tableBody.innerHTML += `
-                <tr>
-                    <td>${index + 1}</td>
-                    <td title="${dept.nama}">${shortenDeptName(dept.nama)}</td>
-                    <td>${dept.total}</td>
-                    <td>${dept.mengisi}</td>
-                    <td>${persen}%</td>
-                </tr>`;
-        });
-    }
-
     // ============================================================
     // RENDER BAR CHART STATUS SUBMIT
     // ============================================================
@@ -809,7 +793,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function renderTopSubmit(departmentName) {
         const workers = workerData[departmentName] || [];
-        const target = 10;
+        const target = 4;
         const sorted = [...workers].sort((a, b) => b.submit - a.submit).slice(0, 5);
 
         const submitTable = document.getElementById("submitTable");
@@ -823,7 +807,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>${item.nama}</td>
                     <td>${item.submit}</td>
                     <td><span class="${badge}">${achieve}</span></td>
-                    <td>—</td>
                 </tr>`;
         });
 
@@ -877,39 +860,78 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
     // RENDER TREND CHART
     // ============================================================
+    function renderTrendChart() {
 
-    function renderTrendChart(divisionName) {
         const bulan = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Ags", "Sep", "Okt", "Nov", "Des"];
-        const TARGET = 50;
+
         const now = new Date();
         const bulanSkrg = now.getMonth();
         const bulanSudah = bulanSkrg + 1;
-        const departments = divisionData[divisionName] || [];
-        const colors = ["#24557a", "#3b82b8", "#4b97d1", "#73b3e7", "#b9dfff", "#1a3d5c", "#5ba3d0"];
+
+        // DEPARTMENT PLANT
+        const plantDepartments = [
+            "Manufacturing",
+            "RBPS",
+            "RBPM",
+            "RJKT",
+            "RTMK",
+            "RSGT",
+            "RBJN",
+            "RADO",
+            "UBPK",
+            "RTJE"
+        ];
+
+        // AMBIL DEPARTMENT YANG DIPILIH
+        const selectedDept = document.getElementById("departmentSelect").value;
+
+        const departments = selectedDept
+            ? [selectedDept]
+            : [];
+
+        const colors = ["#24557a"];
+
+        // CEK PLANT / OFFICE
+        const isPlant = plantDepartments.some(name =>
+            selectedDept.includes(name)
+        );
+
+        // TARGET
+        const TARGET = isPlant ? 4 : 1;
 
         const datasets = departments.map((deptName, idx) => {
+
             const workers = workerData[deptName] || [];
+
             const totalSubmit = workers.reduce((s, w) => s + w.submit, 0);
-            const submitPerBulan = bulanSudah > 0 ? Math.floor(totalSubmit / bulanSudah) : 0;
+
+            const submitPerBulan =
+                bulanSudah > 0 ? Math.floor(totalSubmit / bulanSudah) : 0;
+
             const sisa = totalSubmit - submitPerBulan * bulanSudah;
+
             const data = bulan.map((_, i) => {
                 if (i < bulanSudah - 1) return submitPerBulan;
                 if (i === bulanSudah - 1) return submitPerBulan + sisa;
                 return 0;
             });
+
             return {
                 label: shortenDeptName(deptName),
                 data: data,
                 backgroundColor: bulan.map((_, i) =>
-                    i < bulanSudah ? colors[idx % colors.length] : colors[idx % colors.length] + "55"
+                    i < bulanSudah
+                        ? colors[idx % colors.length]
+                        : colors[idx % colors.length] + "55"
                 ),
                 borderRadius: 8,
                 type: "bar"
             };
         });
 
+        // LINE TARGET
         datasets.push({
-            label: "Target (50)",
+            label: `Target (${TARGET})`,
             data: bulan.map(() => TARGET),
             type: "line",
             borderColor: "#e74c3c",
@@ -921,9 +943,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         if (yearTrendInstance) yearTrendInstance.destroy();
+
         yearTrendInstance = new Chart(document.getElementById("yearTrendChart"), {
             type: "bar",
-            data: { labels: bulan, datasets: datasets },
+            data: {
+                labels: bulan,
+                datasets: datasets
+            },
             options: {
                 responsive: true,
                 plugins: {
@@ -933,12 +959,18 @@ document.addEventListener("DOMContentLoaded", function () {
                         anchor: "end",
                         align: "top",
                         color: "#183b56",
-                        font: { size: 10, weight: "bold" },
+                        font: {
+                            size: 10,
+                            weight: "bold"
+                        },
                         formatter: (value) => value > 0 ? value : ""
                     }
                 },
                 scales: {
-                    y: { beginAtZero: true, suggestedMax: TARGET + 10 }
+                    y: {
+                        beginAtZero: true,
+                        suggestedMax: TARGET + 5
+                    }
                 }
             }
         });
@@ -949,23 +981,59 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
 
     function renderWorkerTable(departmentName) {
+
         const workerTable = document.getElementById("workerTable");
+
         workerTable.innerHTML = "";
+
+        // DEPARTMENT PLANT
+        const plantDepartments = [
+            "Manufacturing",
+            "RBPS",
+            "RBPM",
+            "RJKT",
+            "RTMK",
+            "RSGT",
+            "RBJN",
+            "RADO",
+            "UBPK",
+            "RTJE"
+        ];
+
+        // CEK PLANT / OFFICE
+        const isPlant = plantDepartments.some(name =>
+            departmentName.includes(name)
+        );
+
+        // TARGET
+        const target = isPlant ? 4 : 1;
+
         const workers = workerData[departmentName] || [];
+
         workers.forEach((worker, index) => {
-            const target = 10;
+
             const persen = ((worker.submit / target) * 100).toFixed(0);
-            const achievement = worker.submit >= target ? "Achieve" : "NonAchieve";
-            const badge = achievement === "Achieve" ? "success" : "danger";
+
+            const achievement =
+                worker.submit >= target
+                    ? "Achieve"
+                    : "NonAchieve";
+
+            const badge =
+                achievement === "Achieve"
+                    ? "success"
+                    : "danger";
+
             workerTable.innerHTML += `
-                <tr>
-                    <td>${index + 1}</td>
-                    <td>${worker.nama}</td>
-                    <td>${worker.submit}</td>
-                    <td>${target}</td>
-                    <td><span class="${badge}">${achievement}</span></td>
-                    <td>${persen}%</td>
-                </tr>`;
+            <tr>
+                <td>${index + 1}</td>
+                <td>${worker.nama}</td>
+                <td>${worker.submit}</td>
+                <td>${target}</td>
+                <td><span class="${badge}">${achievement}</span></td>
+                <td>${persen}%</td>
+            </tr>
+        `;
         });
     }
 
@@ -1046,7 +1114,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("belumMengisiDept").innerText = stats.belum;
 
         renderDepartmentPie(stats.submit, stats.belum);
-        renderTopTierTable();
         renderBarChart();
         renderWorkerTable(selectedDept);
         renderTopSubmit(selectedDept);
@@ -1218,15 +1285,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
 
     const totalTindakanAuto = tindakanData.reduce((sum, item) => sum + item.jumlah, 0);
-    const totalKondisiAuto  = kondisiData.reduce((sum, item) => sum + item.jumlah, 0);
-    const totalTemuanAuto   = totalTindakanAuto + totalKondisiAuto;
+    const totalKondisiAuto = kondisiData.reduce((sum, item) => sum + item.jumlah, 0);
+    const totalTemuanAuto = totalTindakanAuto + totalKondisiAuto;
 
-    const elJumlahTemuan    = document.getElementById("jumlahTemuan");
-    const elUnsafeAction    = document.getElementById("unsafeAction");
+    const elJumlahTemuan = document.getElementById("jumlahTemuan");
+    const elUnsafeAction = document.getElementById("unsafeAction");
     const elUnsafeCondition = document.getElementById("unsafeCondition");
 
-    if (elJumlahTemuan)    elJumlahTemuan.innerText    = totalTemuanAuto;
-    if (elUnsafeAction)    elUnsafeAction.innerText    = totalTindakanAuto;
+    if (elJumlahTemuan) elJumlahTemuan.innerText = totalTemuanAuto;
+    if (elUnsafeAction) elUnsafeAction.innerText = totalTindakanAuto;
     if (elUnsafeCondition) elUnsafeCondition.innerText = totalKondisiAuto;
 
 });
@@ -1238,7 +1305,7 @@ document.addEventListener("DOMContentLoaded", function () {
 const totalTindakan = tindakanData.reduce((sum, item) => sum + item.jumlah, 0);
 const tindakanTableBody = document.getElementById("tindakanTableBody");
 
-tindakanData.forEach((item, index) => {
+tindakanData.slice(0, 10).forEach((item, index) => {
     const persen = ((item.jumlah / totalTindakan) * 100).toFixed(1);
     tindakanTableBody.innerHTML += `
         <tr>
@@ -1257,7 +1324,7 @@ tindakanData.forEach((item, index) => {
 const totalKondisi = kondisiData.reduce((sum, item) => sum + item.jumlah, 0);
 const kondisiTableBody = document.getElementById("kondisiTableBody");
 
-kondisiData.forEach((item, index) => {
+kondisiData.slice(0, 10).forEach((item, index) => {
     const persen = ((item.jumlah / totalKondisi) * 100).toFixed(1);
     kondisiTableBody.innerHTML += `
         <tr>
@@ -1269,3 +1336,328 @@ kondisiData.forEach((item, index) => {
     `;
 });
 
+const tindakanPerBulan = {
+    1: [], // Januari — isi nanti
+    2: [], // Februari — isi nanti
+    3: [], // Maret — isi nanti
+    4: [], // April — isi nanti
+    5: [   // Mei — DATA EXISTING
+        { kategori: "TIDAK MENAATI PROSEDUR", jumlah: 371 },
+        { kategori: "TIDAK MENGGUNAKAN APD", jumlah: 287 },
+        { kategori: "MENGOPERASIKAN ALAT TANPA IZIN", jumlah: 224 },
+        { kategori: "MENONAKTIFKAN PERANGKAT SAFETY", jumlah: 170 },
+        { kategori: "TIDAK MELAKUKAN PRE USE CHECK", jumlah: 156 },
+        { kategori: "HOUSEKEEPING BURUK", jumlah: 145 },
+        { kategori: "PENEMPATAN MATERIAL TIDAK SESUAI", jumlah: 52 },
+        { kategori: "BEKERJA TANPA IZIN KERJA", jumlah: 47 },
+        { kategori: "PENGGUNAAN TOOLS TIDAK SESUAI", jumlah: 43 },
+        { kategori: "TIDAK MEMASANG LOCKOUT TAGOUT", jumlah: 32 },
+        { kategori: "POSTUR KERJA TIDAK ERGONOMIS", jumlah: 28 },
+        { kategori: "PENYIMPANAN B3 TIDAK SESUAI", jumlah: 14 },
+        { kategori: "AKSES JALAN TERHALANG", jumlah: 6 },
+        { kategori: "MEROKOK DI AREA TERLARANG", jumlah: 2 },
+        { kategori: "PENGANGKATAN MANUAL TIDAK AMAN", jumlah: 2 },
+        { kategori: "SQ BOARD BASIC", jumlah: 1 },
+        { kategori: "SELANG AIR", jumlah: 1 },
+        { kategori: "STAND FRONT AXLE HD", jumlah: 1 },
+        { kategori: "KOTAK P3K", jumlah: 1 },
+        { kategori: "MEJA KERJA", jumlah: 1 },
+        { kategori: "PENUTUP PARIT", jumlah: 1 },
+        { kategori: "PAPAN DM/DASHBOARD DM", jumlah: 1 },
+        { kategori: "KOMPONEN ENGINE", jumlah: 1 },
+        { kategori: "PERALATAN FASILITAS PERUSAHAAN", jumlah: 1 },
+        { kategori: "FD 100", jumlah: 1 },
+        { kategori: "CONSUMEBEL", jumlah: 1 },
+        { kategori: "PALET KAYU", jumlah: 1 },
+        { kategori: "PAPAN DM", jumlah: 1 },
+        { kategori: "CYLINDER", jumlah: 1 },
+        { kategori: "CONSUMABLE", jumlah: 1 },
+        { kategori: "PERALATAN POMPA OLI", jumlah: 1 },
+        { kategori: "COMPONEN", jumlah: 1 },
+        { kategori: "AREA KERJA", jumlah: 1 },
+        { kategori: "PENYANGGA DAN PENGANGKATAN", jumlah: 1 },
+        { kategori: "RAK SUB COMPONENT", jumlah: 1 },
+        { kategori: "JALAN COR-CORAN", jumlah: 1 },
+        { kategori: "P3K", jumlah: 1 },
+        { kategori: "CATERING", jumlah: 1 },
+        { kategori: "SQ DASHBOARD", jumlah: 1 },
+        { kategori: "PERANGKAT JARINGAN", jumlah: 1 },
+        { kategori: "RAK SEPATU", jumlah: 1 },
+        { kategori: "KOMPONEN PRODUK", jumlah: 1 },
+        { kategori: "MESIN LAS", jumlah: 1 },
+        { kategori: "KURSI", jumlah: 1 },
+        { kategori: "PELETAKAN KOMPONEN", jumlah: 1 },
+        { kategori: "PENDING STAND", jumlah: 1 },
+        { kategori: "WADAH LIMBAH", jumlah: 1 },
+        { kategori: "ALAT BANTU ANGKAT DAN ANGKUT FORKLIFT UT37", jumlah: 1 },
+        { kategori: "MATERIAL", jumlah: 1 }
+    ],
+    6: [],  // Juni
+    7: [],  // Juli
+    8: [],  // Agustus
+    9: [],  // September
+    10: [], // Oktober
+    11: [], // November
+    12: []  // Desember
+};
+
+// ============================================================
+// DATA PER BULAN — KONDISI TIDAK AMAN
+// ============================================================
+
+const kondisiPerBulan = {
+    1: [],
+    2: [],
+    3: [],
+    4: [],
+    5: [   // Mei — DATA EXISTING
+        { kategori: "5K", jumlah: 371 },
+        { kategori: "LINGKUNGAN", jumlah: 287 },
+        { kategori: "PERALATAN LISTRIK", jumlah: 224 },
+        { kategori: "PERILAKU KERJA", jumlah: 170 },
+        { kategori: "BANGUNAN", jumlah: 156 },
+        { kategori: "TOOLS", jumlah: 145 },
+        { kategori: "PERALATAN TANGGAP DARURAT (APAR, HYDRANT, ALARM, EYEWASH)", jumlah: 52 },
+        { kategori: "B3", jumlah: 47 },
+        { kategori: "RAMBU", jumlah: 43 },
+        { kategori: "MEKANIKAL", jumlah: 32 },
+        { kategori: "APD", jumlah: 28 },
+        { kategori: "ADMINISTRATIF", jumlah: 14 },
+        { kategori: "ERGONOMI", jumlah: 6 },
+        { kategori: "alat angkat dan angkut", jumlah: 2 },
+        { kategori: "Forklift", jumlah: 2 },
+        { kategori: "SQ board basic", jumlah: 1 },
+        { kategori: "selang air", jumlah: 1 },
+        { kategori: "Stand front axle hd", jumlah: 1 },
+        { kategori: "Kotak P3K", jumlah: 1 },
+        { kategori: "Meja kerja", jumlah: 1 },
+        { kategori: "Penutup parit", jumlah: 1 },
+        { kategori: "Papan dm/dashboard dm", jumlah: 1 },
+        { kategori: "Komponen engine", jumlah: 1 },
+        { kategori: "Peralatan fasilitas perusahaan", jumlah: 1 },
+        { kategori: "FD 100", jumlah: 1 },
+        { kategori: "Consumebel", jumlah: 1 },
+        { kategori: "Palet kayu", jumlah: 1 },
+        { kategori: "Papan dm", jumlah: 1 },
+        { kategori: "Cylinder", jumlah: 1 },
+        { kategori: "Consumable", jumlah: 1 },
+        { kategori: "peralatan pompa oli", jumlah: 1 },
+        { kategori: "Componen", jumlah: 1 },
+        { kategori: "Area kerja", jumlah: 1 },
+        { kategori: "Penyangga dannpengangkatan", jumlah: 1 },
+        { kategori: "rak sub Component", jumlah: 1 },
+        { kategori: "Jalan cor2an", jumlah: 1 },
+        { kategori: "P3K", jumlah: 1 },
+        { kategori: "Catering", jumlah: 1 },
+        { kategori: "SQ dashboard", jumlah: 1 },
+        { kategori: "Perangkat jaringan", jumlah: 1 },
+        { kategori: "Rak sepatu", jumlah: 1 },
+        { kategori: "Komponen produk", jumlah: 1 },
+        { kategori: "mesin las", jumlah: 1 },
+        { kategori: "Kursi", jumlah: 1 },
+        { kategori: "Peletakan komponen", jumlah: 1 },
+        { kategori: "pending stand", jumlah: 1 },
+        { kategori: "wadah limbah", jumlah: 1 },
+        { kategori: "alat bantu angkat dan angkut forklift ut37", jumlah: 1 },
+        { kategori: "Alat kebersihan", jumlah: 2 },
+        { kategori: "Material", jumlah: 1 }
+    ],
+    6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: []
+};
+
+// ============================================================
+// DATA PER BULAN — KATEGORI
+// ============================================================
+
+const kategoriPerBulan = {
+    1: [],
+    2: [],
+    3: [],
+    4: [],
+    5: [
+        { kategori: "Workshop", jumlah: 0 },
+        { kategori: "Warehouse", jumlah: 0 },
+        { kategori: "Office Area", jumlah: 0 },
+        { kategori: "Yard & Area Pendukung", jumlah: 0 }
+    ],
+    6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: []
+};
+
+// ============================================================
+// DATA PER BULAN — SUB KATEGORI
+// ============================================================
+
+const subKategoriPerBulan = {
+    1: [],
+    2: [],
+    3: [],
+    4: [],
+    5: [
+        { kategori: "HEAD OFFICE (Office Area)", jumlah: 0 },
+        { kategori: "ENGINEER (Office Area)", jumlah: 0 },
+        { kategori: "PLANT A (Workshop)", jumlah: 0 },
+        { kategori: "PLANT B (Workshop)", jumlah: 0 },
+        { kategori: "PLANT C (Workshop)", jumlah: 0 },
+        { kategori: "BLASTING & PAINTING (Workshop)", jumlah: 0 },
+        { kategori: "JIG (Workshop)", jumlah: 0 },
+        { kategori: "RND (Workshop)", jumlah: 0 },
+        { kategori: "PDC (Workshop)", jumlah: 0 },
+        { kategori: "INCOMING (Warehouse)", jumlah: 0 },
+        { kategori: "OUTGOING (Warehouse)", jumlah: 0 },
+        { kategori: "Lain-lain", jumlah: 0 }
+    ],
+    6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: []
+};
+
+// ============================================================
+// NAMA BULAN
+// ============================================================
+
+const NAMA_BULAN = ["", "Januari", "Februari", "Maret", "April", "Mei",
+    "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+
+// ============================================================
+// FUNGSI AKUMULASI — gabung data dari bulan 1 sampai bulanKe
+// ============================================================
+
+function akumulasiData(dataPerBulan, sampai) {
+    const map = {};
+    for (let b = 1; b <= sampai; b++) {
+        const bulanData = dataPerBulan[b] || [];
+        bulanData.forEach(item => {
+            const key = item.kategori.toUpperCase().trim();
+            if (map[key]) {
+                map[key].jumlah += item.jumlah;
+            } else {
+                map[key] = { kategori: item.kategori, jumlah: item.jumlah };
+            }
+        });
+    }
+    // Sort descending
+    return Object.values(map).sort((a, b) => b.jumlah - a.jumlah);
+}
+
+// ============================================================
+// FUNGSI RENDER TABEL GENERIC
+// ============================================================
+
+function renderTableBody(tbodyId, data, topN) {
+    const tbody = document.getElementById(tbodyId);
+    if (!tbody) return;
+    tbody.innerHTML = "";
+    const list = topN ? data.slice(0, topN) : data;
+    const total = list.reduce((s, i) => s + i.jumlah, 0);
+    list.forEach((item, idx) => {
+        const persen = total === 0 ? "0%" : ((item.jumlah / total) * 100).toFixed(1) + "%";
+        tbody.innerHTML += `
+            <tr>
+                <td>${idx + 1}</td>
+                <td>${item.kategori}</td>
+                <td>${item.jumlah}</td>
+                <td>${persen}</td>
+            </tr>`;
+    });
+}
+
+// ============================================================
+// FUNGSI UPDATE NOTE LABEL
+// ============================================================
+
+function updateNote(noteId, bulan) {
+    const el = document.getElementById(noteId);
+    if (!el) return;
+    if (bulan === 1) {
+        el.textContent = "Data Januari";
+    } else {
+        el.textContent = `Akumulasi Jan – ${NAMA_BULAN[bulan]}`;
+    }
+}
+
+function renderKategori(bulan) {
+    const kat = akumulasiData(kategoriPerBulan, bulan);
+    const subKat = akumulasiData(subKategoriPerBulan, bulan);
+
+    // Kalau kosong, tampilkan baris placeholder
+    const kategoriEl = document.getElementById("kategoriTableBody");
+    const subKatEl = document.getElementById("subKategoriTableBody");
+
+    if (kat.length === 0) {
+        // fallback ke daftar statis dengan jumlah 0
+        const staticKat = ["Workshop", "Warehouse", "Office Area", "Yard & Area Pendukung"];
+        if (kategoriEl) {
+            kategoriEl.innerHTML = staticKat.map((k, i) =>
+                `<tr><td>${i + 1}</td><td>${k}</td><td>0</td><td>0%</td></tr>`
+            ).join("");
+        }
+    } else {
+        renderTableBody("kategoriTableBody", kat, null);
+    }
+
+    if (subKat.length === 0) {
+        const staticSub = [
+            "HEAD OFFICE (Office Area)", "ENGINEER (Office Area)",
+            "PLANT A (Workshop)", "PLANT B (Workshop)", "PLANT C (Workshop)",
+            "BLASTING & PAINTING (Workshop)", "JIG (Workshop)", "RND (Workshop)",
+            "PDC (Workshop)", "INCOMING (Warehouse)", "OUTGOING (Warehouse)", "Lain-lain"
+        ];
+        if (subKatEl) {
+            subKatEl.innerHTML = staticSub.map((k, i) =>
+                `<tr><td>${i + 1}</td><td>${k}</td><td>0</td><td>0%</td></tr>`
+            ).join("");
+        }
+    } else {
+        renderTableBody("subKategoriTableBody", subKat, null);
+    }
+
+    updateNote("noteKategori", bulan);
+}
+
+// ============================================================
+// INIT DROPDOWN EVENT — tambahkan di dalam DOMContentLoaded
+// (di bagian paling bawah DOMContentLoaded, sebelum closing })
+// ============================================================
+
+// Render default saat halaman pertama kali dibuka (bulan 5 = Mei)
+renderKategori(5);
+
+const monthFilterTopTier = document.getElementById("monthFilterTopTier");
+if (monthFilterTopTier) {
+    monthFilterTopTier.addEventListener("change", function () {
+        renderTopTier(parseInt(this.value));
+    });
+}
+
+const monthFilterKategori = document.getElementById("monthFilterKategori");
+if (monthFilterKategori) {
+    monthFilterKategori.addEventListener("change", function () {
+        renderKategori(parseInt(this.value));
+    });
+}
+
+document.getElementById("viewSearchBtn").addEventListener("click", () => {
+
+    document.getElementById("hazardSection").style.display = "none";
+    document.getElementById("searchSection").style.display = "block";
+
+    // sembunyikan dropdown navbar
+    document.querySelector(".dropdown-box").style.display = "none";
+
+});
+
+document.getElementById("backSearchBtn").addEventListener("click", () => {
+
+    document.getElementById("searchSection").style.display = "none";
+
+    // tampilkan lagi dropdown
+    document.querySelector(".dropdown-box").style.display = "block";
+
+});
+
+document.getElementById("viewHazardBtn").addEventListener("click", () => {
+
+    document.getElementById("hazardSection").style.display = "block";
+    document.getElementById("searchSection").style.display = "none";
+
+    document.querySelector(".dropdown-box").style.display = "block";
+
+});
