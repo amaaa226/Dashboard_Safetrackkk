@@ -229,21 +229,6 @@
             </div>
 
             <div class="dashboard-bottom" id="topTierSection" style="display:none;">
-                <div class="table-card">
-                    <div class="table-title">TOP TIER DEPARTEMENT</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Rank</th>
-                                <th>Department</th>
-                                <th>Jumlah Orang</th>
-                                <th>Sudah Mengisi</th>
-                                <th>Persentase</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tableBody"></tbody>
-                    </table>
-                </div>
 
                 <div class="chart-card">
                     <h2>TOP TIER DEPARTMENT ( YTD )</h2>
@@ -283,7 +268,6 @@
                                 <th>Nama Pekerja</th>
                                 <th>Total Submit</th>
                                 <th>Status</th>
-                                <th>Tanggal Submit</th>
                             </tr>
                         </thead>
                         <tbody id="submitTable"></tbody>
@@ -298,13 +282,15 @@
 
             <div class="dashboard-bottom" id="trendSection" style="display:none;">
                 <div class="chart-card">
-                    <h2>TREN SUBMIT HAZARD REPORT SEDEPARTEMEN DALAM 1 TAHUN</h2>
+                    <h2>TREN SUBMIT HAZARD REPORT DEPARTEMEN DALAM 1 TAHUN</h2>
                     <canvas id="yearTrendChart"></canvas>
                 </div>
             </div>
 
         </div>
     </section>
+
+    <!-- PATCH: Ganti section search-dashboard di index.html dengan ini -->
 
     <!-- SEARCH DASHBOARD -->
     <section class="search-dashboard" id="searchSection" style="display:none;">
@@ -316,16 +302,39 @@
                 <h2>TAHUN 2026</h2>
             </div>
 
-            <!-- Jumlah temuan + unsafe hanya tabel & info, tanpa kartu yg dipindah -->
+            <!-- ✅ DROPDOWN 1 — Filter bulan untuk Top Tier Tindakan & Kondisi -->
+            <div class="search-filter-bar" id="filterBarTopTier">
+                <div class="search-filter-inner">
+                    <span class="filter-icon">📅</span>
+                    <span class="filter-label-text">PERIODE DATA TOP TIER</span>
+                    <div class="search-month-select-wrap">
+                        <select id="monthFilterTopTier">
+                            <option value="1">AS OF JANUARI 2026</option>
+                            <option value="2">AS OF FEBRUARI 2026</option>
+                            <option value="3">AS OF MARET 2026</option>
+                            <option value="4">AS OF APRIL 2026</option>
+                            <option value="5" selected>AS OF MEI 2026</option>
+                            <option value="6">AS OF JUNI 2026</option>
+                            <option value="7">AS OF JULI 2026</option>
+                            <option value="8">AS OF AGUSTUS 2026</option>
+                            <option value="9">AS OF SEPTEMBER 2026</option>
+                            <option value="10">AS OF OKTOBER 2026</option>
+                            <option value="11">AS OF NOVEMBER 2026</option>
+                            <option value="12">AS OF DESEMBER 2026</option>
+                        </select>
+                        <span class="select-arrow">▾</span>
+                    </div>
+                    <span class="filter-note" id="noteTopTier">Akumulasi Jan – Mei</span>
+                </div>
+            </div>
+
+            <!-- Tabel Top Tier -->
             <div class="search-table-wrapper">
 
                 <!-- TINDAKAN TIDAK AMAN -->
                 <div class="search-table-card blue">
-
-                    <h2>TINDAKAN TIDAK AMAN</h2>
-
+                    <h2>TOP TIER 10 : TINDAKAN TIDAK AMAN</h2>
                     <table>
-
                         <thead>
                             <tr>
                                 <th>NO</th>
@@ -334,20 +343,14 @@
                                 <th>PERSENTASE</th>
                             </tr>
                         </thead>
-
                         <tbody id="tindakanTableBody"></tbody>
-
                     </table>
-
                 </div>
 
                 <!-- KONDISI TIDAK AMAN -->
                 <div class="search-table-card white">
-
-                    <h2>KONDISI TIDAK AMAN</h2>
-
+                    <h2>TOP TIER 10 : KONDISI TIDAK AMAN</h2>
                     <table>
-
                         <thead>
                             <tr>
                                 <th>NO</th>
@@ -356,14 +359,39 @@
                                 <th>PERSENTASE</th>
                             </tr>
                         </thead>
-
                         <tbody id="kondisiTableBody"></tbody>
-
                     </table>
-
                 </div>
 
             </div>
+
+            <!-- ✅ DROPDOWN 2 — Filter bulan untuk Kategori & Sub Kategori -->
+            <div class="search-filter-bar" id="filterBarKategori">
+                <div class="search-filter-inner">
+                    <span class="filter-icon">📅</span>
+                    <span class="filter-label-text">PERIODE DATA KATEGORI</span>
+                    <div class="search-month-select-wrap">
+                        <select id="monthFilterKategori">
+                            <option value="1">AS OF JANUARI 2026</option>
+                            <option value="2">AS OF FEBRUARI 2026</option>
+                            <option value="3">AS OF MARET 2026</option>
+                            <option value="4">AS OF APRIL 2026</option>
+                            <option value="5" selected>AS OF MEI 2026</option>
+                            <option value="6">AS OF JUNI 2026</option>
+                            <option value="7">AS OF JULI 2026</option>
+                            <option value="8">AS OF AGUSTUS 2026</option>
+                            <option value="9">AS OF SEPTEMBER 2026</option>
+                            <option value="10">AS OF OKTOBER 2026</option>
+                            <option value="11">AS OF NOVEMBER 2026</option>
+                            <option value="12">AS OF DESEMBER 2026</option>
+                        </select>
+                        <span class="select-arrow">▾</span>
+                    </div>
+                    <span class="filter-note" id="noteKategori">Akumulasi Jan – Mei</span>
+                </div>
+            </div>
+
+            <!-- Tabel Kategori & Sub Kategori -->
             <div class="search-table-wrapper">
                 <div class="search-table-card blue">
                     <h2>KATEGORI</h2>
@@ -373,35 +401,10 @@
                                 <th>NO</th>
                                 <th>KATEGORI</th>
                                 <th>JUMLAH</th>
-                                <th>Persentase</th>
+                                <th>PERSENTASE</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Workshop</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Warehouse</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Office Area</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Yard & Area Pendukung</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                        </tbody>
+                        <tbody id="kategoriTableBody"></tbody>
                     </table>
                 </div>
                 <div class="search-table-card white">
@@ -412,83 +415,10 @@
                                 <th>NO</th>
                                 <th>KATEGORI</th>
                                 <th>JUMLAH</th>
-                                <th>Persentase</th>
+                                <th>PERSENTASE</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>HEAD OFFICE (Office Area)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>ENGINEER (Office Area)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>PLANT A (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>PLANT B (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>PLANT C (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>BLASTING & PAINTING (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>JIG (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>RND (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>PDC (Workshop)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>INCOMING (Warehouse)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>OUTGOING (Warehouse)</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Lain-lain</td>
-                                <td>0</td>
-                                <td>0%</td>
-                            </tr>
-                        </tbody>
+                        <tbody id="subKategoriTableBody"></tbody>
                     </table>
                 </div>
             </div>
@@ -621,12 +551,12 @@
         </section>
         <section class="right-section">
             <div class="safe-chart">
-                <h3>PRODUCTION</h3>
+                <h3>PRODUCTION ( YTD )</h3>
                 <canvas id="plantChart"></canvas>
                 <h2>WAJIB MENGISI 4X / 1 BULAN</h2>
             </div>
             <div class="safe-chart">
-                <h3>NON PRODUCTION</h3>
+                <h3>NON PRODUCTION ( YTD )</h3>
                 <canvas id="officeChart"></canvas>
                 <h2>WAJIB MENGISI 1X / 1 BULAN</h2>
             </div>
