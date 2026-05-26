@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Hazard Report</title>
-    <link rel="icon" type="image/png" href="dashboarddd.png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 </head>
 <body>
 
@@ -17,20 +18,20 @@
         <h1>SAFETRACK</h1>
         <p>DASHBOARD UTPE HAZARD REPORT TRACKER</p>
     </div>
-    <div class="dropdown-box">
-        <select id="monthSelect">
-            <option value="januari">AS OF JANUARI 2026</option>
-            <option value="februari">AS OF FEBRUARI 2026</option>
-            <option value="maret">AS OF MARET 2026</option>
-            <option value="april">AS OF APRIL 2026</option>
-            <option value="mei" selected>AS OF MEI 2026</option>
-            <option value="juni">AS OF JUNI 2026</option>
-            <option value="juli">AS OF JULI 2026</option>
-            <option value="agustus">AS OF AGUSTUS 2026</option>
-            <option value="september">AS OF SEPTEMBER 2026</option>
-            <option value="oktober">AS OF OKTOBER 2026</option>
-            <option value="november">AS OF NOVEMBER 2026</option>
-            <option value="desember">AS OF DESEMBER 2026</option>
+    <div class="dropdown-box" id="navDropdown">
+        <select id="globalMonth">
+            <option value="1">AS OF JANUARI 2026</option>
+            <option value="2">AS OF FEBRUARI 2026</option>
+            <option value="3">AS OF MARET 2026</option>
+            <option value="4">AS OF APRIL 2026</option>
+            <option value="5" selected>AS OF MEI 2026</option>
+            <option value="6">AS OF JUNI 2026</option>
+            <option value="7">AS OF JULI 2026</option>
+            <option value="8">AS OF AGUSTUS 2026</option>
+            <option value="9">AS OF SEPTEMBER 2026</option>
+            <option value="10">AS OF OKTOBER 2026</option>
+            <option value="11">AS OF NOVEMBER 2026</option>
+            <option value="12">AS OF DESEMBER 2026</option>
         </select>
     </div>
 </header>
@@ -94,7 +95,7 @@
     <!-- KLASIFIKASI PRODUCTION & NON PRODUCTION -->
     <div class="bar-card total-card">
         <div class="production-header">
-            <h3>PRODUCTION & NON PRODUCTION</h3>
+            <h3>PRODUCTION &amp; NON PRODUCTION</h3>
         </div>
         <div class="classification-wrapper">
 
@@ -127,26 +128,26 @@
                     <div class="classification-icon">🏢</div>
                     <div>
                         <h4>NON PRODUCTION</h4>
-                        <span>Corporate & Supporting Department</span>
+                        <span>Corporate &amp; Supporting Department</span>
                     </div>
                 </div>
                 <div class="office-list">
-                    <div>Corporate Management Development & Risk Management</div>
+                    <div>Corporate Management Development &amp; Risk Management</div>
                     <div>Corporate Legal</div>
                     <div>Corporate Communication</div>
                     <div>Corporate Business Development</div>
-                    <div>Production Planning & Control</div>
+                    <div>Production Planning &amp; Control</div>
                     <div>Remanufacturing</div>
                     <div>Plant Operation</div>
                     <div>Corporate Design Engineering</div>
                     <div>Corporate Production Engineering</div>
-                    <div>Corporate Product Research & Development</div>
-                    <div>Corporate Prototype & Testing</div>
+                    <div>Corporate Product Research &amp; Development</div>
+                    <div>Corporate Prototype &amp; Testing</div>
                     <div>Corporate Quality Assurance</div>
                     <div>Quality Control 1</div>
                     <div>Quality Control 2</div>
-                    <div>Corporate Marketing & Cost Estimator</div>
-                    <div>Corporate Inventory & Warehouse Management</div>
+                    <div>Corporate Marketing &amp; Cost Estimator</div>
+                    <div>Corporate Inventory &amp; Warehouse Management</div>
                     <div>Corporate Vendor Management</div>
                     <div>Corporate Subcont Development</div>
                     <div>Corporate Information System</div>
@@ -158,9 +159,9 @@
                     <div>Corporate Procurement</div>
                     <div>Corporate Internal Control</div>
                     <div>Corporate Human Capital Strategic</div>
-                    <div>Corporate HC Administration & Services</div>
-                    <div>Corporate Safety, Health & Security</div>
-                    <div>Corporate Sustainability & General Services</div>
+                    <div>Corporate HC Administration &amp; Services</div>
+                    <div>Corporate Safety, Health &amp; Security</div>
+                    <div>Corporate Sustainability &amp; General Services</div>
                     <div>Patria Development Center</div>
                 </div>
             </div>
@@ -276,17 +277,17 @@
                     <div class="custom-select">
                         <select id="divisionSelect">
                             <option value="">Choose Division</option>
-                            <option value="strategicPlanningLegal">Corporate Strategic Planning & Legal Function</option>
+                            <option value="strategicPlanningLegal">Corporate Strategic Planning &amp; Legal Function</option>
                             <option value="businessDevelopment">Corporate Business Development Function</option>
                             <option value="productionPlant1">Production Plant 1 Division</option>
                             <option value="productionPlant2">Production Plant 2 Division</option>
                             <option value="engineering">Corporate Engineering Division</option>
-                            <option value="researchDevelopment">Corporate Research & Development Division</option>
+                            <option value="researchDevelopment">Corporate Research &amp; Development Division</option>
                             <option value="quality">Corporate Quality Division</option>
                             <option value="supplyChain">Corporate Supply Chain Management Division</option>
-                            <option value="digitalization">Corporate Digitalization & Information System Division</option>
-                            <option value="financeAccounting">Corporate Finance, Accounting & Procurement Division</option>
-                            <option value="humanCapital">Corporate Human Capital, Safety & Sustainability Division</option>
+                            <option value="digitalization">Corporate Digitalization &amp; Information System Division</option>
+                            <option value="financeAccounting">Corporate Finance, Accounting &amp; Procurement Division</option>
+                            <option value="humanCapital">Corporate Human Capital, Safety &amp; Sustainability Division</option>
                         </select>
                     </div>
                 </div>
@@ -313,7 +314,7 @@
             </div>
         </div>
 
-        <!-- PILIH DEPARTMENT (muncul setelah pilih divisi) -->
+        <!-- PILIH DEPARTMENT -->
         <div class="dashboard-top" id="departmentSection" style="display:none;">
             <div class="card">
                 <div class="division-filter">
@@ -361,7 +362,7 @@
         <!-- TABEL DATA PEKERJA -->
         <div class="table-card worker-card" id="workerSection" style="display:none;">
             <div class="worker-header">
-                <div class="table-title">DATA PEKERJA & JUMLAH SUBMIT</div>
+                <div class="table-title">DATA PEKERJA &amp; JUMLAH SUBMIT</div>
                 <input type="text" id="searchWorker" placeholder="Cari nama pekerja...">
             </div>
             <div class="table-scroll">
@@ -526,11 +527,6 @@
     </div>
 </section>
 
-
-<!-- SCRIPTS -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 <script src="script.js"></script>
-
 </body>
 </html>
