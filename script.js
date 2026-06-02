@@ -1,9 +1,4 @@
 // ============================================================
-// SAFETRACK — script.js
-// Versi: FIXED — Target Akumulasi Otomatis per Bulan
-// ============================================================
-
-// ============================================================
 // NAMA BULAN
 // ============================================================
 
@@ -215,230 +210,302 @@ const subKategoriPerBulan = {
 
 const workerData = {
     "Corporate Management Development & Risk Management Department": [
-        { nama: "Nama Karyawan 1", submit: 0 }
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
     ],
+
     "Corporate Legal Department": [
-        { nama: "Nama Karyawan 1", submit: 0 }
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
     ],
+
     "Corporate Communication Department": [
-        { nama: "Nama Karyawan 1", submit: 0 }
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
     ],
+
     "Corporate Business Development Department": [
-        { nama: "Nama Karyawan 1", submit: 0 }
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
     ],
+
     "Manufacturing Department": [
-        { nama: "WIRYO AGATHA PUTERA", submit: 0 },
-        { nama: "IGNATIUS DANANG SASONGKO", submit: 0 },
-        { nama: "MOHAMMAD ALFIN KARIM", submit: 0 },
-        { nama: "AAN NURDIANTO", submit: 0 },
-        { nama: "ABDUL AZIZ", submit: 0 },
-        { nama: "ABDUL IMAM LATIF", submit: 0 },
-        { nama: "ABDUL MAHMUD", submit: 0 },
-        { nama: "ACHMAD KAMAL FIKRI", submit: 0 },
-        { nama: "ADE DERMAWAN", submit: 1 },
-        { nama: "ADITYA LESMANA", submit: 0 },
-        { nama: "ADITYA PRATAMA", submit: 0 },
-        { nama: "AFIT WAHYUDI", submit: 0 },
-        { nama: "AGUNG DHESCA PERMANA PUTRA", submit: 0 },
-        { nama: "AGUNG KRISTIAWAN RIYO PAMBUDI", submit: 0 },
-        { nama: "AGUNG WIERATNO", submit: 0 },
-        { nama: "AGUS ADI SUBARUDIN", submit: 9 },
-        { nama: "AGUS PEBRIANTO", submit: 0 },
-        { nama: "AGUS SETYO", submit: 0 },
-        { nama: "AGUS WIDODO", submit: 0 },
-        { nama: "AHMAD MUKHALIT", submit: 0 },
-        { nama: "AHMAD TAUFIK HIDAYAT", submit: 0 },
-        { nama: "ALI MASRUR", submit: 0 },
-        { nama: "AMAL MUSTAKIM", submit: 0 },
-        { nama: "ANDI ROMIADI", submit: 0 },
-        { nama: "ANDRI DARMANTO", submit: 0 },
-        { nama: "ANDRIAN KURNIAWAN", submit: 0 },
-        { nama: "ANDRIAN TRI ANGGORO", submit: 0 },
-        { nama: "ANGGA BIMA SAPUTRA", submit: 0 },
-        { nama: "ARIF MAULANA", submit: 16 },
-        { nama: "ARIF MIFTAKHUL HUDA", submit: 6 },
-        { nama: "ARIF PURNOMO", submit: 0 },
-        { nama: "ARIF RAHMAN", submit: 0 },
-        { nama: "ARIFIN YULIANTO", submit: 0 },
-        { nama: "ARIS SETIAWAN", submit: 0 },
-        { nama: "ASEP PURWANTO", submit: 0 },
-        { nama: "ASNAWI", submit: 0 },
-        { nama: "ATANG WILDAN", submit: 0 },
-        { nama: "BAHTIAR ANWAR", submit: 0 },
-        { nama: "BANGKIT SAPUTRA", submit: 0 },
-        { nama: "BANGUN SOLEH SAPUTRA", submit: 0 },
-        { nama: "BELI APRI YANTO", submit: 0 },
-        { nama: "BERLIAN SYAH PUTRA", submit: 7 },
-        { nama: "BUDIMAN", submit: 0 },
-        { nama: "DARMAWAN", submit: 0 },
-        { nama: "DARU PURNOMO", submit: 0 },
-        { nama: "DARYONO", submit: 0 },
-        { nama: "DEDI ANTONI", submit: 1 },
-        { nama: "DEDI GUNAWAN", submit: 0 },
-        { nama: "DEDIK IRAWAN", submit: 0 },
-        { nama: "DEFRI SATRIA", submit: 0 },
-        { nama: "DENDI RUSMIADI", submit: 5 },
-        { nama: "DENI PRASETYO", submit: 0 },
-        { nama: "DIDI SUWARDI", submit: 0 },
-        { nama: "DIDIH MUNAEJI", submit: 0 },
-        { nama: "DIDIK PRIYO UTOMO", submit: 0 },
-        { nama: "DIDIN JAMJUDIN", submit: 0 },
-        { nama: "DIKA JULI ANDRI", submit: 0 },
-        { nama: "DJUNARDI", submit: 0 },
-        { nama: "DWI AFIANTO", submit: 0 },
-        { nama: "DWI PURWANTO", submit: 1 },
-        { nama: "DWI SUPRIYADI", submit: 0 },
-        { nama: "EDY WINARTO", submit: 0 },
-        { nama: "FAHRUDIN", submit: 0 },
-        { nama: "FAJAR WAHYU DJULIARDI", submit: 0 },
-        { nama: "FATKHUL ARIF", submit: 0 },
-        { nama: "FEBI GIANTIKA RAMDANI", submit: 0 },
-        { nama: "FEBRI FANI RIZAWANTO", submit: 0 },
-        { nama: "HARTONO", submit: 0 },
-        { nama: "HARYANTO", submit: 0 },
-        { nama: "HENDRI", submit: 0 },
-        { nama: "HENDRIANSYAH", submit: 0 },
-        { nama: "HERMANTO", submit: 0 },
-        { nama: "HERU", submit: 0 },
-        { nama: "HERWANTO", submit: 0 },
-        { nama: "HODI IRWAN HANDIKI", submit: 0 },
-        { nama: "IDRIS PRATAMA", submit: 0 },
-        { nama: "IMAM SETYONO", submit: 0 },
-        { nama: "INDRA SURYA FATAH", submit: 1 },
-        { nama: "IQBAL IKHFANI AZIS", submit: 0 },
-        { nama: "IRFANUDIN", submit: 2 },
-        { nama: "IRVAN SEPTIN LEGISTA", submit: 0 },
-        { nama: "IRWAN FERIYANTO", submit: 0 },
-        { nama: "ISTANTO", submit: 0 },
-        { nama: "JANU WIYONO", submit: 0 },
-        { nama: "JAROT WIDARSO", submit: 0 },
-        { nama: "JOKO MARDIONO", submit: 0 },
-        { nama: "JUWARSO", submit: 0 },
-        { nama: "KARNO TRI WIDODO", submit: 0 },
-        { nama: "KASMANTO", submit: 7 },
-        { nama: "KEMAN", submit: 0 },
-        { nama: "KHUMAEDI", submit: 16 },
-        { nama: "KRISNATIANTO TANJUNG", submit: 0 },
-        { nama: "LEO SUGIARTO", submit: 0 },
-        { nama: "M CANDRA ZULIYANTO", submit: 0 },
-        { nama: "M SHOLIHQIN", submit: 0 },
-        { nama: "MAHFUDH QOSIM", submit: 0 },
-        { nama: "MAMAN SUPRIYATNA", submit: 0 },
-        { nama: "MARDIAN HENDRAWAN", submit: 2 },
-        { nama: "MARIYOTO", submit: 0 },
-        { nama: "MOCH. KHARIS", submit: 0 },
-        { nama: "MOCHAMMAD ANDRIANTO", submit: 0 },
-        { nama: "MOCHAMMAD MUHFIDIN", submit: 0 },
-        { nama: "MOHAMAD RIZAL SETIA BANGUN", submit: 0 },
-        { nama: "MUDZAKIR", submit: 0 },
-        { nama: "MUFID SYAFII", submit: 1 },
-        { nama: "MUHAMMAD RIFQI SHODIQIN", submit: 0 },
-        { nama: "MUHAMMAD SARIFUDIN", submit: 0 },
-        { nama: "MUKHLISIN", submit: 0 },
-        { nama: "MULYADI", submit: 0 },
-        { nama: "MUSLIM", submit: 0 },
-        { nama: "MUSTANGIN", submit: 0 },
-        { nama: "NAJIH IMTIHANI", submit: 0 },
-        { nama: "NANANG SUKANA", submit: 0 },
-        { nama: "NANANG SUNARYO", submit: 0 },
-        { nama: "NANDA MEIDONA", submit: 1 },
-        { nama: "NGADINO", submit: 0 },
-        { nama: "NOVAL ANDIKA BAYO", submit: 0 },
-        { nama: "NOVI YUNAEDI", submit: 2 },
-        { nama: "NUGROHO DWI CAHYO", submit: 0 },
-        { nama: "NUR HIDAYAT", submit: 0 },
-        { nama: "NUR HOLIK", submit: 0 },
-        { nama: "NUROKHMAN", submit: 0 },
-        { nama: "NURWAKHIDIN", submit: 0 },
-        { nama: "OKI SUTIAWAN", submit: 0 },
-        { nama: "OKY MEGAKUSUMA", submit: 0 },
-        { nama: "PANGGIH RIBOWO", submit: 4 },
-        { nama: "PRASETIYO", submit: 0 },
-        { nama: "PRATONO", submit: 0 },
-        { nama: "PRITA AULIA", submit: 0 },
-        { nama: "PRIYO SUSANTO", submit: 0 },
-        { nama: "PUDIANTORO", submit: 1 },
-        { nama: "PURWANTO", submit: 0 },
-        { nama: "RAMADHANI LUTHFI MUKTAFI", submit: 0 },
-        { nama: "RAMDHAN EKO PRASETYO", submit: 0 },
-        { nama: "RASITO", submit: 0 },
-        { nama: "RIZKI PRATAMA", submit: 0 },
-        { nama: "ROBY NORMAN", submit: 0 },
-        { nama: "ROCHMADI", submit: 5 },
-        { nama: "ROHMAD TULLOH ISA", submit: 2 },
-        { nama: "ROKI PERMANA", submit: 0 },
-        { nama: "RUDI HARTONO", submit: 0 },
-        { nama: "SANTO", submit: 0 },
-        { nama: "SAPRUDIN", submit: 0 },
-        { nama: "SARENGAT", submit: 0 },
-        { nama: "SARWOKO", submit: 0 },
-        { nama: "SATRI YULI PRAYOGO", submit: 0 },
-        { nama: "SENTOT", submit: 0 },
-        { nama: "SETYANA IAN PRADIBTA", submit: 0 },
-        { nama: "SIGIT WIHARSO", submit: 0 },
-        { nama: "SIROJUL KHOZANI", submit: 0 },
-        { nama: "SLAMET HARYONO", submit: 0 },
-        { nama: "SRIYANTO", submit: 3 },
-        { nama: "SUGIYANTO", submit: 0 },
-        { nama: "SUKARNA", submit: 0 },
-        { nama: "SUKMA GUGUN GUNAWAN", submit: 0 },
-        { nama: "SUNARI", submit: 0 },
-        { nama: "SUNARJO", submit: 0 },
-        { nama: "SUPARTO", submit: 0 },
-        { nama: "SUPRIYADI", submit: 0 },
-        { nama: "SURATMO", submit: 0 },
-        { nama: "TATO NITI ERLIANTO", submit: 0 },
-        { nama: "TOBI'IN", submit: 0 },
-        { nama: "TOBRONI", submit: 1 },
-        { nama: "TRI SUTRISNA", submit: 0 },
-        { nama: "TRIMO", submit: 0 },
-        { nama: "TRISWIYATNO", submit: 0 },
-        { nama: "TRIYONO", submit: 0 },
-        { nama: "TURSINAH", submit: 5 },
-        { nama: "UMAR WIDODO", submit: 0 },
-        { nama: "URIP SETIAJI", submit: 1 },
-        { nama: "WAHYONO", submit: 0 },
-        { nama: "WAHYUDI", submit: 0 },
-        { nama: "WAROKHIM", submit: 0 },
-        { nama: "WARTOYO", submit: 0 },
-        { nama: "WIDIANTORO", submit: 0 },
-        { nama: "WINA KARTIKA", submit: 1 },
-        { nama: "YANUAR RENDY FIRDAUS", submit: 0 },
-        { nama: "YASODIK", submit: 0 },
-        { nama: "YOGA FAJAR ASIDIQ", submit: 0 },
-        { nama: "YUDHA YUNIAR DINANTA", submit: 0 },
-        { nama: "YUNIAR DWI UTOMO", submit: 0 },
-        { nama: "YUSLIMU KHOIRI", submit: 0 },
-        { nama: "YUSUF ISMAIL", submit: 0 },
-        { nama: "ZAENAL ARIFIN", submit: 1 }
+        { nama: "WIRYO AGATHA PUTERA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IGNATIUS DANANG SASONGKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOHAMMAD ALFIN KARIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AAN NURDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL AZIZ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL IMAM LATIF", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL MAHMUD", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ACHMAD KAMAL FIKRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADE DERMAWAN", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADITYA LESMANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADITYA PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AFIT WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG DHESCA PERMANA PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG WIERATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS ADI SUBARUDIN", submit: [9, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS PEBRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS SETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS WIDODO", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD MUKHALIT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD TAUFIK HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ALI MASRUR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AMAL MUSTAKIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDI ROMIADI", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDRI DARMANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDRIAN KURNIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDRIAN TRI ANGGORO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANGGA BIMA SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF MAULANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF MIFTAKHUL HUDA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF RAHMAN", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIFIN YULIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIS SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ASEP PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ASNAWI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ATANG WILDAN", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BAHTIAR ANWAR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BANGKIT SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BANGUN SOLEH SAPUTRA", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BELI APRI YANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BERLIAN SYAH PUTRA", submit: [5, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BUDIMAN", submit: [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARU PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI ANTONI", submit: [0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WIRYO AGATHA PUTERA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IGNATIUS DANANG SASONGKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOHAMMAD ALFIN KARIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AAN NURDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL AZIZ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL IMAM LATIF", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL MAHMUD", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ACHMAD KAMAL FIKRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADE DERMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADITYA LESMANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADITYA PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AFIT WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG DHESCA PERMANA PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG KRISTIAWAN RIYO PAMBUDI", submit: [1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG WIERATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS ADI SUBARUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS PEBRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS SETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS WIDODO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD MUKHALIT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD TAUFIK HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ALI MASRUR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AMAL MUSTAKIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDI ROMIADI", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDRI DARMANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDRIAN KURNIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDRIAN TRI ANGGORO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANGGA BIMA SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF MAULANA", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF MIFTAKHUL HUDA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF RAHMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIFIN YULIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIS SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ASEP PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ASNAWI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BAHTIAR ANWAR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BANGKIT SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BANGUN SOLEH SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BELI APRI YANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BERLIAN SYAH PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BUDIMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARU PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI ANTONI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUHAMMAD RIFQI SHODIQIN", submit: [0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUHAMMAD SARIFUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUKHLISIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MULYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUSLIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUSTANGIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NAJIH IMTIHANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NANANG SUKANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NANANG SUNARYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NANDA MEIDONA", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NGADINO", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NOVAL ANDIKA BAYO", submit: [1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NOVI YUNAEDI", submit: [3, 4, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NUGROHO DWI CAHYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NUR HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NUR HOLIK", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NUROKHMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NURWAKHIDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "OKI SUTIAWAN", submit: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "OKY MEGAKUSUMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PANGGIH RIBOWO", submit: [5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRASETIYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRATONO", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRITA AULIA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRIYO SUSANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PUDIANTORO", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RAMADHANI LUTHFI MUKTAFI", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RAMDHAN EKO PRASETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RASITO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RIZKI PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROBY NORMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROCHMADI", submit: [7, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROHMAD TULLOH ISA", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROKI PERMANA", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RUDI HARTONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SAPRUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SARENGAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SARWOKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SATRI YULI PRAYOGO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SENTOT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SETYANA IAN PRADIBTA", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SIGIT WIHARSO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SIROJUL KHOZANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SLAMET HARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SRIYANTO", submit: [3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUGIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUKARNA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUKMA GUGUN GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUNARI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUNARJO", submit: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUPARTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUPRIYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SURATMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TATO NITI ERLIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TOBI'IN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TOBRONI", submit: [1, 1, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRI SUTRISNA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRIMO", submit: [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRISWIYATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRIYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TURSINAH", submit: [5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "UMAR WIDODO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "URIP SETIAJI", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAHYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAROKHIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WARTOYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WIDIANTORO", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WINA KARTIKA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YANUAR RENDY FIRDAUS", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YASODIK", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YOGA FAJAR ASIDIQ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUDHA YUNIAR DINANTA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUNIAR DWI UTOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUSLIMU KHOIRI", submit: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUSUF ISMAIL", submit: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ZAENAL ARIFIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
     ],
-    "Production Planning & Control Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Remanufacturing Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Plant Operation": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Design Engineering Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Production Engineering Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Product Research & Development Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Prototype & Testing Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Quality Assurance Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Quality Control 1 Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Quality Control 2 Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Marketing & Cost Estimator Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Inventory & Warehouse Management Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Vendor Management Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Subcont Development Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Information System Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Digitalization Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Command Center Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Finance Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Accounting Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Tax Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Procurement Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Internal Control Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Human Capital Strategic Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate HC Administration & Services Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Safety, Health & Security Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Corporate Sustainability & General Services Department": [{ nama: "Nama Karyawan 1", submit: 0 }],
-    "Patria Development Center": [{ nama: "Nama Karyawan 1", submit: 0 }]
+
+    "Production Planning & Control Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Remanufacturing Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Plant Operation": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Design Engineering Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Production Engineering Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Product Research & Development Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Prototype & Testing Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Quality Assurance Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Quality Control 1 Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Quality Control 2 Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Marketing & Cost Estimator Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Inventory & Warehouse Management Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Vendor Management Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Subcont Development Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Information System Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Digitalization Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Command Center Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Finance Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Accounting Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Tax Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Procurement Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Internal Control Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Human Capital Strategic Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate HC Administration & Services Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Safety, Health & Security Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Corporate Sustainability & General Services Department": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ],
+
+    "Patria Development Center": [
+        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    ]
 };
 
 // ============================================================
@@ -524,11 +591,40 @@ function getTargetPerWorker(deptName, bulan) {
 }
 
 // ============================================================
-// HELPER — Hitung total submit semua worker di dept
+// FIX UTAMA: Hitung total submit seorang worker sampai bulan N
+// submit adalah array 12 elemen [Jan, Feb, Mar, ... Des]
+// Jumlahkan index 0 s/d bulan-1
 // ============================================================
 
-function getTotalSubmit(deptName) {
-    return (workerData[deptName] || []).reduce((sum, w) => sum + w.submit, 0);
+function getWorkerSubmitUntilMonth(worker, bulan) {
+    return worker.submit.slice(0, bulan).reduce((sum, val) => sum + val, 0);
+}
+
+// ============================================================
+// HELPER — Hitung total submit semua worker di dept sampai bulan N
+// ============================================================
+
+function getTotalSubmit(deptName, bulan) {
+    return (workerData[deptName] || []).reduce(
+        (sum, w) => sum + getWorkerSubmitUntilMonth(w, bulan),
+        0
+    );
+}
+
+// ============================================================
+// HELPER — Submit per bulan (untuk bar/trend chart) — semua dept
+// Mengembalikan array 12 elemen, per bulan
+// ============================================================
+
+function getSubmitPerBulanDept(deptName) {
+    const workers = workerData[deptName] || [];
+    const hasil = Array(12).fill(0);
+    workers.forEach(w => {
+        w.submit.forEach((val, idx) => {
+            hasil[idx] += val;
+        });
+    });
+    return hasil;
 }
 
 // ============================================================
@@ -567,10 +663,10 @@ function getDivisionStats(divisionKey, bulan) {
     let totalWorker = 0, totalSubmit = 0, totalTarget = 0;
     depts.forEach(dept => {
         const workers = workerData[dept] || [];
-        const target  = getTargetPerWorker(dept, bulan);
-        totalWorker  += workers.length;
-        totalTarget  += workers.length * target;
-        totalSubmit  += getTotalSubmit(dept);
+        const target = getTargetPerWorker(dept, bulan);
+        totalWorker += workers.length;
+        totalTarget += workers.length * target;
+        totalSubmit += getTotalSubmit(dept, bulan);
     });
     return { total: totalWorker, submit: totalSubmit, target: totalTarget };
 }
@@ -580,10 +676,10 @@ function getDivisionStats(divisionKey, bulan) {
 // ============================================================
 
 function getDepartmentStats(deptName, bulan) {
-    const workers    = workerData[deptName] || [];
-    const target     = getTargetPerWorker(deptName, bulan);
+    const workers = workerData[deptName] || [];
+    const target = getTargetPerWorker(deptName, bulan);
     const totalTarget = workers.length * target;
-    const totalSubmit = getTotalSubmit(deptName);
+    const totalSubmit = getTotalSubmit(deptName, bulan);
     return { total: workers.length, submit: totalSubmit, target: totalTarget };
 }
 
@@ -592,15 +688,15 @@ function getDepartmentStats(deptName, bulan) {
 // ============================================================
 
 function getProductionStats(bulan) {
-    let plant  = { total: 0, submit: 0, target: 0 };
+    let plant = { total: 0, submit: 0, target: 0 };
     let office = { total: 0, submit: 0, target: 0 };
 
     Object.keys(workerData).forEach(deptName => {
         const workers = workerData[deptName] || [];
-        const target  = getTargetPerWorker(deptName, bulan);
-        const submit  = getTotalSubmit(deptName);
-        const bucket  = isPlantDepartment(deptName) ? plant : office;
-        bucket.total  += workers.length;
+        const target = getTargetPerWorker(deptName, bulan);
+        const submit = getTotalSubmit(deptName, bulan);
+        const bucket = isPlantDepartment(deptName) ? plant : office;
+        bucket.total += workers.length;
         bucket.target += workers.length * target;
         bucket.submit += submit;
     });
@@ -615,9 +711,9 @@ function getProductionStats(bulan) {
 function generateDepartmentRanking(bulan) {
     return Object.keys(workerData).map(deptName => {
         const workers = workerData[deptName] || [];
-        const submit  = getTotalSubmit(deptName);
-        const target  = workers.length * getTargetPerWorker(deptName, bulan);
-        const pct     = target === 0 ? 0 : (submit / target) * 100;
+        const submit = getTotalSubmit(deptName, bulan);
+        const target = workers.length * getTargetPerWorker(deptName, bulan);
+        const pct = target === 0 ? 0 : (submit / target) * 100;
         return { nama: deptName, total: workers.length, submit, target, pct };
     }).sort((a, b) => b.pct - a.pct);
 }
@@ -642,7 +738,7 @@ function shortenName(nama) {
 function renderTableBody(tbodyId, data, topN) {
     const tbody = document.getElementById(tbodyId);
     if (!tbody) return;
-    const list  = topN ? data.slice(0, topN) : data;
+    const list = topN ? data.slice(0, topN) : data;
     const total = list.reduce((s, i) => s + i.jumlah, 0);
     tbody.innerHTML = list.map((item, idx) => {
         const pct = total === 0 ? "0%" : ((item.jumlah / total) * 100).toFixed(1) + "%";
@@ -671,7 +767,7 @@ function updateNote(noteId, bulan) {
 
 function renderTopTier(bulan) {
     const tindakan = akumulasiData(tindakanPerBulan, bulan);
-    const kondisi  = akumulasiData(kondisiPerBulan, bulan);
+    const kondisi = akumulasiData(kondisiPerBulan, bulan);
 
     if (tindakan.length === 0) {
         const tbody = document.getElementById("tindakanTableBody");
@@ -695,7 +791,7 @@ function renderTopTier(bulan) {
 // ============================================================
 
 function renderKategori(bulan) {
-    const kat    = akumulasiData(kategoriPerBulan, bulan);
+    const kat = akumulasiData(kategoriPerBulan, bulan);
     const subKat = akumulasiData(subKategoriPerBulan, bulan);
 
     const staticKat = ["Workshop", "Warehouse", "Office Area", "Yard & Area Pendukung"];
@@ -729,15 +825,15 @@ function renderKategori(bulan) {
 // CHART INSTANCES
 // ============================================================
 
-let plantChartInst  = null;
+let plantChartInst = null;
 let officeChartInst = null;
-let plantBarInst    = null;
-let officeBarInst   = null;
-let pieChartInst    = null;
-let deptPieInst     = null;
-let barChartInst    = null;
+let plantBarInst = null;
+let officeBarInst = null;
+let pieChartInst = null;
+let deptPieInst = null;
+let barChartInst = null;
 let submitChartInst = null;
-let yearTrendInst   = null;
+let yearTrendInst = null;
 
 function destroyIfExists(ref) {
     if (ref) { ref.destroy(); }
@@ -752,12 +848,14 @@ function renderHomeCharts(bulan) {
     const { plant, office } = getProductionStats(bulan);
 
     // Info cards
-    document.getElementById("plantTotal").innerText  = plant.total;
-    document.getElementById("plantTarget").innerText = plant.target;
-    document.getElementById("plantBelum").innerText  = plant.submit;
-    document.getElementById("officeTotal").innerText  = office.total;
-    document.getElementById("officeTarget").innerText = office.target;
-    document.getElementById("officeBelum").innerText  = office.submit;
+    const safeSet = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
+
+    safeSet("plantTotal", plant.total);
+    safeSet("plantTarget", plant.target);
+    safeSet("plantBelum", plant.submit);
+    safeSet("officeTotal", office.total);
+    safeSet("officeTarget", office.target);
+    safeSet("officeBelum", office.submit);
 
     // Pencapaian %
     const totalSubmitAll = plant.submit + office.submit;
@@ -768,116 +866,139 @@ function renderHomeCharts(bulan) {
 
     // Jumlah Temuan — akumulasi sampai bulan terpilih
     const totalTindakan = totalAkumulasi(tindakanPerBulan, bulan);
-    const totalKondisi  = totalAkumulasi(kondisiPerBulan, bulan);
-    const totalTemuan   = totalTindakan + totalKondisi;
+    const totalKondisi = totalAkumulasi(kondisiPerBulan, bulan);
+    const totalTemuan = totalTindakan + totalKondisi;
 
-    document.getElementById("jumlahTemuan").innerText    = totalTemuan;
-    document.getElementById("unsafeAction").innerText    = totalTindakan;
-    document.getElementById("unsafeCondition").innerText = totalKondisi;
-    document.getElementById("bulanTemuan").innerText     = `BULAN ${NAMA_BULAN[bulan].toUpperCase()} 2026`;
+    safeSet("jumlahTemuan", totalTemuan);
+    safeSet("unsafeAction", totalTindakan);
+    safeSet("unsafeCondition", totalKondisi);
+    safeSet("bulanTemuan", `BULAN ${NAMA_BULAN[bulan].toUpperCase()} 2026`);
 
     // Doughnut Production
     plantChartInst = destroyIfExists(plantChartInst);
-    plantChartInst = new Chart(document.getElementById("plantChart"), {
-        type: "doughnut",
-        data: {
-            labels: ["Submit", "Belum"],
-            datasets: [{
-                data: [plant.submit, Math.max(0, plant.target - plant.submit)],
-                backgroundColor: ["#24557a", "#b9dfff"]
-            }]
-        },
-        options: {
-            plugins: {
-                legend: { position: "bottom" },
-                datalabels: {
-                    color: "#fff", font: { size: 16, weight: "bold" },
-                    formatter: v => plant.target === 0 ? "0%" : (v / plant.target * 100).toFixed(1) + "%"
+    const plantCtx = document.getElementById("plantChart");
+    if (plantCtx) {
+        plantChartInst = new Chart(plantCtx, {
+            type: "doughnut",
+            data: {
+                labels: ["Submit", "Belum"],
+                datasets: [{
+                    data: [plant.submit, Math.max(0, plant.target - plant.submit)],
+                    backgroundColor: ["#24557a", "#b9dfff"]
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: { position: "bottom" },
+                    datalabels: {
+                        color: "#fff", font: { size: 16, weight: "bold" },
+                        formatter: v => plant.target === 0 ? "0%" : (v / plant.target * 100).toFixed(1) + "%"
+                    }
                 }
             }
-        }
-    });
+        });
+    }
 
     // Doughnut Non Production
     officeChartInst = destroyIfExists(officeChartInst);
-    officeChartInst = new Chart(document.getElementById("officeChart"), {
-        type: "doughnut",
-        data: {
-            labels: ["Submit", "Belum"],
-            datasets: [{
-                data: [office.submit, Math.max(0, office.target - office.submit)],
-                backgroundColor: ["#24557a", "#b9dfff"]
-            }]
-        },
-        options: {
-            plugins: {
-                legend: { position: "bottom" },
-                datalabels: {
-                    color: "#fff", font: { size: 16, weight: "bold" },
-                    formatter: v => office.target === 0 ? "0%" : (v / office.target * 100).toFixed(1) + "%"
+    const officeCtx = document.getElementById("officeChart");
+    if (officeCtx) {
+        officeChartInst = new Chart(officeCtx, {
+            type: "doughnut",
+            data: {
+                labels: ["Submit", "Belum"],
+                datasets: [{
+                    data: [office.submit, Math.max(0, office.target - office.submit)],
+                    backgroundColor: ["#24557a", "#b9dfff"]
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: { position: "bottom" },
+                    datalabels: {
+                        color: "#fff", font: { size: 16, weight: "bold" },
+                        formatter: v => office.target === 0 ? "0%" : (v / office.target * 100).toFixed(1) + "%"
+                    }
                 }
+            }
+        });
+    }
+
+    // ============================================================
+    // FIX BAR CHART: Tampilkan submit aktual per bulan 
+    // ============================================================
+
+    const labelsBulan = BULAN_SHORT.slice(1, bulan + 1);
+
+    // Hitung submit plant & office per bulan secara aktual
+    const plantBarData = Array(bulan).fill(0);
+    const officeBarData = Array(bulan).fill(0);
+
+    Object.keys(workerData).forEach(deptName => {
+        const perBulanArr = getSubmitPerBulanDept(deptName);
+        const isPlant = isPlantDepartment(deptName);
+        for (let b = 0; b < bulan; b++) {
+            if (isPlant) {
+                plantBarData[b] += perBulanArr[b];
+            } else {
+                officeBarData[b] += perBulanArr[b];
             }
         }
     });
 
-    // Bar Production — tampilkan per bulan sampai bulan terpilih
-    const labelsBulan  = BULAN_SHORT.slice(1, bulan + 1);
-
-    // Kalkulasi submit per bulan untuk bar chart (distribusi merata)
-    const plantBarData = Array(bulan).fill(0);
-    plantBarData[bulan - 1] = plant.submit;
-
     plantBarInst = destroyIfExists(plantBarInst);
-    plantBarInst = new Chart(document.getElementById("plantBar"), {
-        type: "bar",
-        data: {
-            labels: labelsBulan,
-            datasets: [{
-                data: plantBarData,
-                backgroundColor: "#3b82b8",
-                borderRadius: 14
-            }]
-        },
-        options: {
-            plugins: {
-                legend: { display: false },
-                datalabels: {
-                    anchor: "end", align: "top", color: "#183b56", font: { weight: "bold" },
-                    formatter: v => v > 0 ? v : ""
-                }
+    const plantBarCtx = document.getElementById("plantBar");
+    if (plantBarCtx) {
+        plantBarInst = new Chart(plantBarCtx, {
+            type: "bar",
+            data: {
+                labels: labelsBulan,
+                datasets: [{
+                    data: plantBarData,
+                    backgroundColor: "#3b82b8",
+                    borderRadius: 14
+                }]
             },
-            scales: { y: { beginAtZero: true } }
-        },
-        plugins: [ChartDataLabels]
-    });
-
-    // Bar Non Production
-    const officeBarData = Array(bulan).fill(0);
-    officeBarData[bulan - 1] = office.submit;
+            options: {
+                plugins: {
+                    legend: { display: false },
+                    datalabels: {
+                        anchor: "end", align: "top", color: "#183b56", font: { weight: "bold" },
+                        formatter: v => v > 0 ? v : ""
+                    }
+                },
+                scales: { y: { beginAtZero: true } }
+            },
+            plugins: [ChartDataLabels]
+        });
+    }
 
     officeBarInst = destroyIfExists(officeBarInst);
-    officeBarInst = new Chart(document.getElementById("officeBar"), {
-        type: "bar",
-        data: {
-            labels: labelsBulan,
-            datasets: [{
-                data: officeBarData,
-                backgroundColor: "#24557a",
-                borderRadius: 14
-            }]
-        },
-        options: {
-            plugins: {
-                legend: { display: false },
-                datalabels: {
-                    anchor: "end", align: "top", color: "#183b56", font: { weight: "bold" },
-                    formatter: v => v > 0 ? v : ""
-                }
+    const officeBarCtx = document.getElementById("officeBar");
+    if (officeBarCtx) {
+        officeBarInst = new Chart(officeBarCtx, {
+            type: "bar",
+            data: {
+                labels: labelsBulan,
+                datasets: [{
+                    data: officeBarData,
+                    backgroundColor: "#24557a",
+                    borderRadius: 14
+                }]
             },
-            scales: { y: { beginAtZero: true } }
-        },
-        plugins: [ChartDataLabels]
-    });
+            options: {
+                plugins: {
+                    legend: { display: false },
+                    datalabels: {
+                        anchor: "end", align: "top", color: "#183b56", font: { weight: "bold" },
+                        formatter: v => v > 0 ? v : ""
+                    }
+                },
+                scales: { y: { beginAtZero: true } }
+            },
+            plugins: [ChartDataLabels]
+        });
+    }
 }
 
 // ============================================================
@@ -887,7 +1008,9 @@ function renderHomeCharts(bulan) {
 function renderDivisionPie(submit, target) {
     const notAchieve = Math.max(0, target - submit);
     pieChartInst = destroyIfExists(pieChartInst);
-    pieChartInst = new Chart(document.getElementById("pieChart"), {
+    const ctx = document.getElementById("pieChart");
+    if (!ctx) return;
+    pieChartInst = new Chart(ctx, {
         type: "doughnut",
         data: {
             labels: ["Achieve", "Not Achieve"],
@@ -913,7 +1036,9 @@ function renderDivisionPie(submit, target) {
 function renderDepartmentPie(submit, target) {
     const notAchieve = Math.max(0, target - submit);
     deptPieInst = destroyIfExists(deptPieInst);
-    deptPieInst = new Chart(document.getElementById("departmentPie"), {
+    const ctx = document.getElementById("departmentPie");
+    if (!ctx) return;
+    deptPieInst = new Chart(ctx, {
         type: "doughnut",
         data: {
             labels: ["Achieve", "Not Achieve"],
@@ -942,7 +1067,9 @@ function renderDepartmentPie(submit, target) {
 function renderBarChart(bulan) {
     const ranking = generateDepartmentRanking(bulan).slice(0, 5);
     barChartInst = destroyIfExists(barChartInst);
-    barChartInst = new Chart(document.getElementById("barChart"), {
+    const ctx = document.getElementById("barChart");
+    if (!ctx) return;
+    barChartInst = new Chart(ctx, {
         type: "bar",
         data: {
             labels: ranking.map(d => shortenDeptName(d.nama)),
@@ -1002,35 +1129,48 @@ function renderBarChart(bulan) {
 
 // ============================================================
 // RENDER — TABEL + CHART TOP SUBMIT PEKERJA — pakai bulan aktif
+// FIX: submit dihitung akumulasi sampai bulan N
 // ============================================================
 
 function renderTopSubmit(deptName, bulan) {
     const workers = workerData[deptName] || [];
-    const target  = getTargetPerWorker(deptName, bulan);
-    const sorted  = [...workers].sort((a, b) => b.submit - a.submit).slice(0, 5);
+    const target = getTargetPerWorker(deptName, bulan);
 
-    document.getElementById("submitTable").innerHTML = sorted.map((item, i) => {
-        const achieve = item.submit >= target ? "Achieve" : "NonAchieve";
-        const badge   = achieve === "Achieve" ? "success" : "danger";
-        return `<tr>
-            <td>${i + 1}</td>
-            <td>${item.nama}</td>
-            <td>${item.submit}</td>
-            <td><span class="${badge}">${achieve}</span></td>
-        </tr>`;
-    }).join("");
+    // Buat array dengan submit terakumulasi sampai bulan N
+    const workersWithTotal = workers.map(w => ({
+        ...w,
+        totalSubmit: getWorkerSubmitUntilMonth(w, bulan)
+    }));
 
-    const maxVal   = sorted.length ? Math.max(...sorted.map(i => i.submit)) : target;
+    const sorted = [...workersWithTotal].sort((a, b) => b.totalSubmit - a.totalSubmit).slice(0, 5);
+
+    const submitTableEl = document.getElementById("submitTable");
+    if (submitTableEl) {
+        submitTableEl.innerHTML = sorted.map((item, i) => {
+            const achieve = item.totalSubmit >= target ? "Achieve" : "NonAchieve";
+            const badge = achieve === "Achieve" ? "success" : "danger";
+            return `<tr>
+                <td>${i + 1}</td>
+                <td>${item.nama}</td>
+                <td>${item.totalSubmit}</td>
+                <td><span class="${badge}">${achieve}</span></td>
+            </tr>`;
+        }).join("");
+    }
+
+    const maxVal = sorted.length ? Math.max(...sorted.map(i => i.totalSubmit)) : target;
     const chartMax = Math.max(maxVal + 2, target + 2);
 
     submitChartInst = destroyIfExists(submitChartInst);
-    submitChartInst = new Chart(document.getElementById("submitChart"), {
+    const ctx = document.getElementById("submitChart");
+    if (!ctx) return;
+    submitChartInst = new Chart(ctx, {
         type: "bar",
         data: {
             labels: sorted.map(item => shortenName(item.nama)),
             datasets: [{
                 label: "Jumlah Submit",
-                data: sorted.map(item => item.submit),
+                data: sorted.map(item => item.totalSubmit),
                 backgroundColor: ["#24557a", "#3b82b8", "#4b97d1", "#73b3e7", "#b9dfff"],
                 borderRadius: 12,
                 maxBarThickness: 60
@@ -1057,6 +1197,7 @@ function renderTopSubmit(deptName, bulan) {
 
 // ============================================================
 // RENDER — TREN TAHUNAN DEPARTMENT — pakai bulan aktif
+// FIX: gunakan data aktual per bulan dari workerData
 // ============================================================
 
 function renderTrendChart(deptName, bulan) {
@@ -1064,21 +1205,14 @@ function renderTrendChart(deptName, bulan) {
 
     const BULAN_LABEL = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Ags", "Sep", "Okt", "Nov", "Des"];
 
-    const workers     = workerData[deptName] || [];
-    // Target per bulan per orang (rate), bukan akumulasi — untuk garis target di chart
-    const rate        = isPlantDepartment(deptName) ? 4 : 1;
-    const targetPerBulan = workers.length * rate; // target tiap bulan
+    const workers = workerData[deptName] || [];
+    const rate = isPlantDepartment(deptName) ? 4 : 1;
+    const targetPerBulan = workers.length * rate; // target per bulan 
 
-    const totalSubmit = getTotalSubmit(deptName);
-
-    // Distribusi submit merata ke tiap bulan yang sudah lewat
-    const perBulan = bulan > 0 ? Math.floor(totalSubmit / bulan) : 0;
-    const sisa     = totalSubmit - perBulan * bulan;
+    const submitPerBulan = getSubmitPerBulanDept(deptName);
 
     const dataBar = BULAN_LABEL.map((_, i) => {
-        if (i < bulan - 1) return perBulan;
-        if (i === bulan - 1) return perBulan + sisa;
-        return 0;
+        return i < bulan ? submitPerBulan[i] : 0;
     });
 
     const datasets = [
@@ -1103,7 +1237,9 @@ function renderTrendChart(deptName, bulan) {
     ];
 
     yearTrendInst = destroyIfExists(yearTrendInst);
-    yearTrendInst = new Chart(document.getElementById("yearTrendChart"), {
+    const ctx = document.getElementById("yearTrendChart");
+    if (!ctx) return;
+    yearTrendInst = new Chart(ctx, {
         type: "bar",
         data: { labels: BULAN_LABEL, datasets },
         options: {
@@ -1123,19 +1259,23 @@ function renderTrendChart(deptName, bulan) {
 
 // ============================================================
 // RENDER — TABEL PEKERJA — pakai bulan aktif
+// FIX: submit dihitung akumulasi sampai bulan N
 // ============================================================
 
 function renderWorkerTable(deptName, bulan) {
     const workers = workerData[deptName] || [];
-    const target  = getTargetPerWorker(deptName, bulan);
-    document.getElementById("workerTable").innerHTML = workers.map((w, i) => {
-        const pct     = target === 0 ? "0" : ((w.submit / target) * 100).toFixed(0);
-        const achieve = w.submit >= target ? "Achieve" : "NonAchieve";
-        const badge   = achieve === "Achieve" ? "success" : "danger";
+    const target = getTargetPerWorker(deptName, bulan);
+    const workerTableEl = document.getElementById("workerTable");
+    if (!workerTableEl) return;
+    workerTableEl.innerHTML = workers.map((w, i) => {
+        const totalSubmit = getWorkerSubmitUntilMonth(w, bulan);
+        const pct = target === 0 ? "0" : ((totalSubmit / target) * 100).toFixed(0);
+        const achieve = totalSubmit >= target ? "Achieve" : "NonAchieve";
+        const badge = achieve === "Achieve" ? "success" : "danger";
         return `<tr>
             <td>${i + 1}</td>
             <td>${w.nama}</td>
-            <td>${w.submit}</td>
+            <td>${totalSubmit}</td>
             <td>${target}</td>
             <td><span class="${badge}">${achieve}</span></td>
             <td>${pct}%</td>
@@ -1168,24 +1308,36 @@ function showContentSections() {
 // ============================================================
 
 function showHome() {
-    document.getElementById("homeSection").style.display   = "block";
-    document.getElementById("hazardSection").style.display = "none";
-    document.getElementById("searchSection").style.display = "none";
-    document.getElementById("navDropdown").style.display   = "block";
+    const homeSection = document.getElementById("homeSection");
+    const hazardSection = document.getElementById("hazardSection");
+    const searchSection = document.getElementById("searchSection");
+    const navDropdown = document.getElementById("navDropdown");
+    if (homeSection) homeSection.style.display = "block";
+    if (hazardSection) hazardSection.style.display = "none";
+    if (searchSection) searchSection.style.display = "none";
+    if (navDropdown) navDropdown.style.display = "block";
 }
 
 function showHazard() {
-    document.getElementById("homeSection").style.display   = "none";
-    document.getElementById("hazardSection").style.display = "block";
-    document.getElementById("searchSection").style.display = "none";
-    document.getElementById("navDropdown").style.display   = "block";
+    const homeSection = document.getElementById("homeSection");
+    const hazardSection = document.getElementById("hazardSection");
+    const searchSection = document.getElementById("searchSection");
+    const navDropdown = document.getElementById("navDropdown");
+    if (homeSection) homeSection.style.display = "none";
+    if (hazardSection) hazardSection.style.display = "block";
+    if (searchSection) searchSection.style.display = "none";
+    if (navDropdown) navDropdown.style.display = "block";
 }
 
 function showSearch() {
-    document.getElementById("homeSection").style.display   = "none";
-    document.getElementById("hazardSection").style.display = "none";
-    document.getElementById("searchSection").style.display = "block";
-    document.getElementById("navDropdown").style.display   = "none";
+    const homeSection = document.getElementById("homeSection");
+    const hazardSection = document.getElementById("hazardSection");
+    const searchSection = document.getElementById("searchSection");
+    const navDropdown = document.getElementById("navDropdown");
+    if (homeSection) homeSection.style.display = "none";
+    if (hazardSection) hazardSection.style.display = "none";
+    if (searchSection) searchSection.style.display = "block";
+    if (navDropdown) navDropdown.style.display = "none";
 }
 
 // ============================================================
@@ -1201,36 +1353,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Ambil bulan awal dari dropdown navbar
     const globalMonthEl = document.getElementById("globalMonth");
-    let currentBulan    = parseInt(globalMonthEl.value);
+    if (!globalMonthEl) return;
+    let currentBulan = parseInt(globalMonthEl.value);
 
     // State untuk department yang sedang aktif
-    let activeDept     = null;
+    let activeDept = null;
     let activeDivision = null;
 
     // ============================================================
-    // DROPDOWN NAVBAR — saat bulan berubah, semua update otomatis
+    // DROPDOWN NAVBAR
     // ============================================================
     globalMonthEl.addEventListener("change", function () {
         currentBulan = parseInt(this.value);
 
-        // Update home page (target otomatis berubah)
         renderHomeCharts(currentBulan);
 
-        // Kalau division sudah dipilih, update stats division
         if (activeDivision) {
             const stats = getDivisionStats(activeDivision, currentBulan);
-            document.getElementById("jumlahPekerja").innerText = stats.total;
-            document.getElementById("sudahMengisi").innerText  = stats.submit;
-            document.getElementById("belumMengisi").innerText  = stats.target;
+            const jml = document.getElementById("jumlahPekerja");
+            const sdh = document.getElementById("sudahMengisi");
+            const blm = document.getElementById("belumMengisi");
+            if (jml) jml.innerText = stats.total;
+            if (sdh) sdh.innerText = stats.submit;
+            if (blm) blm.innerText = stats.target;
             renderDivisionPie(stats.submit, stats.target);
         }
 
-        // Kalau department sudah dipilih, update semua yang terkait
         if (activeDept) {
             const stats = getDepartmentStats(activeDept, currentBulan);
-            document.getElementById("jumlahPekerjaDept").innerText = stats.total;
-            document.getElementById("sudahMengisiDept").innerText  = stats.submit;
-            document.getElementById("belumMengisiDept").innerText  = stats.target;
+            const jmlD = document.getElementById("jumlahPekerjaDept");
+            const sdhD = document.getElementById("sudahMengisiDept");
+            const blmD = document.getElementById("belumMengisiDept");
+            if (jmlD) jmlD.innerText = stats.total;
+            if (sdhD) sdhD.innerText = stats.submit;
+            if (blmD) blmD.innerText = stats.target;
             renderDepartmentPie(stats.submit, stats.target);
             renderBarChart(currentBulan);
             renderWorkerTable(activeDept, currentBulan);
@@ -1238,14 +1394,13 @@ document.addEventListener("DOMContentLoaded", function () {
             renderTrendChart(activeDept, currentBulan);
         }
 
-        // Sinkron dropdown di search section agar sama
-        const filterTopTier  = document.getElementById("monthFilterTopTier");
+        const filterTopTier = document.getElementById("monthFilterTopTier");
         const filterKategori = document.getElementById("monthFilterKategori");
-        if (filterTopTier)  filterTopTier.value  = String(currentBulan);
+        if (filterTopTier) filterTopTier.value = String(currentBulan);
         if (filterKategori) filterKategori.value = String(currentBulan);
 
-        // Kalau search section sedang terbuka, re-render
-        if (document.getElementById("searchSection").style.display !== "none") {
+        const searchSection = document.getElementById("searchSection");
+        if (searchSection && searchSection.style.display !== "none") {
             renderTopTier(currentBulan);
             renderKategori(currentBulan);
         }
@@ -1254,109 +1409,141 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
     // NAV BUTTONS
     // ============================================================
-    document.getElementById("viewHazardBtn").addEventListener("click", showHazard);
+    const viewHazardBtn = document.getElementById("viewHazardBtn");
+    if (viewHazardBtn) viewHazardBtn.addEventListener("click", showHazard);
 
-    document.getElementById("viewSearchBtn").addEventListener("click", function () {
+    const viewSearchBtn = document.getElementById("viewSearchBtn");
+    if (viewSearchBtn) viewSearchBtn.addEventListener("click", function () {
         showSearch();
-        // Sinkron bulan filter dengan global
         const m = parseInt(document.getElementById("globalMonth").value);
-        document.getElementById("monthFilterTopTier").value  = String(m);
-        document.getElementById("monthFilterKategori").value = String(m);
+        const filterTopTier = document.getElementById("monthFilterTopTier");
+        const filterKategori = document.getElementById("monthFilterKategori");
+        if (filterTopTier) filterTopTier.value = String(m);
+        if (filterKategori) filterKategori.value = String(m);
         renderTopTier(m);
         renderKategori(m);
     });
 
-    document.getElementById("backBtn").addEventListener("click", showHome);
-    document.getElementById("backSearchBtn").addEventListener("click", showHome);
+    const backBtn = document.getElementById("backBtn");
+    if (backBtn) backBtn.addEventListener("click", showHome);
+
+    const backSearchBtn = document.getElementById("backSearchBtn");
+    if (backSearchBtn) backSearchBtn.addEventListener("click", showHome);
 
     // ============================================================
     // FILTER DROPDOWN SEARCH SECTION — independen per tabel
     // ============================================================
-    document.getElementById("monthFilterTopTier").addEventListener("change", function () {
-        renderTopTier(parseInt(this.value));
-    });
+    const monthFilterTopTier = document.getElementById("monthFilterTopTier");
+    if (monthFilterTopTier) {
+        monthFilterTopTier.addEventListener("change", function () {
+            renderTopTier(parseInt(this.value));
+        });
+    }
 
-    document.getElementById("monthFilterKategori").addEventListener("change", function () {
-        renderKategori(parseInt(this.value));
-    });
+    const monthFilterKategori = document.getElementById("monthFilterKategori");
+    if (monthFilterKategori) {
+        monthFilterKategori.addEventListener("change", function () {
+            renderKategori(parseInt(this.value));
+        });
+    }
 
     // ============================================================
     // DIVISION SELECT
     // ============================================================
-    const divisionSelect   = document.getElementById("divisionSelect");
+    const divisionSelect = document.getElementById("divisionSelect");
     const departmentSelect = document.getElementById("departmentSelect");
 
-    divisionSelect.addEventListener("change", function () {
-        const val = this.value;
-        if (!val) return;
+    if (divisionSelect) {
+        divisionSelect.addEventListener("change", function () {
+            const val = this.value;
+            if (!val) return;
 
-        activeDivision = val;
-        activeDept     = null;
+            activeDivision = val;
+            activeDept = null;
 
-        const stats = getDivisionStats(val, currentBulan);
-        document.getElementById("jumlahPekerja").innerText = stats.total;
-        document.getElementById("sudahMengisi").innerText  = stats.submit;
-        document.getElementById("belumMengisi").innerText  = stats.target;
+            const stats = getDivisionStats(val, currentBulan);
+            const jml = document.getElementById("jumlahPekerja");
+            const sdh = document.getElementById("sudahMengisi");
+            const blm = document.getElementById("belumMengisi");
+            if (jml) jml.innerText = stats.total;
+            if (sdh) sdh.innerText = stats.submit;
+            if (blm) blm.innerText = stats.target;
 
-        renderDivisionPie(stats.submit, stats.target);
+            renderDivisionPie(stats.submit, stats.target);
 
-        // Populate department dropdown
-        departmentSelect.innerHTML = `<option value="">Choose Department</option>`;
-        (divisionData[val] || []).forEach(dept => {
-            const opt       = document.createElement("option");
-            opt.value       = dept;
-            opt.textContent = dept;
-            departmentSelect.appendChild(opt);
+            if (departmentSelect) {
+                departmentSelect.innerHTML = `<option value="">Choose Department</option>`;
+                (divisionData[val] || []).forEach(dept => {
+                    const opt = document.createElement("option");
+                    opt.value = dept;
+                    opt.textContent = dept;
+                    departmentSelect.appendChild(opt);
+                });
+            }
+
+            const deptSection = document.getElementById("departmentSection");
+            if (deptSection) deptSection.style.display = "flex";
+
+            const jmlD = document.getElementById("jumlahPekerjaDept");
+            const sdhD = document.getElementById("sudahMengisiDept");
+            const blmD = document.getElementById("belumMengisiDept");
+            if (jmlD) jmlD.innerText = "—";
+            if (sdhD) sdhD.innerText = "—";
+            if (blmD) blmD.innerText = "—";
+
+            hideContentSections();
         });
-
-        document.getElementById("departmentSection").style.display = "flex";
-        document.getElementById("jumlahPekerjaDept").innerText = "—";
-        document.getElementById("sudahMengisiDept").innerText  = "—";
-        document.getElementById("belumMengisiDept").innerText  = "—";
-
-        hideContentSections();
-    });
+    }
 
     // ============================================================
     // DEPARTMENT SELECT
     // ============================================================
-    departmentSelect.addEventListener("change", function () {
-        const dept = this.value;
-        if (!dept) return;
+    if (departmentSelect) {
+        departmentSelect.addEventListener("change", function () {
+            const dept = this.value;
+            if (!dept) return;
 
-        activeDept = dept;
+            activeDept = dept;
 
-        const stats = getDepartmentStats(dept, currentBulan);
-        document.getElementById("jumlahPekerjaDept").innerText = stats.total;
-        document.getElementById("sudahMengisiDept").innerText  = stats.submit;
-        document.getElementById("belumMengisiDept").innerText  = stats.target;
+            const stats = getDepartmentStats(dept, currentBulan);
+            const jmlD = document.getElementById("jumlahPekerjaDept");
+            const sdhD = document.getElementById("sudahMengisiDept");
+            const blmD = document.getElementById("belumMengisiDept");
+            if (jmlD) jmlD.innerText = stats.total;
+            if (sdhD) sdhD.innerText = stats.submit;
+            if (blmD) blmD.innerText = stats.target;
 
-        renderDepartmentPie(stats.submit, stats.target);
-        renderBarChart(currentBulan);
-        renderWorkerTable(dept, currentBulan);
-        renderTopSubmit(dept, currentBulan);
-        renderTrendChart(dept, currentBulan);
+            renderDepartmentPie(stats.submit, stats.target);
+            renderBarChart(currentBulan);
+            renderWorkerTable(dept, currentBulan);
+            renderTopSubmit(dept, currentBulan);
+            renderTrendChart(dept, currentBulan);
 
-        showContentSections();
-    });
+            showContentSections();
+        });
+    }
 
     // ============================================================
     // SEARCH PEKERJA — real-time filter
     // ============================================================
-    document.getElementById("searchWorker").addEventListener("keyup", function () {
-        const keyword = this.value.toLowerCase();
-        document.querySelectorAll("#workerTable tr").forEach(row => {
-            if (!row.children[1]) return;
-            row.style.display = row.children[1].textContent.toLowerCase().includes(keyword) ? "" : "none";
+    const searchWorkerEl = document.getElementById("searchWorker");
+    if (searchWorkerEl) {
+        searchWorkerEl.addEventListener("keyup", function () {
+            const keyword = this.value.toLowerCase();
+            document.querySelectorAll("#workerTable tr").forEach(row => {
+                if (!row.children[1]) return;
+                row.style.display = row.children[1].textContent.toLowerCase().includes(keyword) ? "" : "none";
+            });
         });
-    });
+    }
 
     // ============================================================
     // INISIALISASI AWAL — render home dengan bulan default
     // ============================================================
     renderHomeCharts(currentBulan);
 
-    document.getElementById("departmentSection").style.display = "none";
+    const deptSection = document.getElementById("departmentSection");
+    if (deptSection) deptSection.style.display = "none";
     hideContentSections();
 
-}); // end DOMContentLoaded
+}); 
