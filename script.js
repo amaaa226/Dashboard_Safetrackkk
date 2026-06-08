@@ -272,48 +272,8 @@ const workerData = {
         { nama: "DARU PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "DARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "DEDI ANTONI", submit: [0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WIRYO AGATHA PUTERA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "IGNATIUS DANANG SASONGKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MOHAMMAD ALFIN KARIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AAN NURDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL AZIZ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL IMAM LATIF", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL MAHMUD", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ACHMAD KAMAL FIKRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ADE DERMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AFIT WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUNG DHESCA PERMANA PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AGUNG KRISTIAWAN RIYO PAMBUDI", submit: [1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUNG WIERATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS ADI SUBARUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS PEBRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS SETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS WIDODO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AHMAD MUKHALIT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AHMAD TAUFIK HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ALI MASRUR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AMAL MUSTAKIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDI ROMIADI", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDRI DARMANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDRIAN KURNIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDRIAN TRI ANGGORO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANGGA BIMA SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIF PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIF RAHMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIFIN YULIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIS SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ASEP PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ASNAWI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BAHTIAR ANWAR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BANGKIT SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BANGUN SOLEH SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BELI APRI YANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BERLIAN SYAH PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BUDIMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARU PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DEDI ANTONI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDI ROMIADI (2)", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD RIFQI SHODIQIN", submit: [0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD SARIFUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUKHLISIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -949,6 +909,105 @@ const divisionData = {
 };
 
 // ============================================================
+// DATA STATUS TEMUAN PER DEPARTMENT PER BULAN
+// Format: open/close = array 12 elemen [jan,feb,mar,...,des]
+// Ganti angka sesuai data real kamu
+// ============================================================
+
+const departmentStatusData = {
+    "Manufacturing Department":           { open: [2,1,3,2,1,0,0,0,0,0,0,0], close: [1,2,1,3,2,0,0,0,0,0,0,0] },
+    "Production Planning & Control Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Remanufacturing Department":         { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Plant Operation":                    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "RBPS":                               { open: [5,3,4,6,2,0,0,0,0,0,0,0], close: [4,5,3,4,5,0,0,0,0,0,0,0] },
+    "RBPM":                               { open: [2,1,2,1,1,0,0,0,0,0,0,0], close: [1,2,1,2,1,0,0,0,0,0,0,0] },
+    "RJKT":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "RTMK":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "RSGT":                               { open: [3,2,4,3,1,0,0,0,0,0,0,0], close: [2,3,2,4,3,0,0,0,0,0,0,0] },
+    "RBJN":                               { open: [1,0,1,1,1,0,0,0,0,0,0,0], close: [0,1,0,1,0,0,0,0,0,0,0,0] },
+    "RADO":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "UBPK":                               { open: [1,0,1,0,0,0,0,0,0,0,0,0], close: [0,1,0,1,0,0,0,0,0,0,0,0] },
+    "RTJE":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Management Development & Risk Management Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Legal Department":         { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Communication Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Business Development Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Design Engineering Department":   { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Production Engineering Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Product Research & Development Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Prototype & Testing Department":  { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Quality Assurance Department":    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Quality Control 1 Department":              { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Quality Control 2 Department":              { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Marketing & Cost Estimator Department":       { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Inventory & Warehouse Management Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Vendor Management Department":    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Subcont Development Department":  { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Information System Department":   { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Digitalization Department":       { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Command Center Department":       { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Finance Department":              { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Accounting Department":           { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Tax Department":                  { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Procurement Department":          { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Internal Control Department":     { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Human Capital Strategic Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate HC Administration & Services Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Safety, Health & Security Department":    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Corporate Sustainability & General Services Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Patria Development Center":                 { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+};
+
+// ============================================================
+// HELPER — Akumulasi status open/close SEMUA dept sampai bulan N
+// ============================================================
+
+function getStatusTemuan(bulan) {
+    let totalOpen = 0, totalClose = 0;
+    Object.keys(departmentStatusData).forEach(dept => {
+        const d = departmentStatusData[dept];
+        for (let b = 0; b < bulan; b++) {
+            totalOpen  += (d.open[b]  || 0);
+            totalClose += (d.close[b] || 0);
+        }
+    });
+    return { open: totalOpen, close: totalClose };
+}
+
+// ============================================================
+// HELPER — Status open/close satu DIVISION sampai bulan N
+// ============================================================
+
+function getDivisionStatus(divisionKey, bulan) {
+    const depts = divisionData[divisionKey] || [];
+    let open = 0, close = 0;
+    depts.forEach(dept => {
+        const d = departmentStatusData[dept];
+        if (!d) return;
+        for (let b = 0; b < bulan; b++) {
+            open  += (d.open[b]  || 0);
+            close += (d.close[b] || 0);
+        }
+    });
+    return { open, close };
+}
+
+// ============================================================
+// HELPER — Status open/close satu DEPARTMENT sampai bulan N
+// ============================================================
+
+function getDepartmentStatus(deptName, bulan) {
+    const d = departmentStatusData[deptName];
+    if (!d) return { open: 0, close: 0 };
+    let open = 0, close = 0;
+    for (let b = 0; b < bulan; b++) {
+        open  += (d.open[b]  || 0);
+        close += (d.close[b] || 0);
+    }
+    return { open, close };
+}
+
+// ============================================================
 // KEYWORDS PRODUCTION (Plant)
 // ============================================================
 
@@ -959,9 +1018,8 @@ function isPlantDepartment(deptName) {
 }
 
 // ============================================================
-// TARGET PER PEKERJA — AKUMULASI OTOMATIS BERDASARKAN BULAN
-// Plant  : 4 × bulan
-// Office : 1 × bulan
+// TARGET PER PEKERJA
+// Plant  : 4 × bulan | Office : 1 × bulan
 // ============================================================
 
 function getTargetPerWorker(deptName, bulan) {
@@ -969,19 +1027,9 @@ function getTargetPerWorker(deptName, bulan) {
     return rate * bulan;
 }
 
-// ============================================================
-// FIX UTAMA: Hitung total submit seorang worker sampai bulan N
-// submit adalah array 12 elemen [Jan, Feb, Mar, ... Des]
-// Jumlahkan index 0 s/d bulan-1
-// ============================================================
-
 function getWorkerSubmitUntilMonth(worker, bulan) {
     return worker.submit.slice(0, bulan).reduce((sum, val) => sum + val, 0);
 }
-
-// ============================================================
-// HELPER — Hitung total submit semua worker di dept sampai bulan N
-// ============================================================
 
 function getTotalSubmit(deptName, bulan) {
     return (workerData[deptName] || []).reduce(
@@ -990,52 +1038,30 @@ function getTotalSubmit(deptName, bulan) {
     );
 }
 
-// ============================================================
-// HELPER — Submit per bulan (untuk bar/trend chart) — semua dept
-// Mengembalikan array 12 elemen, per bulan
-// ============================================================
-
 function getSubmitPerBulanDept(deptName) {
     const workers = workerData[deptName] || [];
     const hasil = Array(12).fill(0);
     workers.forEach(w => {
-        w.submit.forEach((val, idx) => {
-            hasil[idx] += val;
-        });
+        w.submit.forEach((val, idx) => { hasil[idx] += val; });
     });
     return hasil;
 }
-
-// ============================================================
-// HELPER — Akumulasi data dari bulan 1 sampai bulan N (OTOMATIS)
-// ============================================================
 
 function akumulasiData(dataPerBulan, sampai) {
     const map = {};
     for (let b = 1; b <= sampai; b++) {
         (dataPerBulan[b] || []).forEach(item => {
             const key = item.kategori.toUpperCase().trim();
-            if (map[key]) {
-                map[key].jumlah += item.jumlah;
-            } else {
-                map[key] = { kategori: item.kategori, jumlah: item.jumlah };
-            }
+            if (map[key]) { map[key].jumlah += item.jumlah; }
+            else { map[key] = { kategori: item.kategori, jumlah: item.jumlah }; }
         });
     }
     return Object.values(map).sort((a, b) => b.jumlah - a.jumlah);
 }
 
-// ============================================================
-// HELPER — Total jumlah dari hasil akumulasi
-// ============================================================
-
 function totalAkumulasi(dataPerBulan, sampai) {
     return akumulasiData(dataPerBulan, sampai).reduce((s, i) => s + i.jumlah, 0);
 }
-
-// ============================================================
-// STATS PER DIVISION — pakai bulan aktif
-// ============================================================
 
 function getDivisionStats(divisionKey, bulan) {
     const depts = divisionData[divisionKey] || [];
@@ -1050,10 +1076,6 @@ function getDivisionStats(divisionKey, bulan) {
     return { total: totalWorker, submit: totalSubmit, target: totalTarget };
 }
 
-// ============================================================
-// STATS PER DEPARTMENT — pakai bulan aktif
-// ============================================================
-
 function getDepartmentStats(deptName, bulan) {
     const workers = workerData[deptName] || [];
     const target = getTargetPerWorker(deptName, bulan);
@@ -1062,14 +1084,9 @@ function getDepartmentStats(deptName, bulan) {
     return { total: workers.length, submit: totalSubmit, target: totalTarget };
 }
 
-// ============================================================
-// STATS PRODUCTION vs NON PRODUCTION (untuk home) — pakai bulan aktif
-// ============================================================
-
 function getProductionStats(bulan) {
     let plant = { total: 0, submit: 0, target: 0 };
     let office = { total: 0, submit: 0, target: 0 };
-
     Object.keys(workerData).forEach(deptName => {
         const workers = workerData[deptName] || [];
         const target = getTargetPerWorker(deptName, bulan);
@@ -1079,13 +1096,8 @@ function getProductionStats(bulan) {
         bucket.target += workers.length * target;
         bucket.submit += submit;
     });
-
     return { plant, office };
 }
-
-// ============================================================
-// TOP TIER RANKING DEPARTMENT — pakai bulan aktif
-// ============================================================
 
 function generateDepartmentRanking(bulan) {
     return Object.keys(workerData).map(deptName => {
@@ -1097,10 +1109,6 @@ function generateDepartmentRanking(bulan) {
     }).sort((a, b) => b.pct - a.pct);
 }
 
-// ============================================================
-// HELPER — Pendekkan nama
-// ============================================================
-
 function shortenDeptName(nama) {
     return nama.replace("Corporate ", "").replace(" Department", "").replace(" Dept", "");
 }
@@ -1109,10 +1117,6 @@ function shortenName(nama) {
     const parts = nama.split(" ");
     return parts.length <= 2 ? nama : parts[0] + " " + parts[1];
 }
-
-// ============================================================
-// HELPER — Render generic tbody
-// ============================================================
 
 function renderTableBody(tbodyId, data, topN) {
     const tbody = document.getElementById(tbodyId);
@@ -1130,19 +1134,11 @@ function renderTableBody(tbodyId, data, topN) {
     }).join("");
 }
 
-// ============================================================
-// HELPER — Update label note filter
-// ============================================================
-
 function updateNote(noteId, bulan) {
     const el = document.getElementById(noteId);
     if (!el) return;
     el.textContent = bulan === 1 ? "Data Januari" : `Akumulasi Jan – ${NAMA_BULAN[bulan]}`;
 }
-
-// ============================================================
-// RENDER — TOP TIER (tindakan & kondisi) — OTOMATIS AKUMULASI
-// ============================================================
 
 function renderTopTier(bulan) {
     const tindakan = akumulasiData(tindakanPerBulan, bulan);
@@ -1164,10 +1160,6 @@ function renderTopTier(bulan) {
 
     updateNote("noteTopTier", bulan);
 }
-
-// ============================================================
-// RENDER — KATEGORI & SUB KATEGORI — OTOMATIS AKUMULASI
-// ============================================================
 
 function renderKategori(bulan) {
     const kat = akumulasiData(kategoriPerBulan, bulan);
@@ -1220,14 +1212,20 @@ function destroyIfExists(ref) {
 }
 
 // ============================================================
-// RENDER — HOME CHARTS — update otomatis saat bulan berubah
+// HELPER — safeSet
+// ============================================================
+
+function safeSet(id, val) {
+    const el = document.getElementById(id);
+    if (el) el.innerText = val;
+}
+
+// ============================================================
+// RENDER HOME CHARTS
 // ============================================================
 
 function renderHomeCharts(bulan) {
     const { plant, office } = getProductionStats(bulan);
-
-    // Info cards
-    const safeSet = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
     safeSet("plantTotal", plant.total);
     safeSet("plantTarget", plant.target);
@@ -1236,14 +1234,12 @@ function renderHomeCharts(bulan) {
     safeSet("officeTarget", office.target);
     safeSet("officeBelum", office.submit);
 
-    // Pencapaian %
     const totalSubmitAll = plant.submit + office.submit;
     const totalTargetAll = plant.target + office.target;
     const pct = totalTargetAll === 0 ? "0.0" : (totalSubmitAll / totalTargetAll * 100).toFixed(1);
     const pencEl = document.getElementById("pencapaian2026");
     if (pencEl) pencEl.innerText = ` ${pct}%`;
 
-    // Jumlah Temuan — akumulasi sampai bulan terpilih
     const totalTindakan = totalAkumulasi(tindakanPerBulan, bulan);
     const totalKondisi = totalAkumulasi(kondisiPerBulan, bulan);
     const totalTemuan = totalTindakan + totalKondisi;
@@ -1253,7 +1249,15 @@ function renderHomeCharts(bulan) {
     safeSet("unsafeCondition", totalKondisi);
     safeSet("bulanTemuan", `BULAN ${NAMA_BULAN[bulan].toUpperCase()} 2026`);
 
-    // Doughnut Production
+    const statusHome = getStatusTemuan(bulan);
+    const homeSection = document.getElementById("homeSection");
+    if (homeSection) {
+        const homeOpenEl  = homeSection.querySelector("#divisionOpen");
+        const homeCloseEl = homeSection.querySelector("#divisionClose");
+        if (homeOpenEl)  homeOpenEl.textContent  = statusHome.open;
+        if (homeCloseEl) homeCloseEl.textContent = statusHome.close;
+    }
+
     plantChartInst = destroyIfExists(plantChartInst);
     const plantCtx = document.getElementById("plantChart");
     if (plantCtx) {
@@ -1278,7 +1282,6 @@ function renderHomeCharts(bulan) {
         });
     }
 
-    // Doughnut Non Production
     officeChartInst = destroyIfExists(officeChartInst);
     const officeCtx = document.getElementById("officeChart");
     if (officeCtx) {
@@ -1303,13 +1306,7 @@ function renderHomeCharts(bulan) {
         });
     }
 
-    // ============================================================
-    // FIX BAR CHART: Tampilkan submit aktual per bulan 
-    // ============================================================
-
     const labelsBulan = BULAN_SHORT.slice(1, bulan + 1);
-
-    // Hitung submit plant & office per bulan secara aktual
     const plantBarData = Array(bulan).fill(0);
     const officeBarData = Array(bulan).fill(0);
 
@@ -1317,11 +1314,8 @@ function renderHomeCharts(bulan) {
         const perBulanArr = getSubmitPerBulanDept(deptName);
         const isPlant = isPlantDepartment(deptName);
         for (let b = 0; b < bulan; b++) {
-            if (isPlant) {
-                plantBarData[b] += perBulanArr[b];
-            } else {
-                officeBarData[b] += perBulanArr[b];
-            }
+            if (isPlant) { plantBarData[b] += perBulanArr[b]; }
+            else { officeBarData[b] += perBulanArr[b]; }
         }
     });
 
@@ -1332,11 +1326,7 @@ function renderHomeCharts(bulan) {
             type: "bar",
             data: {
                 labels: labelsBulan,
-                datasets: [{
-                    data: plantBarData,
-                    backgroundColor: "#3b82b8",
-                    borderRadius: 14
-                }]
+                datasets: [{ data: plantBarData, backgroundColor: "#3b82b8", borderRadius: 14 }]
             },
             options: {
                 plugins: {
@@ -1359,11 +1349,7 @@ function renderHomeCharts(bulan) {
             type: "bar",
             data: {
                 labels: labelsBulan,
-                datasets: [{
-                    data: officeBarData,
-                    backgroundColor: "#24557a",
-                    borderRadius: 14
-                }]
+                datasets: [{ data: officeBarData, backgroundColor: "#24557a", borderRadius: 14 }]
             },
             options: {
                 plugins: {
@@ -1381,7 +1367,7 @@ function renderHomeCharts(bulan) {
 }
 
 // ============================================================
-// RENDER — PIE CHART DIVISI
+// RENDER PIE CHARTS
 // ============================================================
 
 function renderDivisionPie(submit, target) {
@@ -1407,10 +1393,6 @@ function renderDivisionPie(submit, target) {
         }
     });
 }
-
-// ============================================================
-// RENDER — PIE CHART DEPARTMENT
-// ============================================================
 
 function renderDepartmentPie(submit, target) {
     const notAchieve = Math.max(0, target - submit);
@@ -1440,7 +1422,7 @@ function renderDepartmentPie(submit, target) {
 }
 
 // ============================================================
-// RENDER — BAR CHART TOP TIER DEPARTMENT — pakai bulan aktif
+// RENDER BAR CHART TOP TIER
 // ============================================================
 
 function renderBarChart(bulan) {
@@ -1507,15 +1489,13 @@ function renderBarChart(bulan) {
 }
 
 // ============================================================
-// RENDER — TABEL + CHART TOP SUBMIT PEKERJA — pakai bulan aktif
-// FIX: submit dihitung akumulasi sampai bulan N
+// RENDER TOP SUBMIT
 // ============================================================
 
 function renderTopSubmit(deptName, bulan) {
     const workers = workerData[deptName] || [];
     const target = getTargetPerWorker(deptName, bulan);
 
-    // Buat array dengan submit terakumulasi sampai bulan N
     const workersWithTotal = workers.map(w => ({
         ...w,
         totalSubmit: getWorkerSubmitUntilMonth(w, bulan)
@@ -1575,8 +1555,7 @@ function renderTopSubmit(deptName, bulan) {
 }
 
 // ============================================================
-// RENDER — TREN TAHUNAN DEPARTMENT — pakai bulan aktif
-// FIX: gunakan data aktual per bulan dari workerData
+// RENDER TREND CHART
 // ============================================================
 
 function renderTrendChart(deptName, bulan) {
@@ -1586,13 +1565,11 @@ function renderTrendChart(deptName, bulan) {
 
     const workers = workerData[deptName] || [];
     const rate = isPlantDepartment(deptName) ? 4 : 1;
-    const targetPerBulan = workers.length * rate; // target per bulan 
+    const targetPerBulan = workers.length * rate;
 
     const submitPerBulan = getSubmitPerBulanDept(deptName);
 
-    const dataBar = BULAN_LABEL.map((_, i) => {
-        return i < bulan ? submitPerBulan[i] : 0;
-    });
+    const dataBar = BULAN_LABEL.map((_, i) => i < bulan ? submitPerBulan[i] : 0);
 
     const datasets = [
         {
@@ -1637,8 +1614,7 @@ function renderTrendChart(deptName, bulan) {
 }
 
 // ============================================================
-// RENDER — TABEL PEKERJA — pakai bulan aktif
-// FIX: submit dihitung akumulasi sampai bulan N
+// RENDER WORKER TABLE
 // ============================================================
 
 function renderWorkerTable(deptName, bulan) {
@@ -1663,7 +1639,7 @@ function renderWorkerTable(deptName, bulan) {
 }
 
 // ============================================================
-// SECTION VISIBILITY HELPERS
+// SECTION VISIBILITY
 // ============================================================
 
 function hideContentSections() {
@@ -1682,66 +1658,67 @@ function showContentSections() {
         });
 }
 
-// ============================================================
-// NAV HELPERS — show/hide halaman
-// ============================================================
-
 function showHome() {
-    const homeSection = document.getElementById("homeSection");
+    const homeSection   = document.getElementById("homeSection");
     const hazardSection = document.getElementById("hazardSection");
     const searchSection = document.getElementById("searchSection");
-    const navDropdown = document.getElementById("navDropdown");
-    if (homeSection) homeSection.style.display = "block";
+    const navDropdown   = document.getElementById("navDropdown");
+    if (homeSection)   homeSection.style.display   = "block";
     if (hazardSection) hazardSection.style.display = "none";
     if (searchSection) searchSection.style.display = "none";
-    if (navDropdown) navDropdown.style.display = "block";
+    if (navDropdown)   navDropdown.style.display   = "block";
 }
 
 function showHazard() {
-    const homeSection = document.getElementById("homeSection");
+    const homeSection   = document.getElementById("homeSection");
     const hazardSection = document.getElementById("hazardSection");
     const searchSection = document.getElementById("searchSection");
-    const navDropdown = document.getElementById("navDropdown");
-    if (homeSection) homeSection.style.display = "none";
+    const navDropdown   = document.getElementById("navDropdown");
+    if (homeSection)   homeSection.style.display   = "none";
     if (hazardSection) hazardSection.style.display = "block";
     if (searchSection) searchSection.style.display = "none";
-    if (navDropdown) navDropdown.style.display = "block";
+    if (navDropdown)   navDropdown.style.display   = "block";
 }
 
 function showSearch() {
-    const homeSection = document.getElementById("homeSection");
+    const homeSection   = document.getElementById("homeSection");
     const hazardSection = document.getElementById("hazardSection");
     const searchSection = document.getElementById("searchSection");
-    const navDropdown = document.getElementById("navDropdown");
-    if (homeSection) homeSection.style.display = "none";
+    const navDropdown   = document.getElementById("navDropdown");
+    if (homeSection)   homeSection.style.display   = "none";
     if (hazardSection) hazardSection.style.display = "none";
     if (searchSection) searchSection.style.display = "block";
-    if (navDropdown) navDropdown.style.display = "none";
+    if (navDropdown)   navDropdown.style.display   = "none";
 }
 
 // ============================================================
-// DOM CONTENT LOADED — init semua
+// DOM CONTENT LOADED
 // ============================================================
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // Register ChartDataLabels
     if (typeof ChartDataLabels !== "undefined") {
         Chart.register(ChartDataLabels);
     }
 
-    // Ambil bulan awal dari dropdown navbar
     const globalMonthEl = document.getElementById("globalMonth");
     if (!globalMonthEl) return;
     let currentBulan = parseInt(globalMonthEl.value);
 
-    // State untuk department yang sedang aktif
-    let activeDept = null;
+    let activeDept     = null;
     let activeDivision = null;
 
+    // Reset semua stats ke "—" sebelum user memilih apapun
+    ["jumlahPekerja", "sudahMengisi", "belumMengisi",
+     "jumlahPekerjaDept", "sudahMengisiDept", "belumMengisiDept"].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = "—";
+    });
+
     // ============================================================
-    // DROPDOWN NAVBAR
+    // DROPDOWN NAVBAR — ganti bulan global
     // ============================================================
+
     globalMonthEl.addEventListener("change", function () {
         currentBulan = parseInt(this.value);
 
@@ -1749,33 +1726,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (activeDivision) {
             const stats = getDivisionStats(activeDivision, currentBulan);
-            const jml = document.getElementById("jumlahPekerja");
-            const sdh = document.getElementById("sudahMengisi");
-            const blm = document.getElementById("belumMengisi");
-            if (jml) jml.innerText = stats.total;
-            if (sdh) sdh.innerText = stats.submit;
-            if (blm) blm.innerText = stats.target;
+            safeSet("jumlahPekerja", stats.total);
+            safeSet("sudahMengisi", stats.submit);
+            safeSet("belumMengisi", stats.target);
             renderDivisionPie(stats.submit, stats.target);
+
+            const divStatus = getDivisionStatus(activeDivision, currentBulan);
+            const hazardSection = document.getElementById("hazardSection");
+            if (hazardSection) {
+                const divStatusBars = hazardSection.querySelectorAll(".status-temuan-bar");
+                if (divStatusBars[0]) {
+                    const openEl  = divStatusBars[0].querySelector("#divisionOpen");
+                    const closeEl = divStatusBars[0].querySelector("#divisionClose");
+                    if (openEl)  openEl.textContent  = divStatus.open;
+                    if (closeEl) closeEl.textContent = divStatus.close;
+                }
+            }
         }
 
         if (activeDept) {
             const stats = getDepartmentStats(activeDept, currentBulan);
-            const jmlD = document.getElementById("jumlahPekerjaDept");
-            const sdhD = document.getElementById("sudahMengisiDept");
-            const blmD = document.getElementById("belumMengisiDept");
-            if (jmlD) jmlD.innerText = stats.total;
-            if (sdhD) sdhD.innerText = stats.submit;
-            if (blmD) blmD.innerText = stats.target;
+            safeSet("jumlahPekerjaDept", stats.total);
+            safeSet("sudahMengisiDept", stats.submit);
+            safeSet("belumMengisiDept", stats.target);
             renderDepartmentPie(stats.submit, stats.target);
             renderBarChart(currentBulan);
             renderWorkerTable(activeDept, currentBulan);
             renderTopSubmit(activeDept, currentBulan);
             renderTrendChart(activeDept, currentBulan);
+
+            const deptStatus = getDepartmentStatus(activeDept, currentBulan);
+            const deptOpenEl  = document.getElementById("departmentOpen");
+            const deptCloseEl = document.getElementById("departmentClose");
+            if (deptOpenEl)  deptOpenEl.textContent  = deptStatus.open;
+            if (deptCloseEl) deptCloseEl.textContent = deptStatus.close;
         }
 
-        const filterTopTier = document.getElementById("monthFilterTopTier");
+        const filterTopTier  = document.getElementById("monthFilterTopTier");
         const filterKategori = document.getElementById("monthFilterKategori");
-        if (filterTopTier) filterTopTier.value = String(currentBulan);
+        if (filterTopTier)  filterTopTier.value  = String(currentBulan);
         if (filterKategori) filterKategori.value = String(currentBulan);
 
         const searchSection = document.getElementById("searchSection");
@@ -1788,6 +1777,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
     // NAV BUTTONS
     // ============================================================
+
     const viewHazardBtn = document.getElementById("viewHazardBtn");
     if (viewHazardBtn) viewHazardBtn.addEventListener("click", showHazard);
 
@@ -1795,9 +1785,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (viewSearchBtn) viewSearchBtn.addEventListener("click", function () {
         showSearch();
         const m = parseInt(document.getElementById("globalMonth").value);
-        const filterTopTier = document.getElementById("monthFilterTopTier");
+        const filterTopTier  = document.getElementById("monthFilterTopTier");
         const filterKategori = document.getElementById("monthFilterKategori");
-        if (filterTopTier) filterTopTier.value = String(m);
+        if (filterTopTier)  filterTopTier.value  = String(m);
         if (filterKategori) filterKategori.value = String(m);
         renderTopTier(m);
         renderKategori(m);
@@ -1810,8 +1800,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (backSearchBtn) backSearchBtn.addEventListener("click", showHome);
 
     // ============================================================
-    // FILTER DROPDOWN SEARCH SECTION — independen per tabel
+    // FILTER SEARCH SECTION
     // ============================================================
+
     const monthFilterTopTier = document.getElementById("monthFilterTopTier");
     if (monthFilterTopTier) {
         monthFilterTopTier.addEventListener("change", function () {
@@ -1829,7 +1820,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
     // DIVISION SELECT
     // ============================================================
-    const divisionSelect = document.getElementById("divisionSelect");
+
+    const divisionSelect   = document.getElementById("divisionSelect");
     const departmentSelect = document.getElementById("departmentSelect");
 
     if (divisionSelect) {
@@ -1838,17 +1830,26 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!val) return;
 
             activeDivision = val;
-            activeDept = null;
+            activeDept     = null;
 
             const stats = getDivisionStats(val, currentBulan);
-            const jml = document.getElementById("jumlahPekerja");
-            const sdh = document.getElementById("sudahMengisi");
-            const blm = document.getElementById("belumMengisi");
-            if (jml) jml.innerText = stats.total;
-            if (sdh) sdh.innerText = stats.submit;
-            if (blm) blm.innerText = stats.target;
+            safeSet("jumlahPekerja", stats.total);
+            safeSet("sudahMengisi", stats.submit);
+            safeSet("belumMengisi", stats.target);
 
             renderDivisionPie(stats.submit, stats.target);
+
+            const divStatus = getDivisionStatus(val, currentBulan);
+            const hazardSection = document.getElementById("hazardSection");
+            if (hazardSection) {
+                const divStatusBars = hazardSection.querySelectorAll(".status-temuan-bar");
+                if (divStatusBars[0]) {
+                    const openEl  = divStatusBars[0].querySelector("#divisionOpen");
+                    const closeEl = divStatusBars[0].querySelector("#divisionClose");
+                    if (openEl)  openEl.textContent  = divStatus.open;
+                    if (closeEl) closeEl.textContent = divStatus.close;
+                }
+            }
 
             if (departmentSelect) {
                 departmentSelect.innerHTML = `<option value="">Choose Department</option>`;
@@ -1860,15 +1861,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             }
 
+            safeSet("jumlahPekerjaDept", "—");
+            safeSet("sudahMengisiDept", "—");
+            safeSet("belumMengisiDept", "—");
+
             const deptSection = document.getElementById("departmentSection");
             if (deptSection) deptSection.style.display = "flex";
 
-            const jmlD = document.getElementById("jumlahPekerjaDept");
-            const sdhD = document.getElementById("sudahMengisiDept");
-            const blmD = document.getElementById("belumMengisiDept");
-            if (jmlD) jmlD.innerText = "—";
-            if (sdhD) sdhD.innerText = "—";
-            if (blmD) blmD.innerText = "—";
+            const deptOpenEl  = document.getElementById("departmentOpen");
+            const deptCloseEl = document.getElementById("departmentClose");
+            if (deptOpenEl)  deptOpenEl.textContent  = "0";
+            if (deptCloseEl) deptCloseEl.textContent = "0";
 
             hideContentSections();
         });
@@ -1877,6 +1880,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ============================================================
     // DEPARTMENT SELECT
     // ============================================================
+
     if (departmentSelect) {
         departmentSelect.addEventListener("change", function () {
             const dept = this.value;
@@ -1885,12 +1889,9 @@ document.addEventListener("DOMContentLoaded", function () {
             activeDept = dept;
 
             const stats = getDepartmentStats(dept, currentBulan);
-            const jmlD = document.getElementById("jumlahPekerjaDept");
-            const sdhD = document.getElementById("sudahMengisiDept");
-            const blmD = document.getElementById("belumMengisiDept");
-            if (jmlD) jmlD.innerText = stats.total;
-            if (sdhD) sdhD.innerText = stats.submit;
-            if (blmD) blmD.innerText = stats.target;
+            safeSet("jumlahPekerjaDept", stats.total);
+            safeSet("sudahMengisiDept", stats.submit);
+            safeSet("belumMengisiDept", stats.target);
 
             renderDepartmentPie(stats.submit, stats.target);
             renderBarChart(currentBulan);
@@ -1898,13 +1899,20 @@ document.addEventListener("DOMContentLoaded", function () {
             renderTopSubmit(dept, currentBulan);
             renderTrendChart(dept, currentBulan);
 
+            const deptStatus = getDepartmentStatus(dept, currentBulan);
+            const deptOpenEl  = document.getElementById("departmentOpen");
+            const deptCloseEl = document.getElementById("departmentClose");
+            if (deptOpenEl)  deptOpenEl.textContent  = deptStatus.open;
+            if (deptCloseEl) deptCloseEl.textContent = deptStatus.close;
+
             showContentSections();
         });
     }
 
     // ============================================================
-    // SEARCH PEKERJA — real-time filter
+    // SEARCH PEKERJA
     // ============================================================
+
     const searchWorkerEl = document.getElementById("searchWorker");
     if (searchWorkerEl) {
         searchWorkerEl.addEventListener("keyup", function () {
@@ -1917,12 +1925,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // ============================================================
-    // INISIALISASI AWAL — render home dengan bulan default
+    // INISIALISASI AWAL
     // ============================================================
+
     renderHomeCharts(currentBulan);
 
     const deptSection = document.getElementById("departmentSection");
     if (deptSection) deptSection.style.display = "none";
     hideContentSections();
 
-}); 
+});
