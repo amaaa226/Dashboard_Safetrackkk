@@ -226,133 +226,184 @@ const workerData = {
     ],
 
     "Manufacturing Department": [
-        { nama: "WIRYO AGATHA PUTERA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "IGNATIUS DANANG SASONGKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MOHAMMAD ALFIN KARIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AAN NURDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL AZIZ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL IMAM LATIF", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL MAHMUD", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ACHMAD KAMAL FIKRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ADE DERMAWAN", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ADITYA LESMANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ADITYA PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AFIT WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUNG DHESCA PERMANA PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUNG WIERATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS ADI SUBARUDIN", submit: [9, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS PEBRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS SETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUS WIDODO", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AHMAD MUKHALIT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AHMAD TAUFIK HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ALI MASRUR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AMAL MUSTAKIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDI ROMIADI", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDRI DARMANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MARIYOTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ANDRIAN KURNIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDRIAN TRI ANGGORO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANGGA BIMA SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIF MAULANA", submit: [10, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADITYA LESMANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD MUKHALIT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HENDRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ARIF MIFTAKHUL HUDA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIF PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIF RAHMAN", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIFIN YULIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIS SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ASEP PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ASNAWI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ATANG WILDAN", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BAHTIAR ANWAR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BANGKIT SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BANGUN SOLEH SAPUTRA", submit: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BELI APRI YANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BERLIAN SYAH PUTRA", submit: [5, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "BUDIMAN", submit: [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARU PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DEDI ANTONI", submit: [0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AGUNG KRISTIAWAN RIYO PAMBUDI", submit: [1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDI ROMIADI (2)", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUHAMMAD RIFQI SHODIQIN", submit: [0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUHAMMAD SARIFUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUKHLISIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IQBAL IKHFANI AZIS", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MULYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUSLIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUSTANGIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NAJIH IMTIHANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NANANG SUKANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NANANG SUNARYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NANDA MEIDONA", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NGADINO", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NOVAL ANDIKA BAYO", submit: [1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NOVI YUNAEDI", submit: [3, 4, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NUGROHO DWI CAHYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NUR HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NUR HOLIK", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NUROKHMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NURWAKHIDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "OKI SUTIAWAN", submit: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "OKY MEGAKUSUMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PANGGIH RIBOWO", submit: [5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PRASETIYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PRATONO", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PRITA AULIA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PRIYO SUSANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PUDIANTORO", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "RAMADHANI LUTHFI MUKTAFI", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "OKI SUTIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "INDRA RAMADAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RONI ADI SETYAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUSUF FERRY NUGROHO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "VALEN NAJIB", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "GILANG FATURAHMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RAKHMAD SAFRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RAMDHAN EKO PRASETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "RASITO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "RIZKI PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ROBY NORMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ROCHMADI", submit: [7, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ROHMAD TULLOH ISA", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ROKI PERMANA", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "RUDI HARTONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SAPRUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SARENGAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SARWOKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SATRI YULI PRAYOGO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SENTOT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SETYANA IAN PRADIBTA", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SIGIT WIHARSO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SIROJUL KHOZANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SLAMET HARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SRIYANTO", submit: [3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUGIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUKARNA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUKMA GUGUN GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUNARI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "SUNARJO", submit: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUPARTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUPRIYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SURATMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TATO NITI ERLIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TOBI'IN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TOBRONI", submit: [1, 1, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TRI SUTRISNA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TRIMO", submit: [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TRISWIYATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TRIYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TURSINAH", submit: [5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "UMAR WIDODO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "URIP SETIAJI", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WAHYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WAROKHIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUKARNA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "WARTOYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WIDIANTORO", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WINA KARTIKA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BUDIMAN", submit: [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AAN NURDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NUROKHMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HERU", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BAHTIAR ANWAR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "EDY WINARTO", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SIRAJUL KHOZANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RAMADHAN LUTFI MUKTAFI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DENI PRASETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRISWIYATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS PEBRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DWI PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG KRISTIAWAN RIYO PAMBUDI", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TOBRONI", submit: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ASEP PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAHYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI ANTONI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HARTONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF YULIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RASITO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUNARTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WIDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AFIF WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MAHFUDH QOSIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ACHMAD KAMAL FIKRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUGIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUKMA GUGUN GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF RAHMAN", submit: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ATANG WILDAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DIKA JULI ANDRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOCHAMMAD ANDRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AMAL MUSTAKIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DWI AFIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG WIERATNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HODI IRWAN HANDIKI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SAPRUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ZAENAL ARIFIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IRVAN SEPTI LEGISTA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "M SHOLIHIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ALI MASRUR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROKI PERMANA", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI SUPRIYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROBY PERMANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IRWAN FERIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAHYUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "LEO SUGIARTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "FAJAR WAHYU DJULIARDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUDIF SYAFII", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NAJI IMTIHANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SIGIT WIHARSO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SARENGAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRIMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DENDI RUSMIADI", submit: [8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DELI AJI YANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "JAROT WIDARSO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDYA MEDIANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANITA PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "KASMANTO", submit: [8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUSLIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF MAULANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS SETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HERMANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IRFAUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "UMAR WIDODO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADE DERMAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUS ADI SUBRANI", submit: [8, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI SATRIA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IDRIS PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL IMAM LATIF", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TURSINAH", submit: [5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUSUF ISMAIL", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NUR HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "KARNO TRI WIDODO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUPRIYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL MAHMUD", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BANGKIT SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RUDI HARTONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "BRIERIAN SYAH PUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOCHAMMAD MUHIDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "M CANDRA ZULIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RIZKI PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YASODI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NANANG SUKANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SURIMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUTARTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DINI JARNUDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROCHMADI", submit: [7, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAROKIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NOVAL ANDIKA BAYO", submit: [4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDI DARMANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "JUWARSO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HENDRIANSYAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SLAMET HARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI IRAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "OKY MEGAKUSUMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SARWOKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROHMAT TULLOH ISA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "FATHUL ARIF", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "INDRA SURYA FATAH", submit: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD TRI ANGGORO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUSTANGIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SARTI YULI PRAYOGO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANGGA BIMA SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRIYO SUTANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUKARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SRIYANTO", submit: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "CATUR SUPRIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RIZKI RAMADHAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AGUNG MAULANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF SETIA NUGRAHA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADE PRIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROSYID SIDIQ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUGIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HARIS FADILAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI HARI NUGROHO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YOGI PAMUNGKAS DJATI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RENDI EKIYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SULAEMAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "JOKO PURWANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANGGI SAPUTRA JAYA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RUSLAN MAULANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IYAN FIRMANSYAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADE PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARI RUDI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI WAWAN RIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HARIANO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MARTONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MULYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DANU TRI YUDANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDI KURNIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "FEBRI SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ITO ADIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD FARIZAL", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "KUSNO GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SETYANA IAN PRADIBTA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABY MAULANA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOCH. KHARIS", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "YANUAR RENDY FIRDAUS", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YASODIK", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YOGA FAJAR ASIDIQ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YUDHA YUNIAR DINANTA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YUNIAR DWI UTOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YUSLIMU KHOIRI", submit: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YUSUF ISMAIL", submit: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ZAENAL ARIFIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "MARDAN HENDRAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AHMAD TAUFIK HIDAYAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DIDIK PRIYO UTOMO", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIF PURNOMO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRI HASTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "INDRA GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MIDADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WAHYANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SENO SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NIKOLA ARYA WIRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOHAMMAD RIDWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NURUL MA'RUFI", submit: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MOHAMMAD RIFQI SHODIQIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRITA AULIA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WINA KARTIKA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WILL YANTO SYAM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
     ],
 
     "Production Planning & Control Department": [
@@ -408,7 +459,7 @@ const workerData = {
     ],
 
     "Corporate Subcont Development Department": [
-        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "DIDIK EKO PRASTYO", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] }
     ],
 
     "Corporate Information System Department": [
@@ -428,11 +479,11 @@ const workerData = {
     ],
 
     "Corporate Accounting Department": [
-        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "NOVI KUSUMAWARDHANI", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] }
     ],
 
     "Corporate Tax Department": [
-        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "PUTRI ASRI PERTIWI", submit: [0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0] }
     ],
 
     "Corporate Procurement Department": [
@@ -440,7 +491,9 @@ const workerData = {
     ],
 
     "Corporate Internal Control Department": [
-        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "ARVIANTY NAZILA NIRA PRAWESTY", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "REZA ARIZONA", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DICKY NUGRAHA", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] }
     ],
 
     "Corporate Human Capital Strategic Department": [
@@ -452,7 +505,7 @@ const workerData = {
     ],
 
     "Corporate Safety, Health & Security Department": [
-        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "NURUL CHOTIMAH", submit: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0] }
     ],
 
     "Corporate Sustainability & General Services Department": [
@@ -460,13 +513,14 @@ const workerData = {
     ],
 
     "Patria Development Center": [
-        { nama: "Nama Karyawan 1", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+        { nama: "AHMAT YULIANTO", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AJENG KURNIA PERMATASARI", submit: [0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0] }
     ],
 
     "RBPS": [
         { nama: "ABDUL HAMKA", submit: [5, 4, 3, 9, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ANDHIKA SUKMANA", submit: [7, 7, 5, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARIFIN", submit: [3, 6, 5, 12, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARIFIN", submit: [3, 6, 5, 12, 1, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ARTHA DWI ALDIZA", submit: [0, 4, 3, 9, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ASEP ANGGARA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AZAM MUZAKKI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -480,14 +534,14 @@ const workerData = {
         { nama: "MIFTAKHUL HUDA", submit: [6, 8, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MOCHAMMAD EKO WAHYUDI", submit: [0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUSAHID", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "NOVI RIANA", submit: [8, 6, 5, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "NOVI RIANA", submit: [8, 6, 5, 8, 1, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RIESKI MATULESSY", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RUDIANSYAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RUDY SETIAWAN", submit: [4, 4, 5, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "RULLY SETYAWAN", submit: [8, 5, 6, 10, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TRI FIKIY HERMANTO", submit: [7, 7, 7, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ROTIP PURWADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TEGUH TRI WINARNO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "RULLY SETYAWAN", submit: [8, 5, 6, 10, 0, 1, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRI FIKIY HERMANTO", submit: [7, 7, 7, 8, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ROTIP PURWADI", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TEGUH TRI WINARNO", submit: [0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0] },
         { nama: "ILHAM", submit: [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ABDULLAH MUADZ", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ACHMAD ABDI DWIANSYAH", submit: [4, 9, 3, 9, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -495,7 +549,7 @@ const workerData = {
         { nama: "ADI SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AGUNG PRASETYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AHMAD RAMADHAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "AKBAR I JUNIOR", submit: [4, 4, 3, 9, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "AKBAR I JUNIOR", submit: [4, 4, 3, 9, 0, 2, 0, 0, 0, 0, 0, 0] },
         { nama: "AKBAR II SENIOR", submit: [8, 5, 9, 10, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ALAMSYAH ILHAM QODRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ALI MASYKUR", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -504,10 +558,10 @@ const workerData = {
         { nama: "ANGGA TATOR", submit: [6, 4, 6, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ANGGER WICAKSONO", submit: [4, 9, 5, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ANNISA KARTINI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARBAIN", submit: [7, 4, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARBAIN", submit: [7, 4, 0, 8, 0, 2, 0, 0, 0, 0, 0, 0] },
         { nama: "ARDI TRI SAPUTRA", submit: [1, 5, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ARDIAN", submit: [6, 5, 5, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARDIANTO", submit: [9, 8, 7, 10, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARDIANTO", submit: [9, 8, 7, 10, 0, 5, 0, 0, 0, 0, 0, 0] },
         { nama: "ARIF MAULANA", submit: [0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ARINA NADA", submit: [3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "BAMBANG HERMANTO", submit: [1, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -522,15 +576,15 @@ const workerData = {
         { nama: "HAERUDDIN D", submit: [4, 8, 5, 11, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "HENDRIKUS B", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "HERI SETIAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "HERU ANASTYO WIBOWO", submit: [7, 5, 5, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HERU ANASTYO WIBOWO", submit: [7, 5, 5, 7, 0, 3, 0, 0, 0, 0, 0, 0] },
         { nama: "HESTI NURAFNI", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "IRFAN EFENDI", submit: [6, 0, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IRFAN EFENDI", submit: [6, 0, 5, 10, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "M SONY ANDI", submit: [5, 5, 5, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MASITA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD ARIF SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD FAUJAN DAFFANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "NURMUAT", submit: [10, 4, 3, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "PRIMA DHIAN AJIARDANA", submit: [1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "PRIMA DHIAN AJIARDANA", submit: [1, 6, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0] },
         { nama: "RAHDIAN RIZKI SANGAJI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RAHMAD SUCIPTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RATNA SARI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -548,9 +602,9 @@ const workerData = {
         { nama: "SUGENG FITRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "SUGENG RIADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "SULISTIONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SUNARDI", submit: [4, 6, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SUNARDI", submit: [4, 6, 5, 10, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "SUPRATOMO", submit: [2, 6, 5, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "SYAMSIKA AKBAR ABDA'U", submit: [7, 8, 7, 11, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "SYAMSIKA AKBAR ABDA'U", submit: [7, 8, 7, 11, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "WENDY TRIATMADJA", submit: [4, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "YOGA PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "YULI SUSANTO", submit: [9, 5, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -563,26 +617,26 @@ const workerData = {
         { nama: "AGUK RUDIANTO", submit: [3, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AGUS YASMANTO", submit: [0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ANTHONIUS UTAMANING PRABOWO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ARY WAHYUDI", submit: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ARY WAHYUDI", submit: [0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "CECEP ABADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "CHASANUDDIN", submit: [5, 0, 1, 5, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DARIYANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "CHASANUDDIN", submit: [5, 0, 1, 5, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DARIYANTO", submit: [0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "DEFRINNOSA P PANJAITAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "DWI WIJANARKO", submit: [1, 1, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "EDDY MACHFUDIN", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "EDDY MACHFUDIN", submit: [0, 0, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "IMAM THABIB", submit: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RAJA GABRIEL JONGGI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MARYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUCHAMAD JUANDA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD BASHORI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUHAMMAD ZUHRI NURUDDIN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUHAMMAD ZUHRI NURUDDIN", submit: [0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "NYONO BUDI RAHARDJO", submit: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RENGGA BAYU PRABOWO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RICO ADIN ALDIANSYAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "STEVI FAHLEVI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "SUTRISNO", submit: [0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "YUSUF", submit: [1, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ADITYA WIRATAMA PRAYOGA", submit: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "YUSUF", submit: [1, 1, 2, 0, 1, 4, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADITYA WIRATAMA PRAYOGA", submit: [1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "ANDI BASO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ARI MARTONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ARIANTO WIBOWO", submit: [1, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
@@ -637,7 +691,7 @@ const workerData = {
         { nama: "SYAHRUL", submit: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AWAL RAMADHANI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "DAVID UMANTEO", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "IHZAN YUSRIL ZUHRI", submit: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "IHZAN YUSRIL ZUHRI", submit: [1, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0] },
         { nama: "LADUNI ZAUKI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "TEGUH PRASTYO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD SYAHRIL AJAIB", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -702,7 +756,7 @@ const workerData = {
         { nama: "GREATY CHINTYA M. LUMOLOS", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "IMAM MASHURI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ISMAIL MULYONO", submit: [13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "JUNAIDI", submit: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "JUNAIDI", submit: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0] },
         { nama: "M. ABDUL AZIS", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MARYADI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD ANSHORUDIN FADHILLAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -726,11 +780,11 @@ const workerData = {
     ],
 
     "RBJN": [
-        { nama: "DAHLIS", submit: [0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUHAMMAD CHADAFI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DAHLIS", submit: [0, 0, 0, 3, 5, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUHAMMAD CHADAFI", submit: [0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ROMDANI", submit: [9, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "SYAFRIADI", submit: [3, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ASEP TRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ASEP TRIANTO", submit: [0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "AHMAD YULIAN HANAFI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "DEVIANA NOFRIANTY", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "GILANG RAMADHAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -761,7 +815,7 @@ const workerData = {
         { nama: "Lukman Bidayah", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "Sholeh Budiarto", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "Miftah Syaifudin", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "MUHAFI AHSANI TAQWIM", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "MUHAFI AHSANI TAQWIM", submit: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "Dedy Kurniawan", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "Deni Yoga Kusuma", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "Muhammad Fajeri", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -803,8 +857,8 @@ const workerData = {
         { nama: "Noverlandi Giaristanto", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "RIKI CHANDRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "SALIMAT SHOLEH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "TRISMADI", submit: [5, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "WISKARIYONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "TRISMADI", submit: [5, 0, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "WISKARIYONO", submit: [0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0] },
         { nama: "RARA NOVITA SAPITRI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "HARIS SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "FIRZAN NAUFAL RAMADHAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -817,10 +871,10 @@ const workerData = {
         { nama: "RAIHAN ADE PRATAMA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MUHAMMAD ICHSAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "PANDU TANAYA PURWANDOKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "HAIKAL TASLIM TUASIKAL", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "HAIKAL TASLIM TUASIKAL", submit: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "RIZKY SAPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "BIARIADI WAHYUONO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ABDUL MUIZ LIDINILLAHI ALTHON", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ABDUL MUIZ LIDINILLAHI ALTHON", submit: [0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0] },
         { nama: "JUNIARTO BONAR TAMBUNAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ISMAIL", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "GUNAWAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -830,17 +884,17 @@ const workerData = {
         { nama: "PUTRI NAVISYA ANDITA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "Arma Yana", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "ABU HANIFAH", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "ANDI FAHRUL", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ANDI FAHRUL", submit: [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0] },
         { nama: "RENDY DAFATRIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
     ],
 
     "RTJE": [
-        { nama: "Ade Yudhistira", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "Lauren Agusman Panjaitan", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "Dhoni Granada", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "Dedy Purwanto", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "Edo Pangestu", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "Donny Syahputra", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "ADE YUDHISTIRA", submit: [0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "LAUREN AGUSMAN PANJAITAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DHONI GRANADA", submit: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DEDY PURWANTO", submit: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "EDO PANGESTU", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DONNY SYAHPUTRA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
     ],
 };
 
@@ -913,47 +967,47 @@ const divisionData = {
 // ============================================================
 
 const departmentStatusData = {
-    "Manufacturing Department":           { open: [22,,32,34,44,15,0,0,0,0,0,0], close: [77,49,72,98,29,0,0,0,0,0,0,0] },
-    "Production Planning & Control Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Remanufacturing Department":         { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Plant Operation":                    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "RBPS":                               { open: [307,344,300,336,266,0,0,0,0,0,0,0], close: [106,241,177,182,153,0,0,0,0,0,0,0] },
-    "RBPM":                               { open: [47,89,100,61,5,0,0,0,0,0,0,0], close: [369,489,463,297,126,0,0,0,0,0,0,0] },
-    "RJKT":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "RTMK":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "RSGT":                               { open: [1,65,76,47,0,0,0,0,0,0,0,0], close: [34,85,108,93,25,0,0,0,0,0,0,0] },
-    "RBJN":                               { open: [21,59,73,46,5,0,0,0,0,0,0,0], close: [13,62,74,52,7,0,0,0,0,0,0,0] },
-    "RADO":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "UBPK":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "RTJE":                               { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Management Development & Risk Management Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Legal Department":         { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Communication Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Business Development Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Design Engineering Department":   { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Production Engineering Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Product Research & Development Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Prototype & Testing Department":  { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Quality Assurance Department":    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Quality Control 1 Department":              { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Quality Control 2 Department":              { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Marketing & Cost Estimator Department":       { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Inventory & Warehouse Management Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Vendor Management Department":    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Subcont Development Department":  { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Information System Department":   { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Digitalization Department":       { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Command Center Department":       { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Finance Department":              { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Accounting Department":           { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Tax Department":                  { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Procurement Department":          { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Internal Control Department":     { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Human Capital Strategic Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate HC Administration & Services Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Safety, Health & Security Department":    { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Corporate Sustainability & General Services Department": { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
-    "Patria Development Center":                 { open: [0,0,0,0,0,0,0,0,0,0,0,0], close: [0,0,0,0,0,0,0,0,0,0,0,0] },
+    "Manufacturing Department": { open: [22, , 32, 34, 44, 15, 0, 0, 0, 0, 0, 0], close: [77, 49, 72, 98, 29, 0, 0, 0, 0, 0, 0, 0] },
+    "Production Planning & Control Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Remanufacturing Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Plant Operation": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "RBPS": { open: [307, 344, 300, 336, 266, 0, 0, 0, 0, 0, 0, 0], close: [106, 241, 177, 182, 153, 0, 0, 0, 0, 0, 0, 0] },
+    "RBPM": { open: [47, 89, 100, 61, 5, 0, 0, 0, 0, 0, 0, 0], close: [369, 489, 463, 297, 126, 0, 0, 0, 0, 0, 0, 0] },
+    "RJKT": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "RTMK": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "RSGT": { open: [1, 65, 76, 47, 0, 0, 0, 0, 0, 0, 0, 0], close: [34, 85, 108, 93, 25, 0, 0, 0, 0, 0, 0, 0] },
+    "RBJN": { open: [21, 59, 73, 46, 5, 0, 0, 0, 0, 0, 0, 0], close: [13, 62, 74, 52, 7, 0, 0, 0, 0, 0, 0, 0] },
+    "RADO": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "UBPK": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "RTJE": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Management Development & Risk Management Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Legal Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Communication Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Business Development Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Design Engineering Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Production Engineering Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Product Research & Development Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Prototype & Testing Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Quality Assurance Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Quality Control 1 Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Quality Control 2 Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Marketing & Cost Estimator Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Inventory & Warehouse Management Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Vendor Management Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Subcont Development Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Information System Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Digitalization Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Command Center Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Finance Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Accounting Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Tax Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Procurement Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Internal Control Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Human Capital Strategic Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate HC Administration & Services Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Safety, Health & Security Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Corporate Sustainability & General Services Department": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    "Patria Development Center": { open: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], close: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
 };
 
 // ============================================================
@@ -965,7 +1019,7 @@ function getStatusTemuan(bulan) {
     Object.keys(departmentStatusData).forEach(dept => {
         const d = departmentStatusData[dept];
         for (let b = 0; b < bulan; b++) {
-            totalOpen  += (d.open[b]  || 0);
+            totalOpen += (d.open[b] || 0);
             totalClose += (d.close[b] || 0);
         }
     });
@@ -983,7 +1037,7 @@ function getDivisionStatus(divisionKey, bulan) {
         const d = departmentStatusData[dept];
         if (!d) return;
         for (let b = 0; b < bulan; b++) {
-            open  += (d.open[b]  || 0);
+            open += (d.open[b] || 0);
             close += (d.close[b] || 0);
         }
     });
@@ -999,7 +1053,7 @@ function getDepartmentStatus(deptName, bulan) {
     if (!d) return { open: 0, close: 0 };
     let open = 0, close = 0;
     for (let b = 0; b < bulan; b++) {
-        open  += (d.open[b]  || 0);
+        open += (d.open[b] || 0);
         close += (d.close[b] || 0);
     }
     return { open, close };
@@ -1250,9 +1304,9 @@ function renderHomeCharts(bulan) {
     const statusHome = getStatusTemuan(bulan);
     const homeSection = document.getElementById("homeSection");
     if (homeSection) {
-        const homeOpenEl  = homeSection.querySelector("#divisionOpen");
+        const homeOpenEl = homeSection.querySelector("#divisionOpen");
         const homeCloseEl = homeSection.querySelector("#divisionClose");
-        if (homeOpenEl)  homeOpenEl.textContent  = statusHome.open;
+        if (homeOpenEl) homeOpenEl.textContent = statusHome.open;
         if (homeCloseEl) homeCloseEl.textContent = statusHome.close;
     }
 
@@ -1657,36 +1711,36 @@ function showContentSections() {
 }
 
 function showHome() {
-    const homeSection   = document.getElementById("homeSection");
+    const homeSection = document.getElementById("homeSection");
     const hazardSection = document.getElementById("hazardSection");
     const searchSection = document.getElementById("searchSection");
-    const navDropdown   = document.getElementById("navDropdown");
-    if (homeSection)   homeSection.style.display   = "block";
+    const navDropdown = document.getElementById("navDropdown");
+    if (homeSection) homeSection.style.display = "block";
     if (hazardSection) hazardSection.style.display = "none";
     if (searchSection) searchSection.style.display = "none";
-    if (navDropdown)   navDropdown.style.display   = "block";
+    if (navDropdown) navDropdown.style.display = "block";
 }
 
 function showHazard() {
-    const homeSection   = document.getElementById("homeSection");
+    const homeSection = document.getElementById("homeSection");
     const hazardSection = document.getElementById("hazardSection");
     const searchSection = document.getElementById("searchSection");
-    const navDropdown   = document.getElementById("navDropdown");
-    if (homeSection)   homeSection.style.display   = "none";
+    const navDropdown = document.getElementById("navDropdown");
+    if (homeSection) homeSection.style.display = "none";
     if (hazardSection) hazardSection.style.display = "block";
     if (searchSection) searchSection.style.display = "none";
-    if (navDropdown)   navDropdown.style.display   = "block";
+    if (navDropdown) navDropdown.style.display = "block";
 }
 
 function showSearch() {
-    const homeSection   = document.getElementById("homeSection");
+    const homeSection = document.getElementById("homeSection");
     const hazardSection = document.getElementById("hazardSection");
     const searchSection = document.getElementById("searchSection");
-    const navDropdown   = document.getElementById("navDropdown");
-    if (homeSection)   homeSection.style.display   = "none";
+    const navDropdown = document.getElementById("navDropdown");
+    if (homeSection) homeSection.style.display = "none";
     if (hazardSection) hazardSection.style.display = "none";
     if (searchSection) searchSection.style.display = "block";
-    if (navDropdown)   navDropdown.style.display   = "none";
+    if (navDropdown) navDropdown.style.display = "none";
 }
 
 // ============================================================
@@ -1703,15 +1757,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!globalMonthEl) return;
     let currentBulan = parseInt(globalMonthEl.value);
 
-    let activeDept     = null;
+    let activeDept = null;
     let activeDivision = null;
 
     // Reset semua stats ke "—" sebelum user memilih apapun
     ["jumlahPekerja", "sudahMengisi", "belumMengisi",
-     "jumlahPekerjaDept", "sudahMengisiDept", "belumMengisiDept"].forEach(id => {
-        const el = document.getElementById(id);
-        if (el) el.innerText = "—";
-    });
+        "jumlahPekerjaDept", "sudahMengisiDept", "belumMengisiDept"].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.innerText = "—";
+        });
 
     // ============================================================
     // DROPDOWN NAVBAR — ganti bulan global
@@ -1734,9 +1788,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (hazardSection) {
                 const divStatusBars = hazardSection.querySelectorAll(".status-temuan-bar");
                 if (divStatusBars[0]) {
-                    const openEl  = divStatusBars[0].querySelector("#divisionOpen");
+                    const openEl = divStatusBars[0].querySelector("#divisionOpen");
                     const closeEl = divStatusBars[0].querySelector("#divisionClose");
-                    if (openEl)  openEl.textContent  = divStatus.open;
+                    if (openEl) openEl.textContent = divStatus.open;
                     if (closeEl) closeEl.textContent = divStatus.close;
                 }
             }
@@ -1754,15 +1808,15 @@ document.addEventListener("DOMContentLoaded", function () {
             renderTrendChart(activeDept, currentBulan);
 
             const deptStatus = getDepartmentStatus(activeDept, currentBulan);
-            const deptOpenEl  = document.getElementById("departmentOpen");
+            const deptOpenEl = document.getElementById("departmentOpen");
             const deptCloseEl = document.getElementById("departmentClose");
-            if (deptOpenEl)  deptOpenEl.textContent  = deptStatus.open;
+            if (deptOpenEl) deptOpenEl.textContent = deptStatus.open;
             if (deptCloseEl) deptCloseEl.textContent = deptStatus.close;
         }
 
-        const filterTopTier  = document.getElementById("monthFilterTopTier");
+        const filterTopTier = document.getElementById("monthFilterTopTier");
         const filterKategori = document.getElementById("monthFilterKategori");
-        if (filterTopTier)  filterTopTier.value  = String(currentBulan);
+        if (filterTopTier) filterTopTier.value = String(currentBulan);
         if (filterKategori) filterKategori.value = String(currentBulan);
 
         const searchSection = document.getElementById("searchSection");
@@ -1783,9 +1837,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (viewSearchBtn) viewSearchBtn.addEventListener("click", function () {
         showSearch();
         const m = parseInt(document.getElementById("globalMonth").value);
-        const filterTopTier  = document.getElementById("monthFilterTopTier");
+        const filterTopTier = document.getElementById("monthFilterTopTier");
         const filterKategori = document.getElementById("monthFilterKategori");
-        if (filterTopTier)  filterTopTier.value  = String(m);
+        if (filterTopTier) filterTopTier.value = String(m);
         if (filterKategori) filterKategori.value = String(m);
         renderTopTier(m);
         renderKategori(m);
@@ -1819,7 +1873,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // DIVISION SELECT
     // ============================================================
 
-    const divisionSelect   = document.getElementById("divisionSelect");
+    const divisionSelect = document.getElementById("divisionSelect");
     const departmentSelect = document.getElementById("departmentSelect");
 
     if (divisionSelect) {
@@ -1828,7 +1882,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!val) return;
 
             activeDivision = val;
-            activeDept     = null;
+            activeDept = null;
 
             const stats = getDivisionStats(val, currentBulan);
             safeSet("jumlahPekerja", stats.total);
@@ -1842,9 +1896,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (hazardSection) {
                 const divStatusBars = hazardSection.querySelectorAll(".status-temuan-bar");
                 if (divStatusBars[0]) {
-                    const openEl  = divStatusBars[0].querySelector("#divisionOpen");
+                    const openEl = divStatusBars[0].querySelector("#divisionOpen");
                     const closeEl = divStatusBars[0].querySelector("#divisionClose");
-                    if (openEl)  openEl.textContent  = divStatus.open;
+                    if (openEl) openEl.textContent = divStatus.open;
                     if (closeEl) closeEl.textContent = divStatus.close;
                 }
             }
@@ -1866,9 +1920,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const deptSection = document.getElementById("departmentSection");
             if (deptSection) deptSection.style.display = "flex";
 
-            const deptOpenEl  = document.getElementById("departmentOpen");
+            const deptOpenEl = document.getElementById("departmentOpen");
             const deptCloseEl = document.getElementById("departmentClose");
-            if (deptOpenEl)  deptOpenEl.textContent  = "0";
+            if (deptOpenEl) deptOpenEl.textContent = "0";
             if (deptCloseEl) deptCloseEl.textContent = "0";
 
             hideContentSections();
@@ -1898,9 +1952,9 @@ document.addEventListener("DOMContentLoaded", function () {
             renderTrendChart(dept, currentBulan);
 
             const deptStatus = getDepartmentStatus(dept, currentBulan);
-            const deptOpenEl  = document.getElementById("departmentOpen");
+            const deptOpenEl = document.getElementById("departmentOpen");
             const deptCloseEl = document.getElementById("departmentClose");
-            if (deptOpenEl)  deptOpenEl.textContent  = deptStatus.open;
+            if (deptOpenEl) deptOpenEl.textContent = deptStatus.open;
             if (deptCloseEl) deptCloseEl.textContent = deptStatus.close;
 
             showContentSections();
