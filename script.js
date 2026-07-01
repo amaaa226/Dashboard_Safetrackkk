@@ -226,7 +226,7 @@ const workerData = {
     ],
 
     "Manufacturing Department": [
-        { nama: "WIRYO AGATHA PUTERA", submit: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] },
+        { nama: "WIRYO AGATHA PUTERA", submit: [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "IGNATIUS DANANG SASONGKO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "KRISNATIANTO TANJUNG", submit: [0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "URIP SETIAJI", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
@@ -286,7 +286,7 @@ const workerData = {
         { nama: "BODY ARYA N", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "EDI NUR RAHMAT", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "REZKY ARDIANTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
-        { nama: "DENI ADI AFRILIAN", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { nama: "DENI ADI AFRILIAN", submit: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] },
         { nama: "RIO RAMADANI", submit: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "NUFUS NUANSA TAMMARA", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         { nama: "MARIYOTO", submit: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
